@@ -143,7 +143,7 @@ Sources:
 
 ## **Step 4: Integration into Anote Codebase**
 - Reference:
-  - [GTM Chatbot Folder]
+  - [GTM Chatbot Folder] within Anote Product Repo
   - [Backend SDK Docs](https://docs.anote.ai/api-overview/chat.html)
   - Example repo with starter code: [Autonomous Intelligence GitHub](https://github.com/nv78/Autonomous-Intelligence)
 
