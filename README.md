@@ -27,7 +27,6 @@ This project focuses on **exploring and improving AI language and translation mo
 - **Synthetic evaluation dataset creation**
 - **Benchmark development**
 - **Integration into customized chatbots**
-
 The aim is to **assess and compare** language and translation models (e.g., ChatGPT, Claude, Llama) and deploy the **best-performing models** into user-facing applications.
 Special focus will be on **language-specific optimization** for **Chinese, Korean, Japanese, and Hebrew** to meet potential client needs.
 ---
