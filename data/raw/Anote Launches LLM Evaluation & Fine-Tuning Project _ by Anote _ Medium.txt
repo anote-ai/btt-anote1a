@@ -1,0 +1,656 @@
+Sitemap <https://anote-ai.medium.com/sitemap/sitemap.xml>
+Open in app<https://rsci.app.link/?
+%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2F4617d65a93d3&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderUser&%7Estage=mobileNavBar&source=post_page---top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-
+launches-japan-language-llm-evaluation-fine-tuning-project-
+program-4617d65a93d3&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+Medium Logo
+
+<https://medium.com/?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Write
+ <https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-
+story&source=---top_nav_layout_nav-----------------------
+new_post_topnav------------------>
+
+Search
+ <https://medium.com/search?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-
+launches-japan-language-llm-evaluation-fine-tuning-project-
+program-4617d65a93d3&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+byline--4617d65a93d3--------------------------------------->
+Anote <https://anote-ai.medium.com/?source=post_page---
+byline--4617d65a93d3--------------------------------------->
+Follow
+
+4 min read
+·
+Apr 27, 2025
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&user=Anote&userId=a54ce85e85cf&source=---header_actions--4617d65a93d3---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&source=---header_actions--4617d65a93d3---------------------bookmark_footer------------------>
+
+Listen
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&source=---header_actions--4617d65a93d3---------------------post_audio_button------------------>
+
+Share
+
+*Anote Launches LLM Evaluation & Fine-Tuning Project*
+
+Anote <https://anote.ai/#top> (Headquarters: New York, USA; CEO: Natan
+Vidra) proudly announces the launch of an initiative to evaluate and
+improve large language models (LLMs).
+
+This project centers on *Anote’s* <https://github.com/nv78/OpenAnote/
+tree/main> recently released end-to-end MLOps platform designed to
+democratize access to human centered AI development. From data
+annotation to fine-tuning, model inference, evaluation, and integration,
+Anote supports the full lifecycle of LLM implementation.
+
+Press enter or click to view image in full size
+
+/Title: Human Centered AI Methodology
+Description: Anote is an end to end MLOps platform that enables you to
+obtain the best large language model for your data. On Anote, we provide
+an evaluation framework to compare zero shot LLMs like GPT, Claude,
+Llama3 and Mistral, with fine tuned LLMs that are trained on your domain
+specific training data (via supervised, unsupervised and RLHF fine
+tuning). We provide a data annotation interface to convert raw
+unstructured data into an LLM ready format, and incorporate subject
+matter expertise into your training process to improve model accuracies.
+End users can route / integrate the best LLM into their own, on premise,
+private chatbot, as well as interact with our software development kit
+for fine tuning./
+
+*Addressing Critical LLM Challenges*
+
+Multilingual LLMs are often dominated by English data (60–70%), while
+other languages typically accounts for only 3–5% of training corpora.
+Anote seeks to close this gap by empowering developers and researchers
+with the tools and infrastructure needed to build and benchmark superior
+language AI.
+
+This project addresses several major problems:
+
+ 1. *Insufficient and low-quality training data* — Anote helps generate
+    high-quality, large-scale training datasets.
+ 2. *Lack of objective LLM benchmarks* — This initiative introduces the
+    first publicly shared LLM evaluation datasets / metrics and model
+    leaderboards.
+ 3. *Limited access to fine-tuning infrastructure* — Participants can
+    utilize Anote’s platform to build and deploy custom LLMs using their
+    own data.
+
+*What Makes Anote Unique*
+
+  * *End-to-End MLOps Workflow*: Annotation, fine-tuning (via LoRA,
+    QLoRA, RLHF), model inference, evaluation, and integration in a
+    single platform.
+  * *Multi-Model Benchmarking*: Compare GPT-4o, Claude 3.5, Llama 3,
+    Mistral, and fine-tuned models using real multi-lingual data.
+  * *Advanced Evaluation Framework*: Assess models using Cosine
+    Similarity, Rouge-L, LLM Eval, Answer Relevance, and Faithfulness.
+  * *Task Versatility*: Supports text classification, named entity
+    recognition (NER), full-document QA, and prompt-based QA.
+  * *Integration Ready*: API and SDK access to deploy optimized models
+    into production environments.
+
+Press enter or click to view image in full size
+
+/Title: Data Labeler
+Description: The core technology is a fine tuning library that leverages
+state of the art few shot learning to make high quality predictions with
+a few labeled samples. You can use this with 4 main steps:/
+
+ 1. */Upload/*/— Create a new text based dataset/
+ 2. */Customize/*/— Add the categories, entities or questions you care
+    about/
+ 3. */Annotate/*/— As you annotate a few edge cases, the LLM actively
+    learns to predict the rest/
+ 4. */Download/*/— Download the resulting CSV / export the fine tuned
+    LLM as an API endpoint/
+
+Press enter or click to view image in full size
+
+/Title: Private, Fine Tuned Chatbot
+Description: You can take your exported fine tuned model, and input it
+into our Private Chatbot. To use the Private Chatbot, there are 3 main
+steps./
+
+ 1. */Upload/*/— Upload your documents/
+ 2. */Chat/*/— Ask questions on your documents with LLMs like GPT,
+    Claude, Llama2 and Mistral/
+ 3. */Evaluate /*/— Get citations for answers, and mitigate the effect
+    of hallucinations/
+
+/To evaluate the performance of fine tuned LLMs, we have an evaluation
+dashboard so you see the improved model performance of supervised and
+unsupervised fine tuning models with metrics like Cosine Similarity,
+Rouge-L Score, LLM Eval, Answer Relevance and Faithfulness./
+
+
+    Get Anote’s stories in your inbox
+
+Join Medium for free to get updates from this writer.
+
+Subscribe
+Subscribe
+
+*Envisioning the Future of Multi-Lingual AI*
+
+Through this initiative, participating partners will:
+
+  * Build models optimized for language and context
+  * Develop internal tools and products using fine-tuned LLMs
+  * Contribute to the first public benchmark datasets for NLP
+  * Showcase their results through Anote’s leaderboard and co-authored
+    research
+
+*Application Summary*
+
+  * *Number of Participants*: Limited to 5 partners
+  * *Project Timeline*: June 1 — October 1, 2025
+  * *Application Deadline*: May 17, 2025
+  * *How to Apply*: Please contact the email addresses below
+
+*For applications and further information:*
+
+  * Anote, Inc.: nvidra@anote.ai (Natan Vidra)
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&user=Anote&userId=a54ce85e85cf&source=---footer_actions--4617d65a93d3---------------------clap_footer------------------>
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&user=Anote&userId=a54ce85e85cf&source=---footer_actions--4617d65a93d3---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4617d65a93d3&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-launches-japan-language-llm-evaluation-fine-tuning-project-program-4617d65a93d3&source=---footer_actions--4617d65a93d3---------------------bookmark_footer------------------>
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+post_author_info--4617d65a93d3--------------------------------------->
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+post_author_info--4617d65a93d3--------------------------------------->
+Follow
+
+
+    Written by Anote
+
+<https://anote-ai.medium.com/?source=post_page---
+post_author_info--4617d65a93d3--------------------------------------->
+51 followers <https://anote-ai.medium.com/followers?source=post_page---
+post_author_info--4617d65a93d3--------------------------------------->
+·3 following <https://anote-ai.medium.com/following?source=post_page---post_author_info--4617d65a93d3--------------------------------------->
+
+General Purpose Artificial Intelligence. Like our product, our medium
+articles are written by novel generative AI models, with human feedback
+on the edge cases.
+
+Follow
+
+
+    No responses yet
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page---
+post_responses--4617d65a93d3--------------------------------------->
+
+Write a response
+
+What are your thoughts?
+
+<https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanote-
+launches-japan-language-llm-evaluation-fine-tuning-project-
+program-4617d65a93d3&source=---
+post_responses--4617d65a93d3---------------------
+respond_sidebar------------------>
+
+Cancel
+Respond
+
+
+    More from Anote
+
+Naive Bayes: A Bag of Words Approach to Text Classification
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----0---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----0---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+
+    Naive Bayes: A Bag of Words Approach to Text Classification
+
+
+      Text classification is a fundamental task in natural language
+      processing (NLP) that involves categorizing text documents into
+      predefined…
+
+<https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--4617d65a93d3----0---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+May 23, 2023
+A clap icon
+
+10
+ <https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--4617d65a93d3----0---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8ccfb07ac2be&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fnaive-bayes-bag-of-words-approach-a-powerful-text-classification-technique-8ccfb07ac2be&source=---author_recirc--4617d65a93d3----0-----------------bookmark_preview----7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Exploring Symbolic AI: Examples and Technical Insights
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----1---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----1---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+
+    Exploring Symbolic AI: Examples and Technical Insights
+
+
+      Symbolic Artificial Intelligence (AI) has been a fascinating field
+      of research and application for decades. Unlike its counterpart…
+
+<https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---
+author_recirc--4617d65a93d3----1---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+May 26, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---
+author_recirc--4617d65a93d3----1---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2e3059ab0b0e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fexploring-symbolic-ai-examples-and-technical-insights-2e3059ab0b0e&source=---author_recirc--4617d65a93d3----1-----------------bookmark_preview----7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+The Illustrated Transformer: A Practical Guide
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----2---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----2---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+
+    The Illustrated Transformer: A Practical Guide
+
+
+      The Transformer architecture, introduced by Vaswani et al. in
+      their seminal paper “Attention Is All You Need,” revolutionized
+      the field of…
+
+<https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---
+author_recirc--4617d65a93d3----2---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+May 21, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---
+author_recirc--4617d65a93d3----2---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8fdc93963b89&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fthe-illustrated-transformer-a-practical-guide-8fdc93963b89&source=---author_recirc--4617d65a93d3----2-----------------bookmark_preview----7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Alan Turing: Pioneering Contributions to Artificial Intelligence
+Anote
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----3---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3----3---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+
+    Alan Turing: Pioneering Contributions to Artificial Intelligence
+
+
+      Alan Turing, widely regarded as the father of theoretical computer
+      science and artificial intelligence (AI), made groundbreaking…
+
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---
+author_recirc--4617d65a93d3----3---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+May 25, 2023
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---
+author_recirc--4617d65a93d3----3---------------------7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7918961ae22e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Falan-turing-and-his-pioneering-contributions-to-artificial-intelligence-7918961ae22e&source=---author_recirc--4617d65a93d3----3-----------------bookmark_preview----7cfcca52_c3d8_4d28_bff2_86659c21780e-------------->
+
+See all from Anote
+ <https://anote-ai.medium.com/?source=post_page---
+author_recirc--4617d65a93d3--------------------------------------->
+
+
+    Recommended from Medium
+
+Building an Advanced Agentic RAG Pipeline that Mimics a Human Thought
+Process
+Level Up Coding
+<https://levelup.gitconnected.com/?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+In
+
+Level Up Coding
+
+<https://levelup.gitconnected.com/?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+by
+
+Fareed Khan
+
+<https://medium.com/@fareedkhandev?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    Building an Advanced Agentic RAG Pipeline that Mimics a Human
+    Thought Process
+
+
+      Ambiguity Checks, Multi-Tool Planning, Self-Correction, Causal
+      Inference and more.
+
+<https://medium.com/@fareedkhandev/building-an-advanced-agentic-rag-
+pipeline-that-mimics-a-human-thought-process-687e1fd79f61?
+source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Sep 16
+A clap icon
+
+1.1K
+A response icon
+
+16
+ <https://medium.com/@fareedkhandev/building-an-advanced-agentic-rag-
+pipeline-that-mimics-a-human-thought-process-687e1fd79f61?
+source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F687e1fd79f61&operation=register&redirect=https%3A%2F%2Flevelup.gitconnected.com%2Fbuilding-an-advanced-agentic-rag-pipeline-that-mimics-a-human-thought-process-687e1fd79f61&source=---read_next_recirc--4617d65a93d3----0-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Inside the RLHF Engine: A Deep Dive into SFT, Reward Models, and RL
+Fine-Tuning
+Foundation Models Deep Dive
+<https://medium.com/foundation-models-deep-dive?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+In
+
+Foundation Models Deep Dive
+
+<https://medium.com/foundation-models-deep-dive?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+by
+
+M
+
+<https://medium.com/@maddpublish?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    Inside the RLHF Engine: A Deep Dive into SFT, Reward Models, and RL
+    Fine-Tuning
+
+
+      This post breaks down the three-stage RLHF pipeline — Supervised
+      Fine-Tuning, Reward Modeling, and Reinforcement Learning — to show
+      how…
+
+<https://medium.com/@maddpublish/inside-the-rlhf-engine-a-deep-dive-
+into-sft-reward-models-and-rl-fine-tuning-60978b291d55?
+source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Jun 1
+<https://medium.com/@maddpublish/inside-the-rlhf-engine-a-deep-dive-
+into-sft-reward-models-and-rl-fine-tuning-60978b291d55?
+source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F60978b291d55&operation=register&redirect=https%3A%2F%2Fmedium.com%2Ffoundation-models-deep-dive%2Finside-the-rlhf-engine-a-deep-dive-into-sft-reward-models-and-rl-fine-tuning-60978b291d55&source=---read_next_recirc--4617d65a93d3----1-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Optimizing prompt refinement: Algorithmic strategies for LLM-driven
+classification
+Data Science at Microsoft
+<https://medium.com/data-science-at-microsoft?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+In
+
+Data Science at Microsoft
+
+<https://medium.com/data-science-at-microsoft?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+by
+
+Juhi Singh
+
+<https://medium.com/@jx2237.js90?source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    Optimizing prompt refinement: Algorithmic strategies for LLM-driven
+    classification
+
+
+      By Juhi Singh, Bonnie Ao, and Sebastian Antinome
+
+<https://medium.com/@jx2237.js90/optimizing-prompt-refinement-
+algorithmic-strategies-for-llm-driven-classification-d0c16a29ef2c?
+source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Apr 1
+A clap icon
+
+143
+ <https://medium.com/@jx2237.js90/optimizing-prompt-refinement-
+algorithmic-strategies-for-llm-driven-classification-d0c16a29ef2c?
+source=post_page---
+read_next_recirc--4617d65a93d3----0---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd0c16a29ef2c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fdata-science-at-microsoft%2Foptimizing-prompt-refinement-algorithmic-strategies-for-llm-driven-classification-d0c16a29ef2c&source=---read_next_recirc--4617d65a93d3----0-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Fine-tuning Gemma for Medical VQA: A Step-by-Step Guide with VQA-RAD
+DM
+<https://medium.com/@devi.mutyala17?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+DM
+
+<https://medium.com/@devi.mutyala17?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    Fine-tuning Gemma for Medical VQA: A Step-by-Step Guide with VQA-RAD
+
+
+      The intersection of AI and medical imaging holds immense
+      potential. Visual Question Answering (VQA) systems, which can
+      answer natural…
+
+<https://medium.com/@devi.mutyala17/fine-tuning-gemma-for-medical-vqa-a-
+step-by-step-guide-with-vqa-rad-e4fac3c7c443?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+May 1
+A clap icon
+
+31
+ <https://medium.com/@devi.mutyala17/fine-tuning-gemma-for-medical-vqa-
+a-step-by-step-guide-with-vqa-rad-e4fac3c7c443?source=post_page---
+read_next_recirc--4617d65a93d3----1---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe4fac3c7c443&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40devi.mutyala17%2Ffine-tuning-gemma-for-medical-vqa-a-step-by-step-guide-with-vqa-rad-e4fac3c7c443&source=---read_next_recirc--4617d65a93d3----1-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Fine tuning an SLM or an LLM — a practical example using an impractical
+topic
+Martin Keywood
+<https://medium.com/@martinkeywood?source=post_page---
+read_next_recirc--4617d65a93d3----2---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Martin Keywood
+
+<https://medium.com/@martinkeywood?source=post_page---
+read_next_recirc--4617d65a93d3----2---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    Fine tuning an SLM or an LLM — a practical example using an
+    impractical topic
+
+
+      I have read so many articles on fine tuning Small Language Models
+      (SLM’s) and Large Language Models (LLM’s). When to. When not to.
+      How to…
+
+<https://medium.com/@martinkeywood/fine-tuning-an-slm-or-an-llm-a-
+practical-example-using-an-impractical-topic-8c1d6fe6d14a?
+source=post_page---
+read_next_recirc--4617d65a93d3----2---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+Aug 20
+A clap icon
+
+1
+ <https://medium.com/@martinkeywood/fine-tuning-an-slm-or-an-llm-a-
+practical-example-using-an-impractical-topic-8c1d6fe6d14a?
+source=post_page---
+read_next_recirc--4617d65a93d3----2---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8c1d6fe6d14a&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40martinkeywood%2Ffine-tuning-an-slm-or-an-llm-a-practical-example-using-an-impractical-topic-8c1d6fe6d14a&source=---read_next_recirc--4617d65a93d3----2-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+LLM Fine-Tuning: More Than Just Copy-Paste Code
+ICS Labs
+<https://medium.com/ics-labs?source=post_page---
+read_next_recirc--4617d65a93d3----3---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+In
+
+ICS Labs
+
+<https://medium.com/ics-labs?source=post_page---
+read_next_recirc--4617d65a93d3----3---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+by
+
+Yash soni
+
+<https://medium.com/@ys05660?source=post_page---
+read_next_recirc--4617d65a93d3----3---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+
+    LLM Fine-Tuning: More Than Just Copy-Paste Code
+
+
+      Fine-tuning a model isn’t just reusing someone else’s code. It’s a
+      strategic process involving data preparation, objective alignment,
+      model
+
+<https://medium.com/@ys05660/llm-fine-tuning-more-than-just-copy-paste-
+code-38142cb26bc0?source=post_page---
+read_next_recirc--4617d65a93d3----3---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+Jul 2
+A clap icon
+
+286
+A response icon
+
+1
+ <https://medium.com/@ys05660/llm-fine-tuning-more-than-just-copy-paste-
+code-38142cb26bc0?source=post_page---
+read_next_recirc--4617d65a93d3----3---------------------509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F38142cb26bc0&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fics-labs%2Fllm-fine-tuning-more-than-just-copy-paste-code-38142cb26bc0&source=---read_next_recirc--4617d65a93d3----3-----------------bookmark_preview----509cdeef_3dfa_44f6_969c_609ecc61c1cd-------------->
+
+See more recommendations
+ <https://medium.com/?source=post_page---
+read_next_recirc--4617d65a93d3--------------------------------------->
+
+Help
+
+<https://help.medium.com/hc/en-us?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Status
+
+<https://status.medium.com/?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+About
+
+<https://medium.com/about?
+autoplay=1&source=post_page-----4617d65a93d3--------------------------------------->
+
+Careers
+
+<https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Press
+
+<mailto:pressinquiries@medium.com>
+
+Blog
+
+<https://blog.medium.com/?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Privacy
+
+<https://policy.medium.com/medium-privacy-policy-f03bf92035c9?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Rules
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Terms
+
+<https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?
+source=post_page-----4617d65a93d3--------------------------------------->
+
+Text to speech
+
+<https://speechify.com/medium?
+source=post_page-----4617d65a93d3--------------------------------------->

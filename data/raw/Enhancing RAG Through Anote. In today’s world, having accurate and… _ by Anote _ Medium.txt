@@ -1,0 +1,679 @@
+Sitemap <https://anote-ai.medium.com/sitemap/sitemap.xml>
+Open in app<https://rsci.app.link/?
+%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2Fcd3b0bda7825&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderUser&%7Estage=mobileNavBar&source=post_page---top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-
+rag-through-anote-cd3b0bda7825&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+Medium Logo
+
+<https://medium.com/?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Write
+ <https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-
+story&source=---top_nav_layout_nav-----------------------
+new_post_topnav------------------>
+
+Search
+ <https://medium.com/search?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-
+rag-through-anote-cd3b0bda7825&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+
+  Enhancing RAG Through Anote
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---byline--
+cd3b0bda7825--------------------------------------->
+Anote <https://anote-ai.medium.com/?source=post_page---byline--
+cd3b0bda7825--------------------------------------->
+Follow
+
+5 min read
+·
+Aug 8, 2024
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&user=Anote&userId=a54ce85e85cf&source=---header_actions--cd3b0bda7825---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&source=---header_actions--cd3b0bda7825---------------------bookmark_footer------------------>
+
+Listen
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Dcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&source=---header_actions--cd3b0bda7825---------------------post_audio_button------------------>
+
+Share
+
+Press enter or click to view image in full size
+
+In today’s world, having accurate and relevant information at your
+fingertips is crucial, especially when it comes to domains like finance,
+healthcare, and legal. The advent of Large Language Models (LLMs) like
+GPT-4 have made impressive advances in generating human-like responses,
+however they are prone to fail and hallucinate for more complex
+questions on specific topics. The reason for this is that most of these
+large models are trained on domain agnostic data, and the content of it
+may not be 100% correct. However, there are many cases where we would
+like to use the capabilities of such models with data that is not
+inherent to the model. A popular method to do this kind of knowledge
+injection is called Retrieval Augmented Generation (RAG). This post will
+go over how this method works, its current limitations and how the work
+at Anote is working to address them to improve its accuracy and reliability.
+
+
+    Overview of RAG
+
+If you have ever used a platform like ChatGPT, you are probably familiar
+with how it works. The user asks the model a question, and then the
+model returns a response in a chatbot-like interface. For most cases,
+the user just inputs their question, like “where are the 2024 olympics
+taking place?” and the model can answer based on the query alone.
+Sometimes, however, there is additional context that could be relevant
+to the question. In these cases, the user may paste the additional
+context within the prompt itself. For example, “can you provide a
+summary of the following text” or if you want to ask questions based on
+a specific excerpt of text. When the relevant context is of a manageable
+size, it can be included in the prompt itself. However, what happens
+when someone wants to answer a question where the relevant context is
+not just an excerpt of a few hundred words but a document over 50 pages
+long? The entirety of the text cannot be included in the prompt because
+of the limitations of the context-window.
+
+This is where Retrieval-Augmented Generation (RAG) comes in as a
+technique that helps language models improve their answers by looking up
+information from reliable sources before responding. The retrieval
+aspect of RAG finds the most relevant part of the document based on the
+question, adds or augments it to the prompt before it goes to the LLM to
+generate the answer. This is a very effective way to inject new
+information into the LLM without having to do additional training and
+since the information is included in the prompt itself, it significantly
+reduces hallucinations as well.
+
+However, the real challenge lies in ensuring that the context retrieved
+by the pipeline is truly relevant and helpful. While the capabilities of
+the LLMs itself are rapidly improving — less attention is paid to the
+retrieval aspect. Even with a highly accurate and state of the art
+model, if it is not given a relevant section in the prompt, even the
+best model cannot answer questions accurately. Traditional RAG systems
+often stumble here, leading to less precise and sometimes irrelevant
+answers.
+
+
+    Get Anote’s stories in your inbox
+
+Join Medium for free to get updates from this writer.
+
+Subscribe
+Subscribe
+
+This is where Anote.ai comes in — a transformative solution that refines
+RAG processes to deliver sharper, more accurate insights from various
+types of documents.
+
+
+    Challenges in Traditional RAG Systems
+
+  * *Uniform Chunking:* Many RAG systems break documents into equal-
+    sized pieces without considering the document’s natural flow. This
+    can result in chunks that either miss important context or include
+    irrelevant information.
+  * *Similarity vs. Relevance: *Most RAG pipelines use a metric like
+    cosine similarity to find the most relevant chunk. However, this
+    overlooks a lot of nuance and often misses information that is
+    relevant, but not necessarily similar by such metrics.
+  * *Lack of Domain-Specific Insight:* Generic embedding algorithms may
+    not fully grasp the specialized language and nuances of different
+    fields.
+
+
+    How is Anote Transforming RAG
+
+Anote.ai is designed to tackle these challenges head-on with various
+techniques that use human based annotations and zero-shot methods to
+make retrieval more accurate to enhance these RAG systems.
+
+
+      1. Dynamic Chunking
+
+Instead of splitting the document into uniform chunks, we can employ
+more advanced techniques that better capture the semantic meaning and
+structure of the document so that we are minimizing irrelevant
+information and information loss within the chunks. One way is recursive
+chunking, which dynamically splits documents into chunks based on
+contextual indicators like punctuation or headings. Taking it further,
+we can also do some version of element based chunking, that recognizes
+things like headers or tables as separate chunks and preserves that
+information as well.
+
+
+      2. Metadata Annotations
+
+With more complex documents, not only does the context of the chunk
+contain valuable information, but certain metadata about it can be
+relevant as well. Anote is working on integrating the data labeler
+platform to these metadata annotations to improve RAG as a way of
+incorporating human feedback.
+
+
+      3. Query Expansion
+
+Query Expansion, or query transformation refers to the idea of changing
+the question fed into the RAG pipeline to find relevant chunks based on
+more than the user’s original question. The idea behind this is that
+oftentimes, the user’s question may not explicitly contain all the
+information to indicate the algorithm where in the document it should
+look for the context, especially it is via a cosine similarity search.
+Query expansion adds some sort of information to the original question,
+such as a closed book theoretical answer from an LLM, and takes the
+combination of the two to then find a relevant chunk.
+
+
+      4. Metadata Annotations
+
+Most RAG pipelines retrieve the top 1 or 2 chunks based on similarity
+and augment that to the prompt, but as we discussed earlier, it does not
+necessarily mean that they are the most relevant to answering the
+question. With a re-ranking algorithm, we might first retrieve the top
+10 most similar chunks and then re-rank them based on relevance. The 8th
+most similar chunk might end up being the most relevant one, and we can
+use separate algorithms such as a cross-encoder or another ML algorithm
+to determine this instead of just going based on metrics like cosine
+similarity.
+
+
+      5. Fine Tuned Embeddings
+
+Embedding algorithms are what convert text into numerical
+representations, and play a crucial role in RAG pipelines. Similar to
+how the Anote platform uses your data to finetune models, we are working
+on features that fine-tune embedding algorithms based on domain-specific
+knowledge to enhance retrieval in that specific domain. Since the
+retrieval is based on a similarity search of the embedding vectors, a
+better algorithm will better capture the meaning in a domain specific
+context and therefore be more effective when searching for relevant chunks.
+
+
+    Conclusion
+
+Improving the performance of retrieval in document-based question-
+answering systems enhances the overall quality of the system. By
+accurately retrieving the right information, we not only provide more
+relevant citations but also deliver more accurate answers to users’
+questions. This highlights the critical role of robust retrieval
+algorithms — without proper context, even the most advanced models can
+produce incorrect responses. Anote and the research we conduct aims to
+utilize human feedback to improve both the retrieval and model
+generation capabilities for strong robust systems that can be used for
+domain specific cases.
+
+
+    Additional Information
+
+You can access our paper that goes into detail of some of the methods
+discussed as well as the public github repository with all relevant code.
+
+*Github Repo:* https://github.com/nv78/Anote <https://github.com/nv78/Anote>
+
+*Research Paper:* https://arxiv.org/abs/2404.07221 <https://arxiv.org/
+abs/2404.07221>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&user=Anote&userId=a54ce85e85cf&source=---footer_actions--cd3b0bda7825---------------------clap_footer------------------>
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&user=Anote&userId=a54ce85e85cf&source=---footer_actions--cd3b0bda7825---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcd3b0bda7825&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&source=---footer_actions--cd3b0bda7825---------------------bookmark_footer------------------>
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+cd3b0bda7825--------------------------------------->
+Anote
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+cd3b0bda7825--------------------------------------->
+Follow
+
+
+    Written by Anote
+
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+cd3b0bda7825--------------------------------------->
+51 followers <https://anote-ai.medium.com/followers?source=post_page---
+post_author_info--cd3b0bda7825--------------------------------------->
+·3 following <https://anote-ai.medium.com/following?source=post_page---post_author_info--cd3b0bda7825--------------------------------------->
+
+General Purpose Artificial Intelligence. Like our product, our medium
+articles are written by novel generative AI models, with human feedback
+on the edge cases.
+
+Follow
+
+
+    No responses yet
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page---
+post_responses--cd3b0bda7825--------------------------------------->
+
+Write a response
+
+What are your thoughts?
+
+<https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fanote-
+ai.medium.com%2Fenhancing-rag-through-anote-cd3b0bda7825&source=---
+post_responses--cd3b0bda7825---------------------
+respond_sidebar------------------>
+
+Cancel
+Respond
+
+
+    More from Anote
+
+Naive Bayes: A Bag of Words Approach to Text Classification
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----0---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----0---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+
+    Naive Bayes: A Bag of Words Approach to Text Classification
+
+
+      Text classification is a fundamental task in natural language
+      processing (NLP) that involves categorizing text documents into
+      predefined…
+
+<https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--
+cd3b0bda7825----0---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+May 23, 2023
+A clap icon
+
+10
+ <https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--
+cd3b0bda7825----0---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8ccfb07ac2be&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fnaive-bayes-bag-of-words-approach-a-powerful-text-classification-technique-8ccfb07ac2be&source=---author_recirc--cd3b0bda7825----0-----------------bookmark_preview----71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Exploring Symbolic AI: Examples and Technical Insights
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----1---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----1---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+
+    Exploring Symbolic AI: Examples and Technical Insights
+
+
+      Symbolic Artificial Intelligence (AI) has been a fascinating field
+      of research and application for decades. Unlike its counterpart…
+
+<https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---author_recirc--
+cd3b0bda7825----1---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+May 26, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---author_recirc--
+cd3b0bda7825----1---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2e3059ab0b0e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fexploring-symbolic-ai-examples-and-technical-insights-2e3059ab0b0e&source=---author_recirc--cd3b0bda7825----1-----------------bookmark_preview----71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+The Illustrated Transformer: A Practical Guide
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----2---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----2---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+
+    The Illustrated Transformer: A Practical Guide
+
+
+      The Transformer architecture, introduced by Vaswani et al. in
+      their seminal paper “Attention Is All You Need,” revolutionized
+      the field of…
+
+<https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---author_recirc--
+cd3b0bda7825----2---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+May 21, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---author_recirc--
+cd3b0bda7825----2---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8fdc93963b89&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fthe-illustrated-transformer-a-practical-guide-8fdc93963b89&source=---author_recirc--cd3b0bda7825----2-----------------bookmark_preview----71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Alan Turing: Pioneering Contributions to Artificial Intelligence
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----3---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825----3---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+
+    Alan Turing: Pioneering Contributions to Artificial Intelligence
+
+
+      Alan Turing, widely regarded as the father of theoretical computer
+      science and artificial intelligence (AI), made groundbreaking…
+
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---author_recirc--
+cd3b0bda7825----3---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+May 25, 2023
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---author_recirc--
+cd3b0bda7825----3---------------------71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7918961ae22e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Falan-turing-and-his-pioneering-contributions-to-artificial-intelligence-7918961ae22e&source=---author_recirc--cd3b0bda7825----3-----------------bookmark_preview----71533d69_ecd0_40be_8ed1_3f38b09539bb-------------->
+
+See all from Anote
+ <https://anote-ai.medium.com/?source=post_page---author_recirc--
+cd3b0bda7825--------------------------------------->
+
+
+    Recommended from Medium
+
+Building an Advanced Agentic RAG Pipeline that Mimics a Human Thought
+Process
+Level Up Coding
+<https://levelup.gitconnected.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+In
+
+Level Up Coding
+
+<https://levelup.gitconnected.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+by
+
+Fareed Khan
+
+<https://medium.com/@fareedkhandev?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    Building an Advanced Agentic RAG Pipeline that Mimics a Human
+    Thought Process
+
+
+      Ambiguity Checks, Multi-Tool Planning, Self-Correction, Causal
+      Inference and more.
+
+<https://medium.com/@fareedkhandev/building-an-advanced-agentic-rag-
+pipeline-that-mimics-a-human-thought-process-687e1fd79f61?
+source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Sep 16
+A clap icon
+
+1.1K
+A response icon
+
+16
+ <https://medium.com/@fareedkhandev/building-an-advanced-agentic-rag-
+pipeline-that-mimics-a-human-thought-process-687e1fd79f61?
+source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F687e1fd79f61&operation=register&redirect=https%3A%2F%2Flevelup.gitconnected.com%2Fbuilding-an-advanced-agentic-rag-pipeline-that-mimics-a-human-thought-process-687e1fd79f61&source=---read_next_recirc--cd3b0bda7825----0-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+AI : Agent vs LLM vs RAG
+Shankar Angadi
+<https://medium.com/@angadi.saa?source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Shankar Angadi
+
+<https://medium.com/@angadi.saa?source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    AI : Agent vs LLM vs RAG
+
+
+      The artificial intelligence landscape is rapidly evolving, with
+      three distinct architectural approaches dominating the
+      conversation: Large…
+
+<https://medium.com/@angadi.saa/ai-agent-vs-llm-vs-rag-437b11147959?
+source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Sep 1
+A clap icon
+
+259
+A response icon
+
+4
+ <https://medium.com/@angadi.saa/ai-agent-vs-llm-vs-rag-437b11147959?
+source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F437b11147959&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40angadi.saa%2Fai-agent-vs-llm-vs-rag-437b11147959&source=---read_next_recirc--cd3b0bda7825----1-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Amazon Bedrock — Using RAG & Knowledge Bases (pt.1 — Basics)
+Nikita Palnov
+<https://medium.com/@palnov.nikita?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Nikita Palnov
+
+<https://medium.com/@palnov.nikita?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    Amazon Bedrock — Using RAG & Knowledge Bases (pt.1 — Basics)
+
+
+      Welcome !
+
+<https://medium.com/@palnov.nikita/amazon-bedrock-using-rag-knowledge-
+bases-pt-1-basics-7129a2586bed?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+May 3
+A clap icon
+
+21
+ <https://medium.com/@palnov.nikita/amazon-bedrock-using-rag-knowledge-
+bases-pt-1-basics-7129a2586bed?source=post_page---read_next_recirc--
+cd3b0bda7825----0---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7129a2586bed&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40palnov.nikita%2Famazon-bedrock-using-rag-knowledge-bases-pt-1-basics-7129a2586bed&source=---read_next_recirc--cd3b0bda7825----0-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Complete Guide to Dense vs Sparse Embeddings: Build Production Hybrid
+Search with AWS Bedrock…
+CloudBuckle
+<https://blog.cloudbuckle.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+CloudBuckle
+
+<https://blog.cloudbuckle.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    Complete Guide to Dense vs Sparse Embeddings: Build Production
+    Hybrid Search with AWS Bedrock…
+
+
+      I spent few weeks fixing a search system that was driving me
+      crazy. The problem? Classic keyword search that would return zero
+      results when…
+
+<https://blog.cloudbuckle.com/complete-guide-to-dense-vs-sparse-
+embeddings-build-production-hybrid-search-with-aws-bedrock-b7714436fab8?
+source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Jun 4
+A clap icon
+
+9
+A response icon
+
+1
+ <https://blog.cloudbuckle.com/complete-guide-to-dense-vs-sparse-
+embeddings-build-production-hybrid-search-with-aws-bedrock-b7714436fab8?
+source=post_page---read_next_recirc--
+cd3b0bda7825----1---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb7714436fab8&operation=register&redirect=https%3A%2F%2Fblog.cloudbuckle.com%2Fcomplete-guide-to-dense-vs-sparse-embeddings-build-production-hybrid-search-with-aws-bedrock-b7714436fab8&source=---read_next_recirc--cd3b0bda7825----1-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Building a Simple RAG System from Scratch: A Comprehensive Guide
+Bishal Bose
+<https://bishalbose294.medium.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----2---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Bishal Bose
+
+<https://bishalbose294.medium.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----2---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    Building a Simple RAG System from Scratch: A Comprehensive Guide
+
+
+      Photo by Steve Johnson on Unsplash
+
+<https://bishalbose294.medium.com/building-a-simple-rag-system-from-
+scratch-a-comprehensive-guide-6667af8ccb8c?source=post_page---
+read_next_recirc--
+cd3b0bda7825----2---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+Apr 25
+A clap icon
+
+677
+ <https://bishalbose294.medium.com/building-a-simple-rag-system-from-
+scratch-a-comprehensive-guide-6667af8ccb8c?source=post_page---
+read_next_recirc--
+cd3b0bda7825----2---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6667af8ccb8c&operation=register&redirect=https%3A%2F%2Fbishalbose294.medium.com%2Fbuilding-a-simple-rag-system-from-scratch-a-comprehensive-guide-6667af8ccb8c&source=---read_next_recirc--cd3b0bda7825----2-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+5 techniques in how to ingest chat history/memory to an AI chatbot/
+application
+genailia
+<https://genailia.medium.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----3---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+genailia
+
+<https://genailia.medium.com/?source=post_page---read_next_recirc--
+cd3b0bda7825----3---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+
+    5 techniques in how to ingest chat history/memory to an AI chatbot/
+    application
+
+
+      By Karthik Upadrasta
+
+<https://genailia.medium.com/5-techniques-in-how-to-pump-chat-history-
+to-an-ai-chatbot-application-b7c1509fb5ec?source=post_page---
+read_next_recirc--
+cd3b0bda7825----3---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+Jun 2
+<https://genailia.medium.com/5-techniques-in-how-to-pump-chat-history-
+to-an-ai-chatbot-application-b7c1509fb5ec?source=post_page---
+read_next_recirc--
+cd3b0bda7825----3---------------------091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb7c1509fb5ec&operation=register&redirect=https%3A%2F%2Fgenailia.medium.com%2F5-techniques-in-how-to-pump-chat-history-to-an-ai-chatbot-application-b7c1509fb5ec&source=---read_next_recirc--cd3b0bda7825----3-----------------bookmark_preview----091f58ef_e55d_49cc_8e3f_e902a06a4e2b-------------->
+
+See more recommendations
+ <https://medium.com/?source=post_page---read_next_recirc--
+cd3b0bda7825--------------------------------------->
+
+Help
+
+<https://help.medium.com/hc/en-us?source=post_page-----
+cd3b0bda7825--------------------------------------->
+
+Status
+
+<https://status.medium.com/?source=post_page-----
+cd3b0bda7825--------------------------------------->
+
+About
+
+<https://medium.com/about?autoplay=1&source=post_page-----
+cd3b0bda7825--------------------------------------->
+
+Careers
+
+<https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?
+source=post_page-----cd3b0bda7825--------------------------------------->
+
+Press
+
+<mailto:pressinquiries@medium.com>
+
+Blog
+
+<https://blog.medium.com/?source=post_page-----
+cd3b0bda7825--------------------------------------->
+
+Privacy
+
+<https://policy.medium.com/medium-privacy-policy-f03bf92035c9?
+source=post_page-----cd3b0bda7825--------------------------------------->
+
+Rules
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?
+source=post_page-----cd3b0bda7825--------------------------------------->
+
+Terms
+
+<https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?
+source=post_page-----cd3b0bda7825--------------------------------------->
+
+Text to speech
+
+<https://speechify.com/medium?source=post_page-----
+cd3b0bda7825--------------------------------------->

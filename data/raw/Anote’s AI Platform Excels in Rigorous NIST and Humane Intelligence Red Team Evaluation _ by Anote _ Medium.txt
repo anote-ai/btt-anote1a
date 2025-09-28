@@ -1,0 +1,683 @@
+Sitemap <https://anote-ai.medium.com/sitemap/sitemap.xml>
+Open in app<https://rsci.app.link/?
+%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2Fc74e2b112d5a&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderUser&%7Estage=mobileNavBar&source=post_page---top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-
+platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-
+evaluation-c74e2b112d5a&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+Medium Logo
+
+<https://medium.com/?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Write
+ <https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-
+story&source=---top_nav_layout_nav-----------------------
+new_post_topnav------------------>
+
+Search
+ <https://medium.com/search?source=post_page---
+top_nav_layout_nav----------------------------------------->
+
+Sign up
+
+Sign in <https://medium.com/m/signin?
+operation=login&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-
+platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-
+evaluation-c74e2b112d5a&source=post_page---
+top_nav_layout_nav-----------------------global_nav------------------>
+
+
+  Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence
+  Red Team Evaluation
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---byline--
+c74e2b112d5a--------------------------------------->
+Anote <https://anote-ai.medium.com/?source=post_page---byline--
+c74e2b112d5a--------------------------------------->
+Follow
+
+4 min read
+·
+Dec 6, 2024
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&user=Anote&userId=a54ce85e85cf&source=---header_actions--c74e2b112d5a---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&source=---header_actions--c74e2b112d5a---------------------bookmark_footer------------------>
+
+Listen
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Dc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&source=---header_actions--c74e2b112d5a---------------------post_audio_button------------------>
+
+Share
+
+At Anote, our goal is to create AI systems that are not only powerful
+but also secure, ethical, and trustworthy. These core values were
+rigorously tested in a red team evaluation led by the National Institute
+of Standards and Technology (NIST) ARIA program in partnership with
+Humane Intelligence. The evaluation provided a platform to demonstrate
+Anote’s capabilities and resilience in addressing the complex challenges
+of modern AI governance.
+
+*Event Overview*
+
+The red team evaluation, hosted in Arlington, Virginia during the CAMLIS
+conference, represented an opportunity to assess the security,
+robustness, and ethical compliance of cutting-edge AI systems. Over 30
+expert testers, selected from a competitive pool of 500 applicants,
+conducted systematic attacks on participating AI platforms. Their goal
+was to identify model vulnerabilities, assess compliance risks, and test
+the resilience of AI-generated outputs under adverse conditions.
+
+Press enter or click to view image in full size
+/More than 50 certified red teamers from Camlis subjected Anote’s system
+to advanced challenges, including prompt injection attacks, adversarial
+input manipulations, and data poisoning techniques. Despite these tests,
+Anote’s platform remained resilient, mitigating threats and reinforcing
+its commitment to trust and security./
+
+*Collaboration with Industry Leaders*
+
+The evaluation was a collaborative effort involving leading
+organizations in the AI ecosystem. Alongside Anote, systems from Meta,
+Robust Intelligence, and Synthesia underwent rigorous testing, offering
+a comparative lens on the state of AI resilience.
+
+Anote partnered with institutions, including NIST, the Cybersecurity and
+Infrastructure Security Agency (CISA), and Humane Intelligence, to
+advance best practices in AI governance.
+
+*Anote’s Human-Centered AI Approach*
+
+Core to Anote’s success is its human-centered AI methodology, a unique
+framework that combines advanced AI capabilities with human expertise to
+tackle domain-specific challenges. This approach is built on three
+foundational pillars:
+
+  * *Integrating Generative AI with Human Expertise*: Anote leverages
+    the computational power of generative AI while integrating the
+    nuanced insights of human users. This hybrid methodology ensures
+    solutions are both scalable and contextually accurate.
+  * *Active Learning from Users*: Through iterative learning cycles,
+    Anote refines its models based on user feedback, especially in edge
+    cases. This continuous improvement mechanism drives enhanced
+    performance in domain-specific applications.
+  * *Domain-Customized Solutions*: Anote tailors its outputs to align
+    with the unique requirements, delivering results that are precise,
+    relevant, and effective.
+
+Press enter or click to view image in full size
+
+*Technical Approach:*
+
+
+    Get Anote’s stories in your inbox
+
+Join Medium for free to get updates from this writer.
+
+Subscribe
+Subscribe
+
+Anote’s technical strategy during the evaluation consisted of three steps:
+
+ 1. *Data Annotation*: Subject matter experts labeled datasets to ensure
+    high-quality training inputs. These structured annotations were used
+    for supervised fine-tuning.
+ 2. *Model Training*: Anote performed supervised fine-tuning on over
+    2,400 curated question-answer pairs, which was complemented by
+    Reinforcement Learning from Human Feedback (RLHF) for post-training.
+    This combination improved the models’ reliability and domain-
+    specific accuracy.
+ 3. *Chatbot Integration*: The fine-tuned model was integrated into
+    Anote’s chatbot, enabling users to interact with a more reliable,
+    domain-specific, and accurate LLM.
+
+Press enter or click to view image in full size
+
+*Evaluation Methodology*
+
+The evaluation was based on the 600–1 ARIA Risk Management framework
+from NIST, linked below:
+
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+
+The evaluation aimed to test Anote’s ability to detect and mitigate
+malicious activities while ensuring adherence to ethical standards.
+Throughout the process, Anote’s AI systems successfully identified and
+blocked all unauthorized attempts, providing real-time feedback to users
+and maintaining transparency.
+
+Ethical compliance was another critical benchmark. Anote achieved a 95%
+success rate in preemptively flagging harmful or misleading outputs. For
+the remaining edge cases, a human-in-the-loop process ensured no
+violations occurred, underscoring the platform’s commitment to safety.
+
+Press enter or click to view image in full size
+The integration of Retrieval-Augmented Generation (RAG) with domain-
+specific fine-tuning of LLMs enabled accurate model outputs while
+ensuring data privacy. End users are able to compare the results of fine
+tuned LLMs with zero shot LLMs, and route the best LLM into their own
+chatbot.
+
+*Results*
+
+Key achievements include:
+
+  * *Resilience Against Malicious Input*: Even when faced with heavily
+    redacted documents and adversarial prompts, Anote’s proprietary
+    tagging and entity extraction algorithms maintained high accuracy.
+  * *Dynamic Risk Mitigation*: Attempts to bypass privacy-preserving
+    summarization features were countered in real time, demonstrating
+    robust risk management capabilities.
+  * *Ethical Adherence*: When tested with fabricated patient records
+    designed to elicit biased outputs, Anote’s system adhered strictly
+    to compliance standards, ensuring ethical and accurate results.
+
+Press enter or click to view image in full size
+/Over 3,000 interactions during the evaluation highlighted the
+platform’s reliability, with moderation systems combining AI-driven
+automation and human oversight to ensure trustworthy outputs./
+
+*Anote’s Commitment to Responsible AI*
+
+This evaluation reaffirms Anote’s position as a leader in ethical AI
+innovation. By adhering to NIST’s risk management framework and
+collaborating with organizations like Humane Intelligence, Anote is
+setting new standards for secure and responsible AI applications.
+
+Anote’s participation in the red team evaluation underscores our
+commitment to building secure, ethical, and high-performing AI systems.
+Our platform empowers users across industries to leverage the power of
+large language models responsibly.
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&user=Anote&userId=a54ce85e85cf&source=---footer_actions--c74e2b112d5a---------------------clap_footer------------------>
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&user=Anote&userId=a54ce85e85cf&source=---footer_actions--c74e2b112d5a---------------------clap_footer------------------>
+
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc74e2b112d5a&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-evaluation-c74e2b112d5a&source=---footer_actions--c74e2b112d5a---------------------bookmark_footer------------------>
+
+Anote
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+c74e2b112d5a--------------------------------------->
+Anote
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+c74e2b112d5a--------------------------------------->
+Follow
+
+
+    Written by Anote
+
+<https://anote-ai.medium.com/?source=post_page---post_author_info--
+c74e2b112d5a--------------------------------------->
+51 followers <https://anote-ai.medium.com/followers?source=post_page---
+post_author_info--c74e2b112d5a--------------------------------------->
+·3 following <https://anote-ai.medium.com/following?source=post_page---post_author_info--c74e2b112d5a--------------------------------------->
+
+General Purpose Artificial Intelligence. Like our product, our medium
+articles are written by novel generative AI models, with human feedback
+on the edge cases.
+
+Follow
+
+
+    No responses yet
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page---
+post_responses--c74e2b112d5a--------------------------------------->
+
+Write a response
+
+What are your thoughts?
+
+<https://medium.com/m/signin?
+operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fanotes-
+ai-platform-excels-in-rigorous-nist-and-humane-intelligence-red-team-
+evaluation-c74e2b112d5a&source=---post_responses--
+c74e2b112d5a---------------------respond_sidebar------------------>
+
+Cancel
+Respond
+
+
+    More from Anote
+
+Naive Bayes: A Bag of Words Approach to Text Classification
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----0---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----0---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+
+    Naive Bayes: A Bag of Words Approach to Text Classification
+
+
+      Text classification is a fundamental task in natural language
+      processing (NLP) that involves categorizing text documents into
+      predefined…
+
+<https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--c74e2b112d5a----0---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+May 23, 2023
+A clap icon
+
+10
+ <https://anote-ai.medium.com/naive-bayes-bag-of-words-approach-a-
+powerful-text-classification-technique-8ccfb07ac2be?source=post_page---
+author_recirc--c74e2b112d5a----0---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8ccfb07ac2be&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fnaive-bayes-bag-of-words-approach-a-powerful-text-classification-technique-8ccfb07ac2be&source=---author_recirc--c74e2b112d5a----0-----------------bookmark_preview----cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Exploring Symbolic AI: Examples and Technical Insights
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----1---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----1---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+
+    Exploring Symbolic AI: Examples and Technical Insights
+
+
+      Symbolic Artificial Intelligence (AI) has been a fascinating field
+      of research and application for decades. Unlike its counterpart…
+
+<https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---author_recirc--
+c74e2b112d5a----1---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+May 26, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/exploring-symbolic-ai-examples-and-
+technical-insights-2e3059ab0b0e?source=post_page---author_recirc--
+c74e2b112d5a----1---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F2e3059ab0b0e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fexploring-symbolic-ai-examples-and-technical-insights-2e3059ab0b0e&source=---author_recirc--c74e2b112d5a----1-----------------bookmark_preview----cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+The Illustrated Transformer: A Practical Guide
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----2---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----2---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+
+    The Illustrated Transformer: A Practical Guide
+
+
+      The Transformer architecture, introduced by Vaswani et al. in
+      their seminal paper “Attention Is All You Need,” revolutionized
+      the field of…
+
+<https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---author_recirc--
+c74e2b112d5a----2---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+May 21, 2023
+A clap icon
+
+1
+ <https://anote-ai.medium.com/the-illustrated-transformer-a-practical-
+guide-8fdc93963b89?source=post_page---author_recirc--
+c74e2b112d5a----2---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8fdc93963b89&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Fthe-illustrated-transformer-a-practical-guide-8fdc93963b89&source=---author_recirc--c74e2b112d5a----2-----------------bookmark_preview----cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Alan Turing: Pioneering Contributions to Artificial Intelligence
+Anote
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----3---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+Anote
+
+<https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a----3---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+
+    Alan Turing: Pioneering Contributions to Artificial Intelligence
+
+
+      Alan Turing, widely regarded as the father of theoretical computer
+      science and artificial intelligence (AI), made groundbreaking…
+
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---author_recirc--c74e2b112d5a----3---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+May 25, 2023
+<https://anote-ai.medium.com/alan-turing-and-his-pioneering-
+contributions-to-artificial-intelligence-7918961ae22e?
+source=post_page---author_recirc--c74e2b112d5a----3---------------------
+cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7918961ae22e&operation=register&redirect=https%3A%2F%2Fanote-ai.medium.com%2Falan-turing-and-his-pioneering-contributions-to-artificial-intelligence-7918961ae22e&source=---author_recirc--c74e2b112d5a----3-----------------bookmark_preview----cd4bcd76_6d8d_4644_9483_2a6623269a89-------------->
+
+See all from Anote
+ <https://anote-ai.medium.com/?source=post_page---author_recirc--
+c74e2b112d5a--------------------------------------->
+
+
+    Recommended from Medium
+
+I’ll Instantly Know You Used Chat Gpt If I See This
+Long. Sweet. Valuable.
+<https://long.sweet.pub/?source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+In
+
+Long. Sweet. Valuable.
+
+<https://long.sweet.pub/?source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+by
+
+Ossai Chinedum
+
+<https://ossaichinedum.medium.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    I’ll Instantly Know You Used Chat Gpt If I See This
+
+
+      Trust me you’re not as slick as you think
+
+<https://ossaichinedum.medium.com/ill-instantly-know-you-used-chat-gpt-
+if-i-see-this-d0a635bc0a00?source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+May 16
+A clap icon
+
+24K
+A response icon
+
+1440
+ <https://ossaichinedum.medium.com/ill-instantly-know-you-used-chat-gpt-
+if-i-see-this-d0a635bc0a00?source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fd0a635bc0a00&operation=register&redirect=https%3A%2F%2Flong.sweet.pub%2Fill-instantly-know-you-used-chat-gpt-if-i-see-this-d0a635bc0a00&source=---read_next_recirc--c74e2b112d5a----0-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+The AI Bubble Is About To Burst, But The Next Bubble Is Already Growing
+Will Lockett
+<https://wlockett.medium.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Will Lockett
+
+<https://wlockett.medium.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    The AI Bubble Is About To Burst, But The Next Bubble Is Already Growing
+
+
+      Techbros are preparing their latest bandwagon.
+
+<https://wlockett.medium.com/the-ai-bubble-is-about-to-burst-but-the-
+next-bubble-is-already-growing-383c0c0c7ede?source=post_page---
+read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Sep 14
+A clap icon
+
+10.5K
+A response icon
+
+335
+ <https://wlockett.medium.com/the-ai-bubble-is-about-to-burst-but-the-
+next-bubble-is-already-growing-383c0c0c7ede?source=post_page---
+read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F383c0c0c7ede&operation=register&redirect=https%3A%2F%2Fwlockett.medium.com%2Fthe-ai-bubble-is-about-to-burst-but-the-next-bubble-is-already-growing-383c0c0c7ede&source=---read_next_recirc--c74e2b112d5a----1-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+I have built around 300 agents, worked at 5 startups. Here’s what I
+learnt about AI Agent
+Yashwanth Sai
+<https://medium.com/@theyashwanthsai?source=post_page---
+read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Yashwanth Sai
+
+<https://medium.com/@theyashwanthsai?source=post_page---
+read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    I have built around 300 agents, worked at 5 startups. Here’s what I
+    learnt about AI Agent
+
+
+      Lessons learnt after working with agents for over an year.
+
+<https://medium.com/@theyashwanthsai/i-have-built-around-300-agents-
+worked-at-5-startups-heres-what-i-learnt-about-ai-agent-e911ffa62682?
+source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Aug 24
+A clap icon
+
+4.2K
+A response icon
+
+158
+ <https://medium.com/@theyashwanthsai/i-have-built-around-300-agents-
+worked-at-5-startups-heres-what-i-learnt-about-ai-agent-e911ffa62682?
+source=post_page---read_next_recirc--
+c74e2b112d5a----0---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe911ffa62682&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40theyashwanthsai%2Fi-have-built-around-300-agents-worked-at-5-startups-heres-what-i-learnt-about-ai-agent-e911ffa62682&source=---read_next_recirc--c74e2b112d5a----0-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+A middle-aged man with short dark hair, a beard, and glasses looks
+surprised and upset, surprised and angry. He wears a beige sweater and
+is positioned on the right side of the image against a light background.
+On the left, bold white text on a black rectangle reads, “YOUR CHATGPT
+HISTORY IS SHOWING UP ON GOOGLE. Here’s what to do.” Ask ChatGPT
+How To Profit AI
+<https://blog.howtoprofitai.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+In
+
+How To Profit AI
+
+<https://blog.howtoprofitai.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+by
+
+Mohamed Bakry
+
+<https://mbakry.medium.com/?source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    Your ChatGPT History Just Went Public on Google. Here’s What I Did
+    in 10 Mins to Fix It.
+
+
+      Safety/Privacy Check Prompt Template Is Included
+
+<https://mbakry.medium.com/your-chatgpt-history-just-went-public-on-
+google-heres-what-i-did-in-10-mins-to-fix-it-103c6b88c8ba?
+source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+5d ago
+A clap icon
+
+11K
+A response icon
+
+326
+ <https://mbakry.medium.com/your-chatgpt-history-just-went-public-on-
+google-heres-what-i-did-in-10-mins-to-fix-it-103c6b88c8ba?
+source=post_page---read_next_recirc--
+c74e2b112d5a----1---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F103c6b88c8ba&operation=register&redirect=https%3A%2F%2Fblog.howtoprofitai.com%2Fyour-chatgpt-history-just-went-public-on-google-heres-what-i-did-in-10-mins-to-fix-it-103c6b88c8ba&source=---read_next_recirc--c74e2b112d5a----1-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Docker Is Dead — And It’s About Time
+Abhinav
+<https://codingplainenglish.medium.com/?source=post_page---
+read_next_recirc--
+c74e2b112d5a----2---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Abhinav
+
+<https://codingplainenglish.medium.com/?source=post_page---
+read_next_recirc--
+c74e2b112d5a----2---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    Docker Is Dead — And It’s About Time
+
+
+      Docker changed the game when it launched in 2013, making
+      containers accessible and turning “Dockerize it” into a developer
+      catchphrase.
+
+<https://codingplainenglish.medium.com/docker-is-dead-and-its-about-
+time-b457d14b0a72?source=post_page---read_next_recirc--
+c74e2b112d5a----2---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Jun 8
+A clap icon
+
+6.6K
+A response icon
+
+182
+ <https://codingplainenglish.medium.com/docker-is-dead-and-its-about-
+time-b457d14b0a72?source=post_page---read_next_recirc--
+c74e2b112d5a----2---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb457d14b0a72&operation=register&redirect=https%3A%2F%2Fcodingplainenglish.medium.com%2Fdocker-is-dead-and-its-about-time-b457d14b0a72&source=---read_next_recirc--c74e2b112d5a----2-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+ChatGPT is poisoning your brain
+Jordan Gibbs
+<https://medium.com/@jordan_gibbs?source=post_page---read_next_recirc--
+c74e2b112d5a----3---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Jordan Gibbs
+
+<https://medium.com/@jordan_gibbs?source=post_page---read_next_recirc--
+c74e2b112d5a----3---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+
+    ChatGPT Is Poisoning Your Brain…
+
+
+      Here‘s How to Stop It Before It’s Too Late.
+
+<https://medium.com/@jordan_gibbs/chatgpt-is-poisoning-your-brain-
+b66c16ddb7ae?source=post_page---read_next_recirc--
+c74e2b112d5a----3---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+Apr 29
+A clap icon
+
+26K
+A response icon
+
+1288
+ <https://medium.com/@jordan_gibbs/chatgpt-is-poisoning-your-brain-
+b66c16ddb7ae?source=post_page---read_next_recirc--
+c74e2b112d5a----3---------------------405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+<https://medium.com/m/signin?
+actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb66c16ddb7ae&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40jordan_gibbs%2Fchatgpt-is-poisoning-your-brain-b66c16ddb7ae&source=---read_next_recirc--c74e2b112d5a----3-----------------bookmark_preview----405c8679_31bf_4576_9bd1_c7dc5d85387c-------------->
+
+See more recommendations
+ <https://medium.com/?source=post_page---read_next_recirc--
+c74e2b112d5a--------------------------------------->
+
+Help
+
+<https://help.medium.com/hc/en-us?source=post_page-----
+c74e2b112d5a--------------------------------------->
+
+Status
+
+<https://status.medium.com/?source=post_page-----
+c74e2b112d5a--------------------------------------->
+
+About
+
+<https://medium.com/about?autoplay=1&source=post_page-----
+c74e2b112d5a--------------------------------------->
+
+Careers
+
+<https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?
+source=post_page-----c74e2b112d5a--------------------------------------->
+
+Press
+
+<mailto:pressinquiries@medium.com>
+
+Blog
+
+<https://blog.medium.com/?source=post_page-----
+c74e2b112d5a--------------------------------------->
+
+Privacy
+
+<https://policy.medium.com/medium-privacy-policy-f03bf92035c9?
+source=post_page-----c74e2b112d5a--------------------------------------->
+
+Rules
+
+<https://policy.medium.com/medium-rules-30e5502c4eb4?
+source=post_page-----c74e2b112d5a--------------------------------------->
+
+Terms
+
+<https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?
+source=post_page-----c74e2b112d5a--------------------------------------->
+
+Text to speech
+
+<https://speechify.com/medium?source=post_page-----
+c74e2b112d5a--------------------------------------->

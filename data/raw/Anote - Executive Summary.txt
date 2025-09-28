@@ -1,0 +1,206 @@
+﻿Anote - Human Centered AI
+
+
+The Problem
+
+
+Enterprises have millions of rows of unstructured text data (DOCX, PPTX, PDF, TXT files). Currently, they have people manually going through documents, by hand, to classify text, extract entities, answer questions, or find information, which has the following downsides:
+
+
+1. Time Consuming - Slow, even with an unlimited labor force, it can take months to years
+2. Costly - Expensive, takes up a significant portion of a team’s budget
+3. Tedious - Laborious, mundane and boring work that people shouldn’t have to do
+4. Requires Expertise - Hard, requires highly trained subject matter expertise (doctors, legal analysts, financial analysts) with domain-specific experience to find information
+5. Iterative - Repetitive, when new data or new categories are added, or business requirements change, humans need to manually go through the data again
+
+
+Use Cases
+
+
+To better understand the problem, we have had over 500 customer interviews with enterprises. Here are a few of the use cases we have identified.
+
+
+Use Case
+	Controlled Unclassified Information
+	Answering Questions from Financial Documents
+	Summarizing Medical Charts
+	Sector
+	Government
+	Financial Services
+	Healthcare
+	Task Type
+	Classify Text
+	Extract Entities
+	Answer Questions
+	Customer Name
+	Navy
+	Morningstar
+	Weill Cornell
+	Current Approach
+	Millions of classified documents that are bucketed into 200+ CUI categories. Teams of 500+ taggers go through these documents by hand to manually bucket this data. The Navy released the CUI challenge in search for an automated solution, as the process today is entirely manual.
+	Millions of financial documents where 1200+ financial analysts work to extract entities of a taxonomy with over 1500 entities for financial products. There are some automated solutions for basic document types, but for raw unstructured documents the process is entirely manual. 
+	Millions of medical charts that are verbose and need summarization. 200 Medical experts are paid to write tailored summaries of these medical charts. This is very tedious, and takes 15 minutes on average for 4th year medical students to write a summary for each specific medical chart. 
+	Potential Follow On Customers
+	DIA, Army, Air Force, Space Force, NSA, CIA
+	BNY Mellon, Kensho / S&P Global, Bloomberg, Moody’s Analytics, GQG, Blackrock
+	New York Presbyterian, Einstein, Memorial Sloan Kettering, Mount Sinai
+	What’s In The Market?
+In the market today, there are document processing companies like Veryfi, UIPath and Docugami that can handle specific kinds of documents, such as invoices or receipts, pretty well, but struggle with raw unstructured text data. For these tasks, enterprises used to go to data annotation companies such as Scale AI, Appen and Amazon MTurk, to label data by hand to train supervised machine learning models. Generative AI models such as GPT, Claude and Bard have changed the game, enabling enterprises to classify text, extract entities and answer questions from unstructured text data, but struggle with accuracy, oftentimes hallucinating many domain specific questions. As a result, many enterprises have been looking for solutions to fine tune or reprompt models on their own data for tailored, accurate and domain specific results. Fine tuning companies such as Lamini and Predibase try to solve this problem, but do not work for most production-ready use cases. Because of this, many enterprises go to consulting firms like Accenture or Deloitte for advice on how to train models on their own data.
+Our Solution
+Anote’s solution consists of 3 fully functional products, and has 3 main steps:
+
+
+1. Label Text Data - Classify Text, Extract Entities and Answer Questions on Documents
+2. Fine Tune Model - Run your Fine Tuned LLM locally with our model inference API
+3. Private Chatbot - Chat with your documents while keeping your data private and secure.
+
+
+The core technology is a fine tuning library that leverages state of the art few shot learning to make high quality predictions with a few labeled samples. There are 3 ways to do fine tuning:
+1. Unsupervised Fine Tuning - Fine tune your LLM from your raw unstructured documents
+2. Supervised Fine Tuning - Fine tune your LLM on your labeled data
+3. RLHF / RLAIF Fine Tuning - Actively improve your models with human / AI feedback
+For improved model performance, you can do supervised or RLHF / RLAIF fine tuning via our data annotation interface / API, which you can use with 4 main steps:
+1. Upload - Create a new text based dataset
+2. Customize - Add the categories, entities or questions you care about
+3. Annotate - As you annotate a few edge cases, the LLM actively learns to predict the rest
+4. Download - Download the resulting CSV / export the fine tuned LLM as an API endpoint
+You can take your exported fine tuned model, and input it into our Private Chatbot, your accurate / private enterprise AI assistant. Private Chatbot has both a UI for enterprise users and a software development kit for developers. To use the Private Chatbot, there are 3 main steps.
+1. Upload - Upload your documents
+2. Chat - Ask questions on your documents with LLMs like GPT, Claude, Llama2 and Mistral
+3. Evaluate - Get citations for answers, and mitigate the effect of hallucinations
+To evaluate the performance of fine tuned LLMs, we have an evaluation dashboard so you see the improved model performance of supervised and unsupervised fine tuning models with metrics like Cosine Similarity, Rouge-L Score, LLM Eval, Answer Relevance and Faithfulness.
+Differentiation
+
+
+What makes us unique is that our technology enables customers to get information they need from their unstructured text data faster, cheaper, and more accurately, providing insights that otherwise were not possible to obtain. We do this while adhering to customer’s requirements:
+
+
+1. Accurate Predictions - Fine tuning and enhanced RAG for more accurate and tailored responses. Our AI models actively learn and rapidly improve from SMEs.
+2. Accurate Citations - Accurate sources (page number, chunk of text, important features) to explain the models predictions and mitigate hallucinations.
+3. Comprehensive Capabilities - Supervised, Unsupervised and RLHF / RLAIF fine tuning for classifying text, extracting entities, answering questions, and chatting with documents
+4. Easy to Use - Accessible UI similar to ChatGPT, and simple SDK for developers where you can input a fine tuned model for improved results.
+5. Private - On premise enterprise-grade solution (desktop app) using Llama2 and Mistral to leverage LLMs on your unstructured documents while keeping your data local/secure.
+6. Evaluation Framework - Robust evaluation framework with metrics to show fine tuned model performance improvements vs. zero shot models.
+Defensibility
+There is a subset of problems where the categories, entities or answers to questions are too complex to be done purely by AI. For this subset, human in the loop tooling is needed to ensure accuracy requirements are met. Anote has invented a new way of doing AI, human centered AI, that actively learns from people to improve AI algorithms, which can be used to directly fine tune LLMs. It is very difficult from a technical perspective to replicate or compete with, and the market opportunity for this subset of problems is large (CUI, Q&A on financial documents).
+Value Add
+What we are building at Anote matters, and here is why:
+Use Case
+	Before
+	After / With Anote
+	Data Labeling Approach
+	Manually Labeling their data themselves in a spreadsheet
+	State of the art few shot learning to make high quality predictions with a few labeled samples
+	Data Labeling Impact
+	Tedious, Time Consuming, Costly, Manual Iterative Relabeling
+	Less time, less expensive, higher accuracy, Rapid flexibility for changing business requirements
+	Document Processing Approach
+	Given raw unstructured documents, such as a 10-k or earnings call transcript, you can't get answers to the questions right if trying to extract info, where accuracy really matters.
+	After a few interventions, we go from 10 questions right, to 15 questions right, to 20 questions right, to enable insights that were otherwise impossible to obtain.
+	Document Processing Impact
+	Not accurate and largely manual extraction, Sub-optimal analytics for critical business decisions
+	Higher accuracy for raw unstructured documents, New insights that otherwise were not obtainable 
+	Paying Customers
+Anote has earned $80K in revenue from initial customers who had this problem.
+Company Name / Website
+	Point of Contact
+	Payment
+	Case Study Link
+	ShipIndex
+	Peter McCracken
+	$5,000 + $1,500 follow up
+	Here
+	Abstractive Health / Weill Cornell
+	Vince Hartman, Ritika Poddar
+	$5,000 + $850 technical support
+	Here
+	Mpressed / Nwsltr.ai
+	Richard Taubin
+	$15,000 + $13,500 follow up
+	Here
+	Delivered Pilot Solutions / Case Studies
+Here are examples of pilot projects (and corresponding case studies) that we worked on with potential customers, to better understand the problem and their current approach. 
+Capability
+	Example 1
+	Example 2
+	Example 3
+	Text Classification
+	OpenAds
+	Social Media
+	Competitor Intel
+	Extract Entities
+	Harvard Medical
+	E-Commerce
+	ShipIndex
+	Answer Questions
+	Rutgers
+	10-Ks
+	Mpressed
+	Business Model
+We have pricing models in place for Anote’s Data Labeler and Private Chatbot, though most of our revenue will come from our enterprise and developer plan.
+1. Enterprise - For each enterprise, we have a fixed upfront cost of ($10,000 to start), and we charge $0.10 for each row of data analyzed.
+2. Developer - For each developer, we charge a monthly fee ($50 to start) to use our SDK
+Go To Market
+We focus on data teams at large and medium sized enterprises looking at documents. We target Heads of Data Science and Chief Data Officers.
+Team
+	Current Process
+	Anote Proposal
+	Number of People
+	1,200
+	50
+	Cost Per Person
+	$80,000/year
+	$80,000 / year
+	Cost of Product / POC
+	$0
+	$200,000
+	Total Time to Label
+	1 year
+	1 month
+	Total Costs per Year
+	$96,000,000
+	$4,200,000
+	To scale, we are building Upreach, a GTM tool for AI powered leads and effortless outreach, host many AI events in New York, and are creating a Slack Community around AI accessibility.
+Team
+Team Member
+	Name
+	LinkedIn
+	Founder / CEO
+	Natan Vidra
+	https://www.linkedin.com/in/natanvidra/
+	CTO
+	Thomas Clifford
+	https://www.linkedin.com/in/tommyclifford/
+	Founding Product Designer
+	Christy Lin
+	https://www.linkedin.com/in/christy-lin-/
+	Founding Full Stack Developer
+	Rajat Raghuwanshi
+	https://www.linkedin.com/in/rajat-raghuwanshi-10/
+	Founding Software Engineer
+	Eden Chung
+	https://www.linkedin.com/in/eden-chung/
+	Founding ML Researcher
+	Spurthi Setty
+	https://www.linkedin.com/in/spurthi-setty/
+	Natan studied Electrical Engineering and Computer Science at Cornell, and worked as a Data Scientist / Software Engineer in Deloitte's Applied AI division. At Deloitte, Natan collaborated on a variety of AI / ML projects in the domains of NLP, Computer Vision and Big Data Analytics. Natan wrote the Deloitte Prompt Engineering Guide, and led the execution for ReadyAI, helping enterprise AI clients such as the IRS, DOD, and NIH go from 0 to 1 in their AI journey. Natan and Thomas have been friends for 15+ years - they grew up in the same hometown and played on the same soccer team. Thomas has worked as a Software Engineer at Google for 4+ years.
+Thank You
+
+
+Anote is a startup in New York City helping make artificial intelligence more accessible. We believe there is a massive gap between the tremendous power of AI models, and the everyday tasks that people care about. To learn more, visit our website, youtube, linkedin, or email us at nvidra@anote.ai. Here are some talks on our research on Generative AI / LLMs, for context.
+
+
+Research Talk
+	Video Link
+	Fine Tuning LLMs
+	https://www.youtube.com/watch?v=mMmaTMuRZmo
+	Benchmarking Text Classification
+	https://www.youtube.com/watch?v=IakXvvdaNJQ
+	Benchmarking Q&A Models
+	https://www.youtube.com/watch?v=sppn68PirPQ
+	Human Centered AI
+	https://www.youtube.com/watch?v=ZoAsXKLPyuo
+	Improving Retrieval for Q&A
+	https://www.youtube.com/watch?v=a2hQrg2OZ-o
+	Few Shot Learning Ted Talk
+	https://www.youtube.com/watch?v=7I_pBLjMNzs
