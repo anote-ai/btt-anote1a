@@ -1,6 +1,6 @@
 ### [By 09/30] Set up baseline model and submit initial predictions to Anote.
 - Step 1 of README
-  - Clean a small Anote dataset → JSONL or embeddings. 
+  - Clean a small Anote dataset → JSONL or embeddings. ✓
   - Run it through either:
     - RAG setup (recc for speed) OR a tiny fine-tune (e.g., OpenAI fine-tune on Q&A). 
   - Plug into Autonomous-Intelligence UI. 
