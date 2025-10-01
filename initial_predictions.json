@@ -1,0 +1,38 @@
+[
+  {
+    "question": "How does Anote use fine-tuning?",
+    "answer": "Anote provides a platform for participants to build and deploy custom large language models (LLMs) using their own data, utilizing its end-to-end MLOps platform. Specifically, it allows users to perform fine-tuning of LLMs through supervised, unsupervised, and reinforcement learning from human feedback (RLHF) methods.",
+    "sources": [
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 10,
+        "text_preview": "based on user feedback, especially in edge cases. This continuous improvement mechanism drives enhanced performance in domain-specific applications.  * *Domain-Customized Solutions*: Anote tailors its"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 2,
+        "text_preview": "an Centered AI Methodology Description: Anote is an end to end MLOps platform that enables you to obtain the best large language model for your data.  On Anote, we provide an evaluation framework to c"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 0,
+        "text_preview": "Anote Anote 4 min read · Apr 27, 2025 *Anote Launches LLM Evaluation & Fine-Tuning Project* Anote (Headquarters: New York, USA; CEO: Natan Vidra) proudly announces the launch of an initiative to evalu"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 6,
+        "text_preview": "resses several major problems: 1. *Insufficient and low-quality training data* — Anote helps generate high-quality, large-scale training datasets. 2.  *Lack of objective LLM benchmarks* — This initiat"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 11,
+        "text_preview": "ss enter or click to view image in full size *Technical Approach:* Get Anote’s stories in your inbox Join Medium for free to get updates from this r.  Subscribe Subscribe Anote’s technical strategy du"
+      }
+    ]
+  }
+]
