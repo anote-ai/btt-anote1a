@@ -2,7 +2,7 @@
 - Step 1 of README
   - Clean a small Anote dataset → JSONL or embeddings. ✓
   - Run it through either:
-    - RAG setup (recc for speed) OR a tiny fine-tune (e.g., OpenAI fine-tune on Q&A). 
+    - RAG setup (recc for speed) OR a tiny fine-tune (e.g., OpenAI fine-tune on Q&A). ✓
   - Plug into Autonomous-Intelligence UI. 
   - Show that the chatbot can answer at least a few questions correctly. 
   - Submit “initial predictions” to Anote = basically sample outputs / demo conversation.
