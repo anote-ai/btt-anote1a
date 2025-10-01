@@ -1,5 +1,77 @@
 [
   {
+    "question": "What is Anote?",
+    "answer": "Anote is a company that provides an end-to-end MLOps platform designed to democratize access to human-centered AI development. It offers an evaluation framework to compare zero-shot LLMs with fine-tuned LLMs trained on domain-specific training data, aiming to enhance the performance of Large Language Models (LLMs) in complex questions and edge cases.",
+    "sources": [
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 0,
+        "text_preview": "Anote Anote 4 min read · Apr 27, 2025 *Anote Launches LLM Evaluation & Fine-Tuning Project* Anote (Headquarters: New York, USA; CEO: Natan Vidra) proudly announces the launch of an initiative to evalu"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 2,
+        "text_preview": "an Centered AI Methodology Description: Anote is an end to end MLOps platform that enables you to obtain the best large language model for your data.  On Anote, we provide an evaluation framework to c"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 15,
+        "text_preview": "urther information:* * Anote, Inc.: nvidra@anote.ai (Natan Vidra) Anote Anote Written by Anote 51 ers ·3 ing General Purpose Artificial Intelligence.  Like our product, our medium articles are written"
+      },
+      {
+        "title": "Enhancing RAG Through Anote. In today’s world, having accurate and… _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Enhancing RAG Through Anote. In today’s world, having accurate and… _ by Anote _ Medium.txt",
+        "chunk_index": 0,
+        "text_preview": "Enhancing RAG Through Anote Anote Anote 5 min read · Aug 8, 2024 Press enter or click to view image in full size In today’s world, having accurate and relevant information at your fingertips is crucia"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 10,
+        "text_preview": "based on user feedback, especially in edge cases. This continuous improvement mechanism drives enhanced performance in domain-specific applications.  * *Domain-Customized Solutions*: Anote tailors its"
+      }
+    ]
+  },
+  {
+    "question": "What are Anote's main products?",
+    "answer": "Anote's main products include:\n\n1. Anote’s end-to-end MLOps platform\n2. A transformer architecture guide (The Illustrated Transformer: A Practical Guide)\n3. Large language models (LLMs) for evaluation and fine-tuning, including:\n   - Zero shot LLMs like GPT, Claude, Llama3, and Mistral\n   - Fine tuned LLMs trained on domain-specific training data via supervised, unsupervised, and RLHF fine tuning",
+    "sources": [
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 0,
+        "text_preview": "Anote Anote 4 min read · Apr 27, 2025 *Anote Launches LLM Evaluation & Fine-Tuning Project* Anote (Headquarters: New York, USA; CEO: Natan Vidra) proudly announces the launch of an initiative to evalu"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 2,
+        "text_preview": "an Centered AI Methodology Description: Anote is an end to end MLOps platform that enables you to obtain the best large language model for your data.  On Anote, we provide an evaluation framework to c"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 27,
+        "text_preview": "Transformer: A Practical Guide Anote Anote The Illustrated Transformer: A Practical Guide The Transformer architecture, introduced by Vaswani et al.  in their seminal paper “Attention Is All You Need,"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 10,
+        "text_preview": "based on user feedback, especially in edge cases. This continuous improvement mechanism drives enhanced performance in domain-specific applications.  * *Domain-Customized Solutions*: Anote tailors its"
+      },
+      {
+        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
+        "chunk_index": 15,
+        "text_preview": "urther information:* * Anote, Inc.: nvidra@anote.ai (Natan Vidra) Anote Anote Written by Anote 51 ers ·3 ing General Purpose Artificial Intelligence.  Like our product, our medium articles are written"
+      }
+    ]
+  },
+  {
     "question": "How does Anote use fine-tuning?",
     "answer": "Anote provides a platform for participants to build and deploy custom large language models (LLMs) using their own data, utilizing its end-to-end MLOps platform. Specifically, it allows users to perform fine-tuning of LLMs through supervised, unsupervised, and reinforcement learning from human feedback (RLHF) methods.",
     "sources": [
