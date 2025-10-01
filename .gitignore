@@ -1,0 +1,24 @@
+# Environment
+.env
+.env.*
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector database (too large, regenerate from clean_chunks.jsonl)
+chroma_anote_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Optional: predictions file to regenerate it
+# initial_predictions.json
