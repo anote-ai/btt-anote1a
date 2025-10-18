@@ -290,7 +290,7 @@ class DataProcessing:
 def main():
 
     # Config (EDIT FOR UR OWN ABSOLUTE PATHS IF RUNNING SCRIPT LOCALLY!)
-    INPUT_FOLDER = r"C:\Users\Bella\btt-anote1a\data\raw"
+    INPUT_FOLDER = r"C:\Users\Bella\btt-anote1a\data\raw\Anote"
     OUTPUT_FILE =  r"C:\Users\Bella\btt-anote1a\data\processed\clean_chunks.jsonl"
 
     # Create the processor obj and run it
