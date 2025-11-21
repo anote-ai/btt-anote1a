@@ -1,7 +1,7 @@
 [
   {
     "question": "What is Anote?",
-    "answer": "Anote is a company that provides an end-to-end MLOps platform designed to democratize access to human-centered AI development. It offers an evaluation framework to compare zero-shot LLMs with fine-tuned LLMs trained on domain-specific training data, aiming to enhance the performance of Large Language Models (LLMs) in complex questions and edge cases.",
+    "answer": "Based on the provided context, Anote appears to be a company specializing in data labeling, model evaluation, and autonomous AI agents. The context mentions that Anote has launched an initiative to evaluate and improve large language models (LLMs) and provides an end-to-end MLOps platform designed to democratize access to human-centered AI development.\n\nIt also mentions that the company is led by CEO Natan Vidra and has written articles about its product, which suggests that Anote is a software company focused on artificial intelligence.",
     "sources": [
       {
         "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
@@ -26,18 +26,13 @@
         "source": "C:/Users/Bella/btt-anote1a/data/raw/Enhancing RAG Through Anote. In today’s world, having accurate and… _ by Anote _ Medium.txt",
         "chunk_index": 0,
         "text_preview": "Enhancing RAG Through Anote Anote Anote 5 min read · Aug 8, 2024 Press enter or click to view image in full size In today’s world, having accurate and relevant information at your fingertips is crucia"
-      },
-      {
-        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
-        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
-        "chunk_index": 10,
-        "text_preview": "based on user feedback, especially in edge cases. This continuous improvement mechanism drives enhanced performance in domain-specific applications.  * *Domain-Customized Solutions*: Anote tailors its"
       }
-    ]
+    ],
+    "provider": "ollama"
   },
   {
     "question": "What are Anote's main products?",
-    "answer": "Anote's main products include:\n\n1. Anote’s end-to-end MLOps platform\n2. A transformer architecture guide (The Illustrated Transformer: A Practical Guide)\n3. Large language models (LLMs) for evaluation and fine-tuning, including:\n   - Zero shot LLMs like GPT, Claude, Llama3, and Mistral\n   - Fine tuned LLMs trained on domain-specific training data via supervised, unsupervised, and RLHF fine tuning",
+    "answer": "According to the provided context, it appears that Anote has at least two main products:\n\n1. An end-to-end MLOps platform designed to democratize access to human-centered AI development.\n2. A evaluation framework for comparing zero-shot LLMs (e.g., GPT, Claude, Llama3, and Mistral) with fine-tuned LLMs that are trained on domain-specific training data.\n\nNote that the context does not provide a comprehensive list of Anote's products, but these two products seem to be the main focus.",
     "sources": [
       {
         "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
@@ -62,18 +57,13 @@
         "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
         "chunk_index": 10,
         "text_preview": "based on user feedback, especially in edge cases. This continuous improvement mechanism drives enhanced performance in domain-specific applications.  * *Domain-Customized Solutions*: Anote tailors its"
-      },
-      {
-        "title": "Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium",
-        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
-        "chunk_index": 15,
-        "text_preview": "urther information:* * Anote, Inc.: nvidra@anote.ai (Natan Vidra) Anote Anote Written by Anote 51 ers ·3 ing General Purpose Artificial Intelligence.  Like our product, our medium articles are written"
       }
-    ]
+    ],
+    "provider": "ollama"
   },
   {
     "question": "How does Anote use fine-tuning?",
-    "answer": "Anote provides a platform for participants to build and deploy custom large language models (LLMs) using their own data, utilizing its end-to-end MLOps platform. Specifically, it allows users to perform fine-tuning of LLMs through supervised, unsupervised, and reinforcement learning from human feedback (RLHF) methods.",
+    "answer": "According to the context, Anote provides a fine-tuning framework that allows users to train large language models (LLMs) on their domain-specific training data. Specifically:\n\n* Fine-tuned LLMs are trained using supervised, unsupervised, and reinforcement learning from human feedback (RLHF) methods.\n* Participants can utilize Anote's platform to build and deploy custom LLMs using their own data.\n\nThis suggests that Anote enables users to adapt pre-trained LLMs to their specific domain or application by fine-tuning the model on their unique data.",
     "sources": [
       {
         "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
@@ -98,13 +88,39 @@
         "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote Launches LLM Evaluation & Fine-Tuning Project _ by Anote _ Medium.txt",
         "chunk_index": 6,
         "text_preview": "resses several major problems: 1. *Insufficient and low-quality training data* — Anote helps generate high-quality, large-scale training datasets. 2.  *Lack of objective LLM benchmarks* — This initiat"
+      }
+    ],
+    "provider": "ollama"
+  },
+  {
+    "question": "What is Autonomous Intelligence?",
+    "answer": "The context doesn't explicitly define \"Autonomous Intelligence\" within the provided information about Anote's company and its approach to AI development. However, based on general knowledge, I can provide a definition:\n\nAutonomous Intelligence refers to an artificial intelligence system that operates independently, making decisions without direct human intervention or supervision. It involves the use of machine learning algorithms, natural language processing, computer vision, and other AI techniques to enable self-awareness, decision-making, and adaptability in complex environments.\n\nWhile Anote's platform does seem to focus on developing secure, ethical, and trustworthy AI systems, the term \"Autonomous Intelligence\" itself is not explicitly explained within the provided context.",
+    "sources": [
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 0,
+        "text_preview": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation Anote Anote 4 min read · Dec 6, 2024 At Anote, our goal is to create AI systems that are not only powerful but a"
       },
       {
         "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
         "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
-        "chunk_index": 11,
-        "text_preview": "ss enter or click to view image in full size *Technical Approach:* Get Anote’s stories in your inbox Join Medium for free to get updates from this r.  Subscribe Subscribe Anote’s technical strategy du"
+        "chunk_index": 7,
+        "text_preview": "ns, including NIST, the Cybersecurity and Infrastructure Security Agency (CISA), and Humane Intelligence, to advance best practices in AI governance.  *Anote’s Human-Centered AI Approach* Core to Anot"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 22,
+        "text_preview": "ensure trustworthy outputs./ *Anote’s Commitment to Responsible AI* This evaluation reaffirms Anote’s position as a leader in ethical AI innovation.  By adhering to NIST’s risk management framework an"
+      },
+      {
+        "title": "Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium",
+        "source": "C:/Users/Bella/btt-anote1a/data/raw/Anote’s AI Platform Excels in Rigorous NIST and Humane Intelligence Red Team Evaluation _ by Anote _ Medium.txt",
+        "chunk_index": 1,
+        "text_preview": "ested in a red team evaluation led by the National Institute of Standards and Technology (NIST) ARIA program in partnership with Humane Intelligence.  The evaluation provided a platform to demonstrate"
       }
-    ]
+    ],
+    "provider": "ollama"
   }
 ]

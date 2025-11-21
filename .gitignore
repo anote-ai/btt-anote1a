@@ -11,7 +11,10 @@ __pycache__/
 *.so
 
 # Vector database (too large, regenerate from clean_chunks.jsonl)
-chroma_anote_db/
+anote_rag/chroma_anote_db/
+
+# Translation pairs (too large, download from Drive)
+data/processed/translation_pairs/opus_corpus/
 
 # IDE
 .vscode/
@@ -20,5 +23,6 @@ chroma_anote_db/
 *.swo
 .DS_Store
 
-# Optional: predictions file to regenerate it
-# initial_predictions.json
+# Predictions file (regenerate)
+predictions_*.json
+results_*.json

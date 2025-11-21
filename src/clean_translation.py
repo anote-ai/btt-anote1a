@@ -91,8 +91,8 @@ def main():
     print("Script started successfully")
 
     # Config (EDIT FOR UR OWN ABSOLUTE PATHS IF RUNNING SCRIPT LOCALLY!)
-    data_dir = Path(r"C:\Users\Bella\btt-anote1a\data\raw\translation")
-    output_dir = Path(r"C:\Users\Bella\btt-anote1a\data\processed\translation_pairs")
+    data_dir = Path(r"C:\Users\shalo\BTT_Anote\btt-anote1a\data\raw\translation")
+    output_dir = Path(r"C:\Users\shalo\BTT_Anote\btt-anote1a\data\processed\translation_pairs")
 
     print(f"\nInput directory: {data_dir}")
     print(f"Output directory: {output_dir}")
