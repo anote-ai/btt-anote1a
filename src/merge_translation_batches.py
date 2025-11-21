@@ -13,7 +13,7 @@ def load_batch_file(file_path: Path) -> List[Dict]:
     """Load JSON or JSONL batch file"""
     items = []
 
-    # Try JSONL first (line-by-line)
+    # JSONL first (line-by-line)
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -24,7 +24,7 @@ def load_batch_file(file_path: Path) -> List[Dict]:
     except json.JSONDecodeError:
         pass
 
-    # Try regular JSON (array)
+    # regular JSON (array)
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -46,8 +46,7 @@ def add_metadata(item: Dict, model: str, batch_id: str) -> Dict:
 def extract_language_from_id(item: Dict) -> str:
     """
     Extract language code from various possible ID fields
-    NOTE: With the new structure, language is already known from folder path
-    This function is now mainly for validation
+    -> mainly for validation since language is given on folder path
     """
     # Try multiple fields in order of preference
     for field in ['original_pair_id', 'pair_id', 'id', 'question_id']:
@@ -80,16 +79,15 @@ def merge_batches(base_dir: Path, output_dir: Path):
     items_by_model = defaultdict(list)
     all_items = []
 
-    print("=" * 70)
+    print("~" * 50)
     print("MERGING TRANSLATION TESTING DATASET BATCHES")
-    print("=" * 70)
 
-    # Process each language folder
+    # Process language folders
     for lang in languages:
         lang_folder = base_dir / lang
 
         if not lang_folder.exists():
-            print(f"\n⚠️  Warning: {lang}/ folder not found, skipping...")
+            print(f"\nWarning: {lang}/ folder not found, skipping...")
             continue
 
         print(f"\n📁 Processing {lang.upper()} language folder...")
@@ -99,7 +97,7 @@ def merge_batches(base_dir: Path, output_dir: Path):
             batch_folder = lang_folder / f"{model_name}_batches"
 
             if not batch_folder.exists():
-                print(f"   ⚠️  {model_name}_batches not found in {lang}/, skipping...")
+                print(f"{model_name}_batches not found in {lang}/, skipping...")
                 continue
 
             print(f"   📂 {model_name.upper()} batches...")
@@ -135,12 +133,11 @@ def merge_batches(base_dir: Path, output_dir: Path):
     # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print("\n" + "=" * 70)
+    print("\n" + "~" * 50)
     print("SAVING MERGED FILES")
-    print("=" * 70)
 
-    # 1. Save language-specific files
-    print("\n📝 Creating language-specific files...")
+    # 1. language-specific
+    print("\n Creating language-specific files...")
     languages = ['es', 'he', 'ja', 'ko']
     lang_stats = {}
 
@@ -156,18 +153,18 @@ def merge_batches(base_dir: Path, output_dir: Path):
             lang_stats[lang] = len(items)
             print(f"   ✓ {lang.upper()}: {len(items)} items → {output_file.name}")
         else:
-            print(f"   ⚠️  {lang.upper()}: No items found")
+            print(f"{lang.upper()}: No items found")
 
-    # 2. Save combined file
-    print("\n📝 Creating combined file...")
+    # 2. combined
+    print("\nCreating combined file...")
     combined_file = output_dir / "translation_testing_all.jsonl"
     with open(combined_file, 'w', encoding='utf-8') as f:
         for item in all_items:
             f.write(json.dumps(item, ensure_ascii=False) + '\n')
     print(f"   ✓ ALL LANGUAGES: {len(all_items)} items → {combined_file.name}")
 
-    # 3. Save model-specific files (optional but useful)
-    print("\n📝 Creating model-specific files...")
+    # 3. model-specific
+    print("\nCreating model-specific files...")
     for model_name, items in items_by_model.items():
         if items:
             output_file = output_dir / f"translation_testing_{model_name}.jsonl"
@@ -176,14 +173,13 @@ def merge_batches(base_dir: Path, output_dir: Path):
                     f.write(json.dumps(item, ensure_ascii=False) + '\n')
             print(f"   ✓ {model_name.upper()}: {len(items)} items → {output_file.name}")
 
-    # Generate and save statistics
-    print("\n" + "=" * 70)
+    # stats
+    print("\n" + "~" * 50)
     print("SUMMARY STATISTICS")
-    print("=" * 70)
 
     stats = generate_statistics(all_items, lang_stats, items_by_model)
 
-    # Save statistics to JSON
+    # Save stats to JSON
     metadata_dir = output_dir.parent.parent.parent / "metadata"
     metadata_dir.mkdir(parents=True, exist_ok=True)
     stats_file = metadata_dir / "summary_stats.json"
@@ -191,9 +187,10 @@ def merge_batches(base_dir: Path, output_dir: Path):
         json.dump(stats, f, indent=2, ensure_ascii=False)
 
     print(f"\n✓ Statistics saved to: {stats_file}")
-    print("\n" + "=" * 70)
-    print("✅ MERGE COMPLETE!")
-    print("=" * 70)
+
+    print("\n" + "~" * 50)
+    print("✓ MERGE COMPLETE")
+
     print(f"\nOutput location: {output_dir}")
 
 def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Dict) -> Dict:
@@ -210,14 +207,14 @@ def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Di
     }
 
     # Language distribution
-    print("\n📊 By Language:")
+    print("\nBy Language:")
     for lang, count in sorted(lang_stats.items()):
         pct = (count / len(all_items)) * 100 if all_items else 0
         print(f"   {lang.upper()}: {count} ({pct:.1f}%)")
         stats['languages'][lang] = {'count': count, 'percentage': round(pct, 1)}
 
     # Model distribution
-    print("\n📊 By Model:")
+    print("\nBy Model:")
     for model, items in sorted(model_stats.items()):
         count = len(items)
         pct = (count / len(all_items)) * 100 if all_items else 0
@@ -225,7 +222,7 @@ def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Di
         stats['models'][model] = {'count': count, 'percentage': round(pct, 1)}
 
     # Difficulty distribution
-    print("\n📊 By Difficulty:")
+    print("\nBy Difficulty:")
     difficulty_counts = defaultdict(int)
     for item in all_items:
         difficulty_counts[item.get('difficulty', 'unknown')] += 1
@@ -235,7 +232,7 @@ def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Di
         stats['difficulty'][diff] = {'count': count, 'percentage': round(pct, 1)}
 
     # Question type distribution
-    print("\n📊 By Question Type:")
+    print("\nBy Question Type:")
     type_counts = defaultdict(int)
     for item in all_items:
         type_counts[item.get('question_type', 'unknown')] += 1
@@ -245,7 +242,7 @@ def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Di
         stats['question_types'][qtype] = {'count': count, 'percentage': round(pct, 1)}
 
     # Register distribution
-    print("\n📊 By Register:")
+    print("\nBy Register:")
     register_counts = defaultdict(int)
     for item in all_items:
         register_counts[item.get('register', 'unknown')] += 1
@@ -254,14 +251,14 @@ def generate_statistics(all_items: List[Dict], lang_stats: Dict, model_stats: Di
         print(f"   {reg.capitalize()}: {count} ({pct:.1f}%)")
         stats['register'][reg] = {'count': count, 'percentage': round(pct, 1)}
 
-    print(f"\n📈 Total QA Items: {len(all_items)}")
+    print(f"\nTotal QA Items: {len(all_items)}")
 
     return stats
 
 def main():
     """Main execution"""
 
-    # Configuration - UPDATE THIS PATH if needed
+    # [UPDATE PATH as needed]
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     BASE_DIR = project_root / "data" / "processed" / "translation_testing"
@@ -273,18 +270,18 @@ def main():
     print()
 
     if not BASE_DIR.exists():
-        print(f"❌ Error: Input directory not found: {BASE_DIR}")
+        print(f"Error: Input directory not found: {BASE_DIR}")
         print("\nPlease update BASE_DIR in the script to match your folder structure.")
         return
 
     merge_batches(BASE_DIR, OUTPUT_DIR)
 
-    print(f"\n✨ All files saved to: {OUTPUT_DIR}")
-    print("\n📦 Deliverable Files Created:")
-    print("   ✅ Language-specific: translation_testing_es/he/ja/ko.jsonl")
-    print("   ✅ Combined: translation_testing_all.jsonl")
-    print("   ✅ Model-specific: translation_testing_chatgpt/claude/gemini.jsonl")
-    print("   ✅ Statistics: summary_stats.json")
+    print(f"\nAll files saved to: {OUTPUT_DIR}")
+    print("\nDeliverable Files Created:")
+    print("   ✓ Language-specific: translation_testing_es/he/ja/ko.jsonl")
+    print("   ✓ Combined: translation_testing_all.jsonl")
+    print("   ✓ Model-specific: translation_testing_chatgpt/claude/gemini.jsonl")
+    print("   ✓ Statistics: summary_stats.json")
 
 if __name__ == "__main__":
     main()
