@@ -1,0 +1,38 @@
+[
+  {
+    "question": "According to the English translation, what are the two recipients of the immediate alert from the automated system?",
+    "answer": "The immediate alert is sent to the control center and the homeowners simultaneously.",
+    "cite_from": "target",
+    "citation_text": "sends an immediate alert to the control center and homeowners simultaneously",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What common financial advice is implied by the Hebrew phrase 'אני ממליץ לך לא לשים את כל הביצים בסל אחד' when translated to English?",
+    "answer": "The advice is to avoid concentrating all assets or efforts in a single area, suggesting risk reduction through diversification.",
+    "cite_from": "source",
+    "citation_text": "אני ממליץ לך לא לשים את כל הביצים בסל אחד",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The English translation uses the formal word 'simultaneously.' In a more casual, everyday context, how would you describe the timing of the alert sent by 'המערכת האוטומטית'?",
+    "answer": "The alert is sent at the same time, or all at once, to both the control center and the people who own the house.",
+    "cite_from": "source",
+    "citation_text": "המערכת האוטומטית מזהה תנועה חשודה",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "If the translation's phrase 'don't put all your eggs in one basket' is applied to life decisions beyond finance, what is the most significant risk or disadvantage being warned against?",
+    "answer": "The warning is against total loss; relying on a single option means if that one option fails or collapses, there is no backup plan or resource remaining.",
+    "cite_from": "target",
+    "citation_text": "I recommend that you don't put all your eggs in one basket and diversify your investments",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

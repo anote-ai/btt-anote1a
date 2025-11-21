@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What specific feature of the software is described as aiding novice users?",
+    "answer": "It highlights that the intuitive user interface makes the software accessible to beginners by enabling straightforward operation.",
+    "cite_from": "target",
+    "citation_text": "even beginners can operate it easily",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So if I reach out with a question, who’s actually gonna hit me back?",
+    "answer": "The text indicates that a designated representative is the one who will return the inquiry.",
+    "cite_from": "source",
+    "citation_text": "担当者より折り返しご連絡いたします",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "According to the translation, what underlying intention does the design goal imply about user interaction?",
+    "answer": "The phrasing suggests that the software was created with the deliberate objective of enabling users, regardless of skill level, to handle it with minimal effort.",
+    "cite_from": "target",
+    "citation_text": "is designed so that",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "When the speaker drops that idiom, what kind of hopeful message are they trying to get across?",
+    "answer": "By invoking the idiom, the speaker conveys the belief that getting through hardship can actually strengthen the team’s unity and resilience.",
+    "cite_from": "source",
+    "citation_text": "雨降って地固まる",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the politeness expressed in the request shape how a reader should interpret the speaker’s stance toward inquiries?",
+    "answer": "The very polite formulation indicates a formally courteous attitude, suggesting that the speaker earnestly encourages questions while maintaining a respectful professional distance.",
+    "cite_from": "source",
+    "citation_text": "遠慮なくお問い合わせください",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When the sentence talks about pushing through the issue, what does that conditional bit imply about the future, at least from the speaker’s point of view?",
+    "answer": "It implies that becoming a stronger team is not guaranteed but depends on successfully overcoming the present challenge, placing the hoped-for improvement squarely in a conditional future.",
+    "cite_from": "source",
+    "citation_text": "乗り越えたら",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

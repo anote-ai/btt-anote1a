@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What two components are essential for expanding renewable energy sources?",
+    "answer": "The construction of power grid infrastructure and the development of energy storage systems are essential for expanding renewable energy sources.",
+    "cite_from": "target",
+    "citation_text": "construction of power grid infrastructure and the development of energy storage systems",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Where do Seoul folks like to bike and catch a breeze?",
+    "answer": "They ride along the Han River's banks (called 'dunchi') where they can feel the cool river breeze.",
+    "cite_from": "source",
+    "citation_text": "한강 둔치에서 자전거를 타며 시원한 강바람을 맞는",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the speaker express their mental exhaustion from studying?",
+    "answer": "The speaker uses the hyperbolic expression that their head 'feels like it's going to explode,' conveying intense stress through figurative language rather than literal medical concern.",
+    "cite_from": "target",
+    "citation_text": "My head feels like it's going to explode from studying",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What kinda vibe is this person giving off when they suggest coffee?",
+    "answer": "It's super casual and friendly—they're stressed out and looking for a break with a buddy, not making formal plans.",
+    "cite_from": "source",
+    "citation_text": "커피 한잔 마시러 나갈래?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the Korean phrase '머리가 터질 것 같아' represent a literal medical emergency or an idiomatic expression, and what cultural communication pattern does this reflect?",
+    "answer": "It is an idiomatic expression reflecting Korean communication patterns where physical metaphors convey emotional states. The translation appropriately preserves this figurative meaning rather than treating it literally, maintaining the speaker's hyperbolic stress expression common in casual Korean discourse.",
+    "cite_from": "source",
+    "citation_text": "머리가 터질 것 같아",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Why might the translation of '필수적이다' as 'requires' rather than 'is essential' affect the modal force of the original statement?",
+    "answer": "The shift from the adjective construction 'is essential' to the verb 'requires' subtly changes the modality from describing inherent necessity to imposing external requirement. While semantically similar, 'requires' emphasizes conditional dependency more strongly than the Korean '필수적이다,' which positions these elements as fundamentally necessary properties of renewable energy expansion.",
+    "cite_from": "source",
+    "citation_text": "송전망 인프라 구축과 에너지 저장 시스템의 개발이 필수적이다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What technological process enables the transparent and decentralized transactions on the blockchain?",
+    "answer": "The mechanism that allows for these features is the application of advanced cryptography.",
+    "cite_from": "target",
+    "citation_text": "through advanced cryptography",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "In the Spanish text, what's the idiomatic meaning of 'tomarlo con calma' and how does the context reinforce this interpretation?",
+    "answer": "The idiom 'tomarlo con calma' literally means 'to take it with calmness,' and is translated as 'take it easy.' It's an encouragement to approach a situation without stress or hurry, reinforced by the advice to 'go step by step' rather than trying to solve everything immediately.",
+    "cite_from": "source",
+    "citation_text": "Tienes que tomarlo con calma",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What two industrial sectors are cited as being revolutionized by the capabilities of the blockchain technology?",
+    "answer": "The two sectors mentioned as being revolutionized by this technology are finance and logistics.",
+    "cite_from": "target",
+    "citation_text": "revolutionizing sectors such as finance and logistics",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The Spanish phrase 've paso a paso' uses the informal imperative 've,' while the English uses the neutral imperative 'go step by step.' Discuss the resulting register difference and whether the English translation maintains the necessary tone.",
+    "answer": "The Spanish 've' (from *ir* - 'to go') clearly establishes an informal or familiar relationship (tú form) between the speaker and the listener. The English translation 'go step by step' is grammatically neutral in terms of formality. While the English is functionally accurate and conversational, it loses the specific marker of familiarity (the *tú* conjugation) present in the Spanish source, thereby making the English slightly less explicitly informal than the Spanish.",
+    "cite_from": "source",
+    "citation_text": "ve paso a paso y verás que todo mejora",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

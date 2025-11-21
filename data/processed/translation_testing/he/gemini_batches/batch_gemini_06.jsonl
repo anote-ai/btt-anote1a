@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the expected timeline for receiving the final decision from the manager, according to the English text?",
+    "answer": "The manager promised to get back with a final decision within two to three weeks.",
+    "cite_from": "target",
+    "citation_text": "get back to us with a final decision within two to three weeks",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The Hebrew uses the verb 'ישקול' (yishkol) which means 'to consider.' What does a formal 'consideration' ('שיקול') of all suggestions imply about the manager's immediate next steps and process?",
+    "answer": "It formally implies that the manager will evaluate the suggestions against specific criteria, analyze their feasibility and implications, and potentially engage in internal discussions before making the final decision, ensuring a deliberate process.",
+    "cite_from": "source",
+    "citation_text": "המנהל הבטיח שישקול את כל הצעותינו",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What are the two primary benefits the new technology offers when performing 'ניתוחים מורכבים' (complex surgeries)?",
+    "answer": "The new technology allows the surgeries to be performed with much greater precision and with a lower risk to the patients.",
+    "cite_from": "target",
+    "citation_text": "perform complex surgeries with much greater precision and with lower risk to patients",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "When the manager said he would 'יחזור אלינו' (get back to us) with a 'final decision,' what's the difference between this and just saying 'he'll let us know'?",
+    "answer": "Saying 'he'll get back to us' (a more formal register) emphasizes a commitment to follow up, typically in a business setting, ensuring the original party doesn't have to chase them. It also implies the decision is fully reviewed and ready to be delivered, not just a casual update.",
+    "cite_from": "source",
+    "citation_text": "ויחזור אלינו עם החלטה סופית",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

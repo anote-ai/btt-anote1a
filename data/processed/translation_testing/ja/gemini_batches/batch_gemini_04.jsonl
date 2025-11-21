@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What kind of effect was observed with the new drug compared to older treatments?",
+    "answer": "The new drug demonstrated remarkable effects or notably better outcomes when contrasted with the conventional treatments previously in use.",
+    "cite_from": "target",
+    "citation_text": "remarkable effects were confirmed compared to conventional treatments",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What specific part of a traditional Japanese house is '縁側' (engawa), and why does the translation 'veranda' potentially lose cultural context?",
+    "answer": "'縁側' (engawa) is a Japanese-style wooden porch, hallway, or L-shaped strip of flooring that runs along the perimeter of the house, usually facing the garden. While 'veranda' captures the outdoor/porch feel, 'engawa' specifically suggests a Japanese architectural element that is culturally significant for relaxing and viewing the garden, which 'veranda' doesn't fully convey. This tests idiomatic meaning/cultural context.",
+    "cite_from": "ja",
+    "citation_text": "縁側に座って、庭に咲く紫陽花を眺めながら冷たい麦茶を飲むのが",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "The text mentions '承認申請に向けた準備' (shōnin shinsei ni muketa junbi). What does this imply about the regulatory status of the new drug?",
+    "answer": "The text states that preparations for approval application are underway. This implies that the drug is not yet approved for general use; the clinical trials have concluded successfully enough that the next step is formally submitting the data to the necessary regulatory body for review and eventual authorization.",
+    "cite_from": "target",
+    "citation_text": "preparations for approval application are underway",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What beverage was the person drinking while enjoying their summer pleasure, and how does the translation's formality compare to the original?",
+    "answer": "They were drinking cold barley tea. The Japanese text uses '飲むのが、夏の楽しみだった' which is a standard, declarative sentence. The English translation, 'was my summer pleasure,' uses more formal, slightly literary language than a simple conversational equivalent like 'was what I enjoyed in the summer.' This tests formal/informal register differences.",
+    "cite_from": "target",
+    "citation_text": "drinking cold barley tea was my summer pleasure",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What direction are corporate social responsibility activities evolving toward?",
+    "answer": "Corporate social responsibility activities are evolving toward contributing to sustainable development, moving beyond simple charitable donations.",
+    "cite_from": "target",
+    "citation_text": "evolving beyond simple donations toward contributing to sustainable development",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "서울시가 심야버스와 관련해서 뭘 했대?",
+    "answer": "서울시는 심야버스 노선을 늘리고 버스가 오는 간격을 줄였어요.",
+    "cite_from": "source",
+    "citation_text": "심야버스 노선을 확대하고 배차 간격을 단축했다",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation convey the artistic significance of the west coast sunset?",
+    "answer": "The translation characterizes it as a 'natural masterpiece' that continuously inspired painters, emphasizing both its aesthetic value and creative impact on artists.",
+    "cite_from": "target",
+    "citation_text": "natural masterpiece that provided endless inspiration to painters",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the main goal behind expanding those night buses?",
+    "answer": "The goal is to get more people using public transportation by making it more accessible and convenient during late-night hours.",
+    "cite_from": "target",
+    "citation_text": "To promote public transportation use",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the Korean phrase '기부를 넘어서' suggest a temporal progression or a qualitative transcendence in CSR evolution?",
+    "answer": "The phrase suggests qualitative transcendence rather than mere temporal sequence—it indicates CSR is surpassing the conceptual limitations of donations to embrace a more sophisticated paradigm of sustainable impact.",
+    "cite_from": "source",
+    "citation_text": "단순한 기부를 넘어서 지속 가능한 발전에 기여하는 방향으로 진화하고",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "서해안 노을 풍경이 화가들한테 '걸작'이라고 했는데, 이게 완성된 작품을 말하는 건가 아니면 창작의 원천을 뜻하는 건가?",
+    "answer": "여기서 '걸작'은 자연 그 자체가 이미 완성된 예술작품이라는 의미예요. 동시에 화가들에게 영감을 주는 원천이기도 하고요—이중적 의미를 담고 있죠.",
+    "cite_from": "source",
+    "citation_text": "화가들에게 끊임없는 영감을 주는 자연의 걸작이었다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

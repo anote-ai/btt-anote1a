@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What two techniques does the database use for handling queries?",
+    "answer": "The database employs composite indexing and horizontal partitioning to efficiently manage complex queries on massive datasets.",
+    "cite_from": "target",
+    "citation_text": "composite indexing and horizontal partitioning",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What's the nostalgic phrase used to describe those childhood times?",
+    "answer": "The phrase 'Those were the days' captures the nostalgic sentiment about carefree childhood moments spent playing in the park.",
+    "cite_from": "target",
+    "citation_text": "Those were the days.",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "¿Qué tipo de violaciones cometió la empresa según el tribunal?",
+    "answer": "La empresa violó múltiples regulaciones ambientales, lo que resultó en sanciones financieras y la obligación de reparar los daños causados.",
+    "cite_from": "source",
+    "citation_text": "violó múltiples regulaciones ambientales",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "How does the translation capture the informal, reflective tone of reminiscing?",
+    "answer": "The translation shifts from a direct question format to the idiomatic expression 'Those were the days,' which conveys wistful nostalgia more naturally in English than a literal rendering of 'Qué tiempos aquellos' would.",
+    "cite_from": "source",
+    "citation_text": "¿Te acuerdas de cuando éramos niños y pasábamos horas jugando en el parque",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Besides paying a fine, what else does the company gotta do?",
+    "answer": "The company's not just paying up—they also have to actually fix the environmental damage they caused, which is a separate requirement from the financial penalty.",
+    "cite_from": "target",
+    "citation_text": "must pay a considerable fine in addition to remedying the damages",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What technical architecture choice enables scalability for large-scale data operations?",
+    "answer": "The implementation of horizontal partitioning represents a deliberate architectural decision to distribute data across multiple nodes, enabling parallel processing and scalability—a critical consideration given the mention of 'conjuntos de datos masivos' in the original context.",
+    "cite_from": "source",
+    "citation_text": "particionamiento horizontal para manejar eficientemente consultas complejas en conjuntos de datos masivos",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

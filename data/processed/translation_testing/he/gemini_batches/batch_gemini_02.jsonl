@@ -1,0 +1,38 @@
+[
+  {
+    "question": "How often does the Old City of Jerusalem attract visitors, according to the English translation?",
+    "answer": "It attracts millions of visitors every year.",
+    "cite_from": "target",
+    "citation_text": "attracts millions of visitors every year",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What is the reason stated in the Hebrew text for postponing the discussion until 'מחר' (tomorrow)?",
+    "answer": "The speaker is currently very tired and unable to think clearly about complicated issues.",
+    "cite_from": "source",
+    "citation_text": "אני ממש עייף עכשיו ולא יכול לחשוב בצורה ברורה על נושאים מסובכים",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the cultural significance of the Old City of Jerusalem, as indicated by its status for 'three major monotheistic religions'?",
+    "answer": "Its significance lies in being a principal religious site for Judaism, Christianity, and Islam, making it a globally central place of worship and pilgrimage.",
+    "cite_from": "target",
+    "citation_text": "The Old City of Jerusalem is a holy place for the three major monotheistic religions",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker used the casual Hebrew phrase 'בוא נדבר על זה מחר' instead of a more formal request. What does this suggest about the relationship between the speaker and the listener?",
+    "answer": "It suggests they have a close, informal relationship, as the speaker feels comfortable using casual language ('Let's talk about it') and stating their personal state ('I'm really tired') without needing to be highly deferential.",
+    "cite_from": "source",
+    "citation_text": "בוא נדבר על זה מחר",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]

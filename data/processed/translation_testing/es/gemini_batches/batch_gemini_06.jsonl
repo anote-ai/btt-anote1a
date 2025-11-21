@@ -1,0 +1,38 @@
+[
+  {
+    "question": "How long does the evidence indicate the archaeological site was continuously occupied?",
+    "answer": "The site was continuously inhabited for a period spanning over a thousand years.",
+    "cite_from": "target",
+    "citation_text": "continuously inhabited for over a thousand years",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What two key qualities made the musicians' performance of the symphony stand out?",
+    "answer": "The musicians performed the symphony with exceptional precision and emotion.",
+    "cite_from": "target",
+    "citation_text": "perform the symphony with exceptional precision and emotion",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The Spanish phrase 'director de orquesta' is translated as 'The conductor'. Why does the use of the full Spanish phrase potentially reflect a slightly more formal or explicit register in the source text than the English equivalent?",
+    "answer": "The Spanish 'director de orquesta' is an explicit, full title ('director of orchestra'), while 'conductor' is a very common, succinct, and entirely sufficient English equivalent. In music criticism, the full Spanish phrasing can signal a slightly higher degree of formality or descriptive completeness, contrasting with the often single-word efficiency preferred in English professional terminology.",
+    "cite_from": "source",
+    "citation_text": "El director de orquesta levantó la batuta con elegancia",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Based on the length of habitation discovered by the research, what can we deduce about the cultural history of the site?",
+    "answer": "We can deduce that the long, continuous habitation implies a highly developed, stable civilization, leading to a complex and deep cultural heritage, as evidenced by the mention of 'una rica historia cultural'.",
+    "cite_from": "source",
+    "citation_text": "evidenciando una rica historia cultural",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]

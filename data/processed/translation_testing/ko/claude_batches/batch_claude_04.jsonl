@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What two types of data must be separated when evaluating machine learning algorithms?",
+    "answer": "Training data and validation data must be properly separated to evaluate the performance of machine learning algorithms.",
+    "cite_from": "target",
+    "citation_text": "training data and validation data must be properly separated",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "추석 명절에 가족들이 함께 하는 구체적인 활동은 무엇인가요?",
+    "answer": "가족들이 함께 모여 송편을 빚고 차례를 지내는 활동을 합니다.",
+    "cite_from": "source",
+    "citation_text": "가족들이 함께 모여 송편을 빚고 차례를 지내며",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what was the person's viewing experience like?",
+    "answer": "They were so into it that they completely lost track of time while watching, showing how engaging and entertaining the movie was.",
+    "cite_from": "target",
+    "citation_text": "I was so engrossed I lost track of time",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Why is the separation of datasets emphasized in the context of machine learning evaluation?",
+    "answer": "Proper separation is essential to accurately assess algorithm performance, preventing overfitting and ensuring the model generalizes well to unseen data rather than just memorizing training examples.",
+    "cite_from": "source",
+    "citation_text": "학습 데이터와 검증 데이터를 적절히 분리해야 합니다",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "How does the informal expression '꿀잼' get rendered in the translation, and what cultural nuance might be lost?",
+    "answer": "The slang term '꿀잼' (literally 'honey fun', meaning extremely entertaining) is translated as 'really entertaining', which accurately conveys the meaning but loses the playful, colloquial intensity and the honey metaphor that makes Korean internet slang distinctive.",
+    "cite_from": "source",
+    "citation_text": "그 영화 진짜 꿀잼이더라",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the deal with expressing gratitude during Chuseok—is it just about food or something deeper?",
+    "answer": "It's definitely deeper than food. Making songpyeon and performing ancestral rites are ways to honor and thank ancestors, reflecting core Confucian values of filial piety and maintaining connections across generations.",
+    "cite_from": "target",
+    "citation_text": "expressing gratitude to their ancestors",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

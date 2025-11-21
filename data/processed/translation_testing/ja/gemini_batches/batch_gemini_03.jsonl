@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the time and day the speaker is proposing for a visit?",
+    "answer": "The speaker is suggesting a visit on Tuesday of next week at 3 PM.",
+    "cite_from": "target",
+    "citation_text": "visit at 3 PM next Tuesday",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The Japanese text uses 'つきましては' and 'お伺いしたく存じますが'. What does this indicate about the relationship between the two speakers?",
+    "answer": "The use of highly formal and humble language ('つきましては' as a formal transition, and 'お伺いしたく存じますが' as a very polite way to say 'I would like to visit') indicates that the speaker is likely addressing a superior, a client, or someone deserving of significant deference, highlighting a hierarchical or professional relationship. This tests formal/informal register differences.",
+    "cite_from": "ja",
+    "citation_text": "つきましては、来週火曜日の午後3時にお伺いしたく存じますが",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker acknowledges their help 'might be just a drop in the bucket'. What is their motivation for helping, despite this feeling?",
+    "answer": "Their motivation is the hope that they could be of some use or provide at least a small benefit to the situation, even if their contribution is minor overall.",
+    "cite_from": "target",
+    "citation_text": "I came to help thinking I could be of some use.",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What is the cultural background and specific imagery behind the Japanese idiom '焼け石に水' ('yakeishi ni mizu'), and how well does the translation capture it?",
+    "answer": "The literal meaning of '焼け石に水' is 'water on a hot stone (or burning rock)'. The image is of water evaporating instantly, rendering it ineffective. It means an effort is futile or insignificant for the scale of the problem. While 'a drop in the bucket' captures the insignificance, 'water on a hot stone' is perhaps more dramatic, stressing the immediate futility and rapid loss of the effort, which is a key element of the idiom in Japanese culture.",
+    "cite_from": "ja",
+    "citation_text": "焼け石に水かもしれないけど",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

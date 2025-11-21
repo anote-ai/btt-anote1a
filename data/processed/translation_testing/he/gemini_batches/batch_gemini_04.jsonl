@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What two criteria did the professional committee claim the proposed plan failed to meet?",
+    "answer": "The proposed plan does not meet the required safety and quality standards.",
+    "cite_from": "target",
+    "citation_text": "does not meet the required safety and quality standards",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The Hebrew word 'ברביקיו' is used in a casual description of a weekend activity. In the context of Israeli culture, what does having a 'ברביקיו' ('barbecue') usually entail, beyond just grilling meat?",
+    "answer": "A 'ברביקיו' (Mangal/BBQ) typically signifies a social gathering involving friends or family, often held outdoors, and is considered a national pastime associated with relaxed, warm weather socializing, similar to a cookout.",
+    "cite_from": "source",
+    "citation_text": "בסוף השבוע עשינו ברביקיו בחצר",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "The English translation uses the formal noun 'application.' Based on the committee's reason for rejection, what kind of document or request was likely submitted by the applicant?",
+    "answer": "It was likely a formal proposal or plan for a project (such as construction, engineering, or a new product) that needed regulatory approval concerning safety and quality standards.",
+    "cite_from": "target",
+    "citation_text": "The professional committee rejected the application claiming that the proposed plan",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker says they 'drank cold beer' and 'enjoyed the pleasant weather.' What kind of overall atmosphere was the speaker trying to describe about the weekend event?",
+    "answer": "They were describing a relaxed, fun, and easygoing atmosphere where people enjoyed each other's company and the nice outdoor environment.",
+    "cite_from": "target",
+    "citation_text": "drank cold beer, and enjoyed the pleasant weather and good company",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

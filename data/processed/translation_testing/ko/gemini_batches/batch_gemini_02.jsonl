@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the primary objective of the Ministry of Environment's campaign?",
+    "answer": "The main goal of the campaign is to reduce the use of plastic.",
+    "cite_from": "target",
+    "citation_text": "As part of its plastic reduction campaign, the Ministry of Environment plans",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What does the phrase '오랜 방황' (long wandering) imply about the man's prior life path?",
+    "answer": "It suggests that he spent a significant amount of time being unsettled, perhaps searching for purpose, direction, or a satisfying career, before finding his 'true dream'.",
+    "cite_from": "source",
+    "citation_text": "그는 오랜 방황 끝에 자신의 진정한 꿈을 발견했고",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What specific actions will the Ministry take to improve its waste management infrastructure?",
+    "answer": "The Ministry plans to both reinforce regulations concerning single-use items and enhance the pre-existing system for recycling materials.",
+    "cite_from": "target",
+    "citation_text": "strengthen disposable product regulations and improve the recycling system",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "If we translate the commitment to 'risk everything' (모든 것을 걸기로 결심했다) into a formal, actionable plan, what level of commitment is being expressed?",
+    "answer": "The commitment expressed is one of total dedication and significant personal sacrifice, indicating a comprehensive prioritization of the goal, potentially involving professional, financial, or personal jeopardy.",
+    "cite_from": "source",
+    "citation_text": "그것을 이루기 위해 모든 것을 걸기로 결심했다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

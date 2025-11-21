@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the current status of greenhouse gas emissions despite global actions?",
+    "answer": "Greenhouse gas emissions are currently continuing to increase.",
+    "cite_from": "target",
+    "citation_text": "greenhouse gas emissions continue to increase",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "In the second text, what literary device is used to describe the woman's voice, and what feeling does it convey?",
+    "answer": "The literary device is a simile ('as gentle as a spring breeze'), which conveys a feeling of calmness, comfort, and peacefulness to the listener.",
+    "cite_from": "target",
+    "citation_text": "Her voice was as gentle as a spring breeze, with the power to put listeners' minds at ease",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The phrase '실정이다' (siljeong-ida) in the first text denotes what kind of reality regarding the situation?",
+    "answer": "The phrase '실정이다' implies that the described state (greenhouse gas increase) is the undeniable, current reality or state of affairs, often used in formal contexts to convey a stark or unfortunate truth.",
+    "cite_from": "source",
+    "citation_text": "온실가스 배출량은 계속 증가하고 있는 실정이다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What kind of effect did her voice have on the people who listened to it?",
+    "answer": "Her voice had the effect of making the listeners feel relaxed or comfortable because it was so smooth and gentle, like a nice breeze.",
+    "cite_from": "source",
+    "citation_text": "그녀의 목소리는 봄날의 바람처럼 부드러웠고, 듣는 이의 마음을 편안하게 만드는 힘이 있었다.",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

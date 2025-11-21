@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What geographic areas does the scientific project focus on?",
+    "answer": "The project focuses on tropical regions, examining how climate change affects biodiversity in these areas.",
+    "cite_from": "target",
+    "citation_text": "biodiversity in tropical regions",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what did the guy do that was so crazy?",
+    "answer": "He jumped into cold water without thinking twice about what might happen - pretty impulsive move!",
+    "cite_from": "target",
+    "citation_text": "jumped into the cold water without thinking twice about the consequences",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What specific action did the students demand from the faculty?",
+    "answer": "The students demanded that the faculty better balance the schedule to address the excessive workload they were experiencing.",
+    "cite_from": "target",
+    "citation_text": "demanded that the faculty better balance the schedule",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Did the speaker expect him to actually go through with it?",
+    "answer": "No, the speaker was genuinely surprised - they didn't believe he would actually do it, showing it was unexpected behavior.",
+    "cite_from": "source",
+    "citation_text": "לא האמנתי שהוא יעשה את זה",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the Hebrew phrase 'לחשוב פעמיים' reflect the translator's approach to conveying impulsivity versus deliberation?",
+    "answer": "The Hebrew idiom 'לחשוב פעמיים' (literally 'think twice') is rendered faithfully as 'thinking twice', preserving the cultural concept that careful deliberation involves reconsidering decisions, which the subject explicitly failed to do.",
+    "cite_from": "source",
+    "citation_text": "בלי לחשוב פעמיים על ההשלכות",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the vibe of how students brought up their complaints - were they just mentioning it or really pushing for change?",
+    "answer": "They weren't just complaining passively - the text shows they actively 'demanded' action, indicating assertive pressure rather than casual feedback, reflecting a more confrontational register shift from complaint to demand.",
+    "cite_from": "source",
+    "citation_text": "הסטודנטים התלוננו על העומס הרב במטלות והעבודות, והדרישו",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

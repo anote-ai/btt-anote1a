@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What does blockchain technology ensure according to the translation?",
+    "answer": "Blockchain technology ensures transparency and security through the use of distributed ledgers.",
+    "cite_from": "target",
+    "citation_text": "ensures transparency and security through distributed ledgers",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what're they thanking customers for exactly?",
+    "answer": "They're thanking customers for their continued patronage and loyalty to the company's products.",
+    "cite_from": "target",
+    "citation_text": "your continued patronage of our products",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the Japanese expression '石の上にも三年' function in the original context?",
+    "answer": "It functions as a proverbial expression emphasizing perseverance, suggesting that enduring hardship for three years (metaphorically, a long time) will eventually yield results, which the translation adapts to 'the saying about perseverance paying off.'",
+    "cite_from": "source",
+    "citation_text": "石の上にも三年って言うでしょ",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What contrast exists between the formality levels of the source and target texts in ja_029?",
+    "answer": "The source employs highly formal business Japanese keigo honorific language ('ご愛顧いただき、厚く御礼申し上げます'), while the target maintains professional courtesy but uses less elaborate formal English structures.",
+    "cite_from": "source",
+    "citation_text": "ご愛顧いただき、厚く御礼申し上げます",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why's the speaker bringing up not seeing results right away?",
+    "answer": "They're encouraging someone to stay persistent even when immediate success isn't visible, reinforcing the proverb's lesson about long-term commitment being more important than quick wins.",
+    "cite_from": "target",
+    "citation_text": "Even if you don't see results immediately, it's important to keep going",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the translation of '様々な分野での応用が期待されています' accurately convey the aspectual and modal nuances of passive expectation in Japanese?",
+    "answer": "The translation reasonably captures the passive expectation structure with 'is expected to be applied,' though it slightly shifts from the Japanese construction which emphasizes societal anticipation toward multiple fields of application, making the expectation more generalized than agent-specific.",
+    "cite_from": "source",
+    "citation_text": "様々な分野での応用が期待されています",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

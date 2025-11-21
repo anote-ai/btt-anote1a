@@ -1,0 +1,352 @@
+[
+  {
+    "id": "es_001",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El gobierno anunció ayer nuevas medidas económicas para combatir la inflación, que alcanzó el 8.5% en el último trimestre del año.",
+    "target_text": "The government announced new economic measures yesterday to combat inflation, which reached 8.5% in the last quarter of the year."
+  },
+  {
+    "id": "es_002",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "¿Viste el partido anoche? Fue increíble cómo remontaron en los últimos minutos, pensé que todo estaba perdido.",
+    "target_text": "Did you see the game last night? It was incredible how they came back in the final minutes, I thought all was lost."
+  },
+  {
+    "id": "es_003",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La arquitectura del algoritmo se basa en una red neuronal convolucional de múltiples capas que procesa imágenes a alta resolución.",
+    "target_text": "The algorithm's architecture is based on a multi-layer convolutional neural network that processes high-resolution images."
+  },
+  {
+    "id": "es_004",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El sol se ocultaba tras las montañas mientras los pájaros cantaban su última melodía del día en el valle silencioso.",
+    "target_text": "The sun was setting behind the mountains as the birds sang their final melody of the day in the silent valley."
+  },
+  {
+    "id": "es_005",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "No me vengas con cuentos, ya sé que llegaste tarde porque te quedaste dormido otra vez, siempre es la misma historia.",
+    "target_text": "Don't give me stories, I already know you arrived late because you overslept again, it's always the same thing."
+  },
+  {
+    "id": "es_006",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La empresa reportó pérdidas significativas durante el segundo trimestre debido a la interrupción de la cadena de suministro global.",
+    "target_text": "The company reported significant losses during the second quarter due to the disruption of the global supply chain."
+  },
+  {
+    "id": "es_007",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Mi abuela siempre decía que a quien madruga Dios le ayuda, pero yo prefiero dormir hasta tarde los fines de semana.",
+    "target_text": "My grandmother always said the early bird catches the worm, but I prefer to sleep in late on weekends."
+  },
+  {
+    "id": "es_008",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Los investigadores descubrieron que la exposición prolongada a pantallas antes de dormir puede alterar significativamente los patrones de sueño.",
+    "target_text": "Researchers discovered that prolonged exposure to screens before sleeping can significantly alter sleep patterns."
+  },
+  {
+    "id": "es_009",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "¿Me pasas la sal, por favor? Y si no es mucha molestia, también el pan que está allá en la mesa.",
+    "target_text": "Can you pass me the salt, please? And if it's not too much trouble, also the bread that's over there on the table."
+  },
+  {
+    "id": "es_010",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La novela explora temas profundos como la soledad, la identidad y la búsqueda del significado en una sociedad cada vez más fragmentada.",
+    "target_text": "The novel explores profound themes such as loneliness, identity, and the search for meaning in an increasingly fragmented society."
+  },
+  {
+    "id": "es_011",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El protocolo de seguridad requiere autenticación de dos factores y encriptación de extremo a extremo para todas las comunicaciones sensibles.",
+    "target_text": "The security protocol requires two-factor authentication and end-to-end encryption for all sensitive communications."
+  },
+  {
+    "id": "es_012",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Estoy hasta el cuello de trabajo esta semana, pero prometo que nos vemos el sábado para ponernos al día.",
+    "target_text": "I'm up to my neck in work this week, but I promise we'll meet on Saturday to catch up."
+  },
+  {
+    "id": "es_013",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La celebración del Día de los Muertos incluye altares decorados con flores de cempasúchil, fotografías y las comidas favoritas de los difuntos.",
+    "target_text": "The Day of the Dead celebration includes altars decorated with marigold flowers, photographs, and the favorite foods of the deceased."
+  },
+  {
+    "id": "es_014",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Las negociaciones entre ambos países se encuentran en un punto muerto debido a desacuerdos fundamentales sobre cuestiones territoriales.",
+    "target_text": "Negotiations between both countries are at a standstill due to fundamental disagreements over territorial issues."
+  },
+  {
+    "id": "es_015",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Ella caminaba por las calles empedradas del pueblo, recordando los días de su infancia cuando todo parecía más simple y mágico.",
+    "target_text": "She walked through the cobblestone streets of the town, remembering the days of her childhood when everything seemed simpler and more magical."
+  },
+  {
+    "id": "es_016",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El sistema operativo incluye nuevas funcionalidades de inteligencia artificial para optimizar el rendimiento y la gestión de recursos del dispositivo.",
+    "target_text": "The operating system includes new artificial intelligence features to optimize device performance and resource management."
+  },
+  {
+    "id": "es_017",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "No hay mal que por bien no venga, aunque perdí ese trabajo, encontré uno mucho mejor el mes siguiente.",
+    "target_text": "Every cloud has a silver lining, although I lost that job, I found a much better one the following month."
+  },
+  {
+    "id": "es_018",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "¿Quedamos para tomar algo después del trabajo? Necesito desconectar un rato y contarte lo que me pasó esta semana.",
+    "target_text": "Should we meet up for drinks after work? I need to disconnect for a while and tell you what happened to me this week."
+  },
+  {
+    "id": "es_019",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El cambio climático representa uno de los desafíos más urgentes que enfrenta la humanidad en el siglo XXI, requiriendo acción inmediata.",
+    "target_text": "Climate change represents one of the most urgent challenges facing humanity in the 21st century, requiring immediate action."
+  },
+  {
+    "id": "es_020",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La paella valenciana tradicional se prepara con arroz, azafrán, judías verdes, garrofón y pollo o conejo, cocinada a fuego lento.",
+    "target_text": "Traditional Valencian paella is prepared with rice, saffron, green beans, lima beans, and chicken or rabbit, cooked over low heat."
+  },
+  {
+    "id": "es_021",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Los resultados del estudio sugieren una correlación significativa entre el consumo de vegetales y la reducción del riesgo cardiovascular.",
+    "target_text": "The study results suggest a significant correlation between vegetable consumption and reduced cardiovascular risk."
+  },
+  {
+    "id": "es_022",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Me caes muy bien, pero creo que deberíamos ser sinceros el uno con el otro sobre lo que realmente queremos de esta relación.",
+    "target_text": "I really like you, but I think we should be honest with each other about what we really want from this relationship."
+  },
+  {
+    "id": "es_023",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El museo alberga una impresionante colección de arte precolombino, incluyendo cerámicas, textiles y esculturas de diversas culturas mesoamericanas.",
+    "target_text": "The museum houses an impressive collection of pre-Columbian art, including ceramics, textiles, and sculptures from various Mesoamerican cultures."
+  },
+  {
+    "id": "es_024",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La implementación del nuevo framework requiere refactorizar el código legacy y establecer pruebas unitarias exhaustivas para garantizar la estabilidad.",
+    "target_text": "Implementing the new framework requires refactoring legacy code and establishing comprehensive unit tests to ensure stability."
+  },
+  {
+    "id": "es_025",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Metió la pata cuando le preguntó a María si estaba embarazada, resultó que solo había ganado un poco de peso recientemente.",
+    "target_text": "He put his foot in his mouth when he asked María if she was pregnant, it turned out she had just gained a little weight recently."
+  },
+  {
+    "id": "es_026",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Las autoridades emitieron una alerta temprana debido a las fuertes lluvias previstas que podrían causar inundaciones en varias regiones del país.",
+    "target_text": "Authorities issued an early warning due to the heavy rains forecast that could cause flooding in several regions of the country."
+  },
+  {
+    "id": "es_027",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Sus ojos brillaban con una mezcla de tristeza y esperanza mientras contemplaba el horizonte, preguntándose qué le depararía el futuro.",
+    "target_text": "Her eyes shone with a mixture of sadness and hope as she gazed at the horizon, wondering what the future would hold."
+  },
+  {
+    "id": "es_028",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La base de datos utiliza indexación compuesta y particionamiento horizontal para manejar eficientemente consultas complejas en conjuntos de datos masivos.",
+    "target_text": "The database uses composite indexing and horizontal partitioning to efficiently handle complex queries on massive datasets."
+  },
+  {
+    "id": "es_029",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "¿Te acuerdas de cuando éramos niños y pasábamos horas jugando en el parque sin preocuparnos por nada? Qué tiempos aquellos.",
+    "target_text": "Do you remember when we were kids and spent hours playing in the park without worrying about anything? Those were the days."
+  },
+  {
+    "id": "es_030",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El tribunal dictaminó que la empresa violó múltiples regulaciones ambientales y debe pagar una multa considerable además de remediar los daños.",
+    "target_text": "The court ruled that the company violated multiple environmental regulations and must pay a considerable fine in addition to remedying the damages."
+  },
+  {
+    "id": "es_031",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Durante la Semana Santa, muchas ciudades españolas organizan procesiones religiosas con pasos elaborados que representan escenas de la Pasión de Cristo.",
+    "target_text": "During Holy Week, many Spanish cities organize religious processions with elaborate floats that depict scenes from the Passion of Christ."
+  },
+  {
+    "id": "es_032",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "No te ahogues en un vaso de agua, el problema tiene solución y juntos podemos encontrar la manera de resolverlo eficazmente.",
+    "target_text": "Don't make a mountain out of a molehill, the problem has a solution and together we can find a way to solve it effectively."
+  },
+  {
+    "id": "es_033",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La novela ganadora del premio narra la historia de tres generaciones de mujeres que luchan por mantener vivas sus tradiciones culturales.",
+    "target_text": "The award-winning novel tells the story of three generations of women who struggle to keep their cultural traditions alive."
+  },
+  {
+    "id": "es_034",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El análisis de datos revela patrones interesantes en el comportamiento del consumidor que podrían informar futuras estrategias de marketing digital.",
+    "target_text": "The data analysis reveals interesting patterns in consumer behavior that could inform future digital marketing strategies."
+  },
+  {
+    "id": "es_035",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Perdona la demora, me quedé atrapado en el tráfico durante más de una hora y no pude avisarte porque se me acabó la batería.",
+    "target_text": "Sorry for the delay, I got stuck in traffic for over an hour and couldn't let you know because my battery died."
+  },
+  {
+    "id": "es_036",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Los científicos utilizaron técnicas de secuenciación genómica de última generación para identificar mutaciones específicas asociadas con la resistencia a medicamentos.",
+    "target_text": "Scientists used next-generation genomic sequencing techniques to identify specific mutations associated with drug resistance."
+  },
+  {
+    "id": "es_037",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La manifestación congregó a miles de personas que marcharon pacíficamente por el centro de la ciudad exigiendo mejores condiciones laborales.",
+    "target_text": "The demonstration brought together thousands of people who marched peacefully through the city center demanding better working conditions."
+  },
+  {
+    "id": "es_038",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El protagonista se encontraba en una encrucijada moral, debía elegir entre su lealtad a la familia y seguir los dictados de su conciencia.",
+    "target_text": "The protagonist found himself at a moral crossroads, having to choose between his loyalty to family and following the dictates of his conscience."
+  },
+  {
+    "id": "es_039",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Más vale tarde que nunca, finalmente decidió disculparse después de tres semanas, aunque el daño ya estaba hecho en cierta medida.",
+    "target_text": "Better late than never, he finally decided to apologize after three weeks, although the damage had already been done to some extent."
+  },
+  {
+    "id": "es_040",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "¿Me prestas tu cargador un momento? El mío se quedó en casa y necesito hacer una llamada importante antes de que sea tarde.",
+    "target_text": "Can you lend me your charger for a moment? Mine stayed at home and I need to make an important call before it's too late."
+  },
+  {
+    "id": "es_041",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El arquitecto diseñó un edificio sostenible que incorpora paneles solares, sistemas de recolección de agua de lluvia y ventilación natural eficiente.",
+    "target_text": "The architect designed a sustainable building that incorporates solar panels, rainwater collection systems, and efficient natural ventilation."
+  },
+  {
+    "id": "es_042",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La economía digital ha transformado radicalmente la forma en que las empresas operan, obligándolas a adaptarse rápidamente a nuevas tecnologías emergentes.",
+    "target_text": "The digital economy has radically transformed the way companies operate, forcing them to quickly adapt to emerging new technologies."
+  },
+  {
+    "id": "es_043",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Le echaron una mano cuando más lo necesitaba, sus amigos se presentaron sin avisar con comida y apoyo moral durante esos días difíciles.",
+    "target_text": "They gave him a hand when he needed it most, his friends showed up unannounced with food and moral support during those difficult days."
+  },
+  {
+    "id": "es_044",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El tango argentino combina música, danza y poesía en una expresión artística que refleja la melancolía y pasión de la cultura rioplatense.",
+    "target_text": "Argentine tango combines music, dance, and poetry in an artistic expression that reflects the melancholy and passion of River Plate culture."
+  },
+  {
+    "id": "es_045",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La interfaz de usuario debe ser intuitiva y accesible, siguiendo las mejores prácticas de diseño UX para garantizar una experiencia óptima.",
+    "target_text": "The user interface must be intuitive and accessible, following UX design best practices to ensure an optimal experience."
+  },
+  {
+    "id": "es_046",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "No puedo creer que hayas viajado por toda Europa con solo una mochila, yo necesito media maleta solo para una semana.",
+    "target_text": "I can't believe you traveled through all of Europe with just a backpack, I need half a suitcase just for one week."
+  },
+  {
+    "id": "es_047",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "La investigación arqueológica reveló que el sitio fue habitado continuamente durante más de mil años, evidenciando una rica historia cultural.",
+    "target_text": "Archaeological research revealed that the site was continuously inhabited for over a thousand years, evidencing a rich cultural history."
+  },
+  {
+    "id": "es_048",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El director de orquesta levantó la batuta con elegancia y los músicos comenzaron a interpretar la sinfonía con precisión y emotividad excepcionales.",
+    "target_text": "The conductor raised the baton elegantly and the musicians began to perform the symphony with exceptional precision and emotion."
+  },
+  {
+    "id": "es_049",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "Tienes que tomarlo con calma, no puedes resolver todos los problemas de una vez, ve paso a paso y verás que todo mejora.",
+    "target_text": "You have to take it easy, you can't solve all the problems at once, go step by step and you'll see that everything improves."
+  },
+  {
+    "id": "es_050",
+    "source_lang": "es",
+    "target_lang": "en",
+    "source_text": "El blockchain permite transacciones descentralizadas y transparentes mediante criptografía avanzada, revolucionando sectores como finanzas y logística.",
+    "target_text": "Blockchain enables decentralized and transparent transactions through advanced cryptography, revolutionizing sectors such as finance and logistics."
+  }
+]
