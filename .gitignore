@@ -14,7 +14,8 @@ __pycache__/
 anote_rag/chroma_anote_db/
 
 # Translation pairs (too large, download from Drive)
-data/processed/translation_pairs/opus_corpus/
+data/processed/translation_pairs/opus_corpus/*.jsonl
+data/processed/translation_pairs/opus_corpus/*.json
 
 # IDE
 .vscode/
