@@ -65,7 +65,7 @@ pip install langchain langchain-community langchain-chroma langchain-ollama sent
 This creates the embeddings from the cleaned data:
 
 ```bash
-python src/make_rag_embeddings.py
+python src/OLLAMA_make_rag_embeddings.py
 ```
 
 **Expected output:**

@@ -1,26 +1,4 @@
-# Anote RAG Chatbot - Claude API Setup
-
-**Refactored from Ollama to Claude 3.5 Sonnet**
-
-## What Changed from PR #77
-
-### ❌ REMOVED (Ollama Version)
-- Ollama local LLM (llama3.2:3b)
-- 4-7GB model download requirement
-- 30-60 second response times
-- Ollama server dependency
-
-### ✅ ADDED (Claude Version)
-- Claude 3.5 Sonnet API
-- 2-5 second response times (6-12x faster)
-- Production-ready architecture
-- Simple API key authentication
-
-### 🔄 UNCHANGED (Still Perfect)
-- HuggingFace embeddings (all-MiniLM-L6-v2) ✓
-- ChromaDB vectorstore with 135 chunks ✓
-- Document preprocessing logic ✓
-- Retrieval quality ✓
+# Anote RAG Chatbot - OpenAI API Setup
 
 ---
 
@@ -90,7 +68,7 @@ ls chroma_anote_db/
 
 **If missing**: Run your original `make_rag_embeddings.py` first to create them:
 ```bash
-python src/make_rag_embeddings.py
+python src/OLLAMA_make_rag_embeddings.py
 ```
 
 Then copy the `chroma_anote_db/` folder to `backend/`:

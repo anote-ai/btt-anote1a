@@ -51,7 +51,7 @@ def test_embeddings():
             return True
     
     print("❌ FAILED: No chroma_anote_db folder found")
-    print("\nPlease run: python src/make_rag_embeddings.py")
+    print("\nPlease run: python src/OLLAMA_make_rag_embeddings.py")
     return False
 
 

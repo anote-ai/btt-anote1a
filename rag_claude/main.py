@@ -39,7 +39,7 @@ def load_env():
     print("✓ Environment variables loaded")
 
 
-def save_predictions(predictions: List[Dict], output_file: str = "predictions_claude.json"):
+def save_predictions(predictions: List[Dict], output_file: str = "predictions_openai.json"):
     """Save predictions to JSON file."""
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(predictions, f, indent=2, ensure_ascii=False)
@@ -64,13 +64,13 @@ def main():
         persist_directory="../chroma_anote_db"  # Go up one level to root
     )
     
-    # Load existing vectorstore (created by make_rag_embeddings.py)
+    # Load existing vectorstore (created by OLLAMA_make_rag_embeddings.py)
     vectorstore = embeddings_manager.load_vectorstore()
     
     if vectorstore is None:
         print("\n❌ No embeddings found!")
-        print("\nPlease run the original make_rag_embeddings.py first:")
-        print("  python src/make_rag_embeddings.py")
+        print("\nPlease run the original OLLAMA_make_rag_embeddings.py first:")
+        print("  python src/OLLAMA_make_rag_embeddings.py")
         return
     
     # Initialize RAG chain with Claude
@@ -116,7 +116,7 @@ def main():
     print("  Status:        Production-ready ✓")
     print("\n📁 FILES:")
     print("  ✓ chroma_anote_db/ (135 embeddings - unchanged)")
-    print("  ✓ predictions_claude.json (new outputs)")
+    print("  ✓ predictions_openai.json (new outputs)")
     print("\n" + "="*60)
     print("Ready for PR submission!")
     print("="*60 + "\n")

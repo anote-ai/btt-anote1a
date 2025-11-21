@@ -20,5 +20,7 @@ chroma_anote_db/
 *.swo
 .DS_Store
 
+data/processed/translation_pairs/opus_corpus/
+
 # Optional: predictions file to regenerate it
 # initial_predictions.json

@@ -47,7 +47,7 @@ class AnoteEmbeddingsManager:
         """
         if not os.path.exists(self.persist_directory):
             print(f"\n⚠️  No existing vectorstore found at {self.persist_directory}")
-            print("Run the original make_rag_embeddings.py first to create embeddings")
+            print("Run the original OLLAMA_make_rag_embeddings.py first to create embeddings")
             return None
         
         print(f"\nLoading vectorstore from {self.persist_directory}...")
