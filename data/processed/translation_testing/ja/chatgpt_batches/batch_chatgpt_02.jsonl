@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the English translation, what specific resource is described as essential for improving algorithmic accuracy?",
+    "answer": "The translation identifies a sufficient quantity of high-quality training data as necessary for enhancing the accuracy of machine learning algorithms.",
+    "cite_from": "target",
+    "citation_text": "high-quality training data",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "In the Japanese sentence about the guy hiding his real personality, what behavior is he putting on?",
+    "answer": "He acts innocent even though he is actually mischievous.",
+    "cite_from": "source",
+    "citation_text": "猫を被っているけど",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "In the statement about evaluating a proposal, what underlying rationale suggests that a methodical assessment is required?",
+    "answer": "The rationale is that its actual feasibility is uncertain and thus must be evaluated with care before making a decision.",
+    "cite_from": "target",
+    "citation_text": "carefully consider its feasibility",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the speaker think they gotta take their time before jumping on that proposal?",
+    "answer": "They believe the idea might not be practical, so they need to examine whether it can realistically be carried out.",
+    "cite_from": "source",
+    "citation_text": "実現可能性については慎重に",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the Japanese idiom cited in the text convey cultural nuance regarding concealed temperament?",
+    "answer": "The idiom suggests someone is deliberately hiding their true mischievous character behind a façade of innocence, reflecting a cultural understanding of masking one's real nature.",
+    "cite_from": "source",
+    "citation_text": "猫を被っているけど",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When the English version says something 'is essential', how strong is that requirement supposed to be?",
+    "answer": "It signals a strong sense of necessity, implying the task cannot be done properly without that element.",
+    "cite_from": "target",
+    "citation_text": "is essential",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

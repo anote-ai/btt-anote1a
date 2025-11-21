@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What two primary activities can one engage in at a Jjimjilbang?",
+    "answer": "You can enjoy saunas and have simple meals there.",
+    "cite_from": "target",
+    "citation_text": "you can enjoy saunas and have simple meals",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The term 'PC방' (PC bang) refers to what type of commercial establishment in the Korean context, and what does the request '게임 한판 할래' imply?",
+    "answer": "A 'PC방' is a PC internet cafe where people pay to use high-speed computers for gaming. The request '게임 한판 할래' (play some games) is a casual, idiomatic invitation to spend time together gaming, characteristic of an informal social proposal.",
+    "cite_from": "source",
+    "citation_text": "형, 주말에 PC방 가서 게임 한판 할래?",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "Based on the text, what is the categorization of the Jjimjilbang facility?",
+    "answer": "The Jjimjilbang is categorized as a 'unique Korean cultural space' and is structurally defined as a 'complex facility'.",
+    "cite_from": "target",
+    "citation_text": "Jjimjilbang is a unique Korean cultural space, a complex facility",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the implied social relationship between the two speakers in the second text, based on the use of '형' (hyeong)?",
+    "answer": "The use of '형' (hyeong) means the speaker is a younger male addressing an older male who is either his older brother or a close older friend/acquaintance, establishing an informal, hierarchical, yet friendly relationship.",
+    "cite_from": "source",
+    "citation_text": "형, 주말에 PC방 가서 게임 한판 할래?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  }
+]

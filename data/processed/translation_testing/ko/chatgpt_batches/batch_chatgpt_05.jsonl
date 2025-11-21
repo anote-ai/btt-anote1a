@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What specific limitation does the speaker mention when requesting assistance?",
+    "answer": "The speaker explains that the object cannot be lifted without help because it is described as excessively heavy when handled alone.",
+    "cite_from": "target",
+    "citation_text": "too heavy for me to lift by myself",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What part of the Korean sentence shows the speaker struggling with the task?",
+    "answer": "The phrasing indicates that the speaker cannot manage the task alone due to the weight of the item.",
+    "cite_from": "source",
+    "citation_text": "혼자 하기엔 너무 무거워서",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the text suggest that wisdom developed through long term experience rather than a brief encounter?",
+    "answer": "The reference to a life spent in a remote village implies that the insight emerged gradually through continuous interaction with the environment.",
+    "cite_from": "source",
+    "citation_text": "평생을 산골 마을에서 보내며",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why might the statement about distributing resources hint at a broader technological advantage?",
+    "answer": "The claim about using virtualization points to an ability to adapt physical assets more flexibly, which suggests efficiency gains beyond simple allocation.",
+    "cite_from": "target",
+    "citation_text": "virtualization technology can be utilized",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What cultural nuance might affect the interpretation of the request for help in the dialogue?",
+    "answer": "The term used to address the other person often conveys relational closeness and can imply both familiarity and an expectation of support, making the tone more personal than it may appear in translation.",
+    "cite_from": "source",
+    "citation_text": "오빠, 이거 좀 도와줄래",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What uncertainty could arise when interpreting the phrase about living with nature?",
+    "answer": "The idea of living in harmony might refer to practical survival skills, a philosophical outlook, or emotional connection, and the translation does not fully clarify which meaning dominates.",
+    "cite_from": "target",
+    "citation_text": "living in harmony with nature",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

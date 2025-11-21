@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the translation, how long have the two people known each other?",
+    "answer": "The translation states that they have known each other for less than one week.",
+    "cite_from": "target",
+    "citation_text": "They haven't even known each other a week",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So how many folks show up there every weekend?",
+    "answer": "The text says that thousands of visitors come each weekend.",
+    "cite_from": "source",
+    "citation_text": "주말마다 수천 명의 관광객이 찾아온다",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What does the successful completion of phase 3 trials suggest about the drug's readiness for regulatory review?",
+    "answer": "It indicates that the drug has cleared the major clinical hurdle needed before the team can pursue regulatory evaluation, which explains why the next step is a formal application.",
+    "cite_from": "source",
+    "citation_text": "임상시험 3상을 성공적으로 완료했으며",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why do you think people grab the chance to visit right when the trees look best?",
+    "answer": "The translation implies that visitors come because the scenery reaches its most impressive stage during that period, which makes the trip feel more worthwhile.",
+    "cite_from": "target",
+    "citation_text": "autumn foliage reaches its peak",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How should the idiom used to describe the friend's behavior be interpreted within a cultural context?",
+    "answer": "The cited expression conveys a reputation for developing romantic feelings very quickly, reflecting a cultural shorthand for impulsive affection rather than a literal description of speed.",
+    "cite_from": "source",
+    "citation_text": "완전 금사빠야",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What kind of uncertainty does the timing of the planned approval request introduce?",
+    "answer": "The phrase suggests an intention to act soon without giving a clear schedule, which leaves the exact timing open to interpretation.",
+    "cite_from": "target",
+    "citation_text": "plans to apply for FDA approval soon",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

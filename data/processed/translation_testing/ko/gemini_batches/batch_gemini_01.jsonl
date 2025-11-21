@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What techniques are suggested as effective for preventing overfitting in deep learning models?",
+    "answer": "The suggested effective techniques are applying dropout and early stopping.",
+    "cite_from": "target",
+    "citation_text": "Applying dropout and early stopping techniques is effective in preventing overfitting",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the implied emotional state of the speaker in the first text?",
+    "answer": "The speaker implies they are feeling lonely or bored and is looking for interaction, as indicated by saying they are '심심한데' (bored).",
+    "cite_from": "source",
+    "citation_text": "심심한데 전화 통화할래?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How would you formally express the function of 'dropout and early stopping techniques' based on the text?",
+    "answer": "The formal function of these techniques is to mitigate the phenomenon of excessive fitting to training data, thereby enhancing the generalization capability of the deep learning model.",
+    "cite_from": "source",
+    "citation_text": "딥러닝 모델의 과적합을 방지하기 위해 드롭아웃과 조기 종료 기법을 적용하는 것이 효과적입니다.",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the speaker in the first text want to talk on the phone now?",
+    "answer": "The speaker wants to talk now because they are bored and they want to hear the other person's voice after a long period of time.",
+    "cite_from": "target",
+    "citation_text": "I'm bored, want to talk on the phone? I want to hear your voice after so long",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ja_001",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "新しい経済政策により、中小企業への支援が強化され、地方経済の活性化が期待されています。",
+    "target_text": "The new economic policy has strengthened support for small and medium-sized enterprises, and is expected to revitalize regional economies."
+  },
+  {
+    "id": "ja_002",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼女は窓の外を眺めながら、故郷の桜並木を思い出し、懐かしさで胸がいっぱいになった。",
+    "target_text": "As she gazed out the window, she recalled the cherry blossom-lined streets of her hometown, and her heart swelled with nostalgia."
+  },
+  {
+    "id": "ja_003",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "ちょっと待って!財布忘れちゃった。先に行ってて、すぐ追いつくから。",
+    "target_text": "Wait up! I forgot my wallet. Go ahead without me, I'll catch up right away."
+  },
+  {
+    "id": "ja_004",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "機械学習アルゴリズムの精度を向上させるためには、十分な量の高品質なトレーニングデータが不可欠です。",
+    "target_text": "To improve the accuracy of machine learning algorithms, a sufficient amount of high-quality training data is essential."
+  },
+  {
+    "id": "ja_005",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "その提案は確かに興味深いですが、実現可能性については慎重に検討する必要があると思います。",
+    "target_text": "While that proposal is certainly interesting, I believe we need to carefully consider its feasibility."
+  },
+  {
+    "id": "ja_006",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼は猫を被っているけど、本当は結構やんちゃな性格なんだよね。",
+    "target_text": "He acts all innocent, but he's actually quite a troublemaker at heart."
+  },
+  {
+    "id": "ja_007",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "台風の接近により、明日の午後から電車の運行が大幅に乱れる可能性があります。",
+    "target_text": "Due to the approaching typhoon, train services may be significantly disrupted from tomorrow afternoon."
+  },
+  {
+    "id": "ja_008",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "古い町並みを歩いていると、まるで時間が止まったかのような不思議な感覚に包まれた。",
+    "target_text": "Walking through the old townscape, I was enveloped in a strange sensation as if time had stopped."
+  },
+  {
+    "id": "ja_009",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "今日の飲み会、行けなくなっちゃった。ごめん、また今度誘ってね!",
+    "target_text": "I can't make it to tonight's drinking party anymore. Sorry, invite me again next time!"
+  },
+  {
+    "id": "ja_010",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "量子コンピューティングは、従来のコンピュータでは解決困難な複雑な問題を解く可能性を秘めています。",
+    "target_text": "Quantum computing holds the potential to solve complex problems that are difficult for conventional computers to address."
+  },
+  {
+    "id": "ja_011",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "この度は貴重なご意見をいただき、誠にありがとうございます。今後の改善に活かしてまいります。",
+    "target_text": "Thank you very much for your valuable feedback. We will utilize it for future improvements."
+  },
+  {
+    "id": "ja_012",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼の言葉には棘があって、聞いていて気分が悪くなることがある。",
+    "target_text": "His words have a sharp edge to them, and sometimes listening to him makes me feel uncomfortable."
+  },
+  {
+    "id": "ja_013",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "政府は気候変動対策として、2030年までに温室効果ガスの排出量を50%削減する目標を掲げています。",
+    "target_text": "As a climate change countermeasure, the government has set a goal to reduce greenhouse gas emissions by 50% by 2030."
+  },
+  {
+    "id": "ja_014",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "夕暮れ時、海岸沿いを散歩していると、波の音が心を落ち着かせてくれた。",
+    "target_text": "Walking along the coast at dusk, the sound of the waves calmed my mind."
+  },
+  {
+    "id": "ja_015",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "マジで?そんなことあるわけないじゃん!絶対ウソでしょ。",
+    "target_text": "Seriously? No way that could happen! That's definitely a lie."
+  },
+  {
+    "id": "ja_016",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "このソフトウェアは、ユーザーインターフェースが直感的で、初心者でも簡単に操作できるように設計されています。",
+    "target_text": "This software has an intuitive user interface and is designed so that even beginners can operate it easily."
+  },
+  {
+    "id": "ja_017",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "ご不明な点がございましたら、遠慮なくお問い合わせください。担当者より折り返しご連絡いたします。",
+    "target_text": "If you have any questions, please do not hesitate to contact us. A representative will get back to you."
+  },
+  {
+    "id": "ja_018",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "雨降って地固まるって言うし、この問題を乗り越えたらもっと強いチームになれるよ。",
+    "target_text": "They say adversity builds character, so if we overcome this problem, we'll become an even stronger team."
+  },
+  {
+    "id": "ja_019",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "最新の研究によると、適度な運動と バランスの取れた食事が健康寿命の延伸に大きく貢献するそうです。",
+    "target_text": "According to recent research, moderate exercise and a balanced diet greatly contribute to extending healthy life expectancy."
+  },
+  {
+    "id": "ja_020",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "月明かりの下、静かな湖面に映る山々の影が、幻想的な風景を作り出していた。",
+    "target_text": "Under the moonlight, the shadows of mountains reflected on the quiet lake surface created a fantastical landscape."
+  },
+  {
+    "id": "ja_021",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "やばい、電車乗り過ごした!今どこにいるのか全然わかんない。",
+    "target_text": "Oh no, I missed my stop! I have no idea where I am right now."
+  },
+  {
+    "id": "ja_022",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "データベースの最適化により、クエリの処理速度が約40%向上し、システム全体のパフォーマンスが改善されました。",
+    "target_text": "Through database optimization, query processing speed improved by approximately 40%, and overall system performance was enhanced."
+  },
+  {
+    "id": "ja_023",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "誠に申し訳ございませんが、本日は満席となっております。明日以降でしたらご予約可能です。",
+    "target_text": "We sincerely apologize, but we are fully booked today. Reservations are available from tomorrow onward."
+  },
+  {
+    "id": "ja_024",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼は口では偉そうなこと言ってるけど、実際は何もできない張り子の虎だよ。",
+    "target_text": "He talks big, but in reality he's all bark and no bite."
+  },
+  {
+    "id": "ja_025",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "国際会議では、持続可能な開発目標の達成に向けた具体的な行動計画について活発な議論が交わされました。",
+    "target_text": "At the international conference, there was lively discussion about concrete action plans toward achieving sustainable development goals."
+  },
+  {
+    "id": "ja_026",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼女の小説は、日常の何気ない瞬間に潜む美しさを繊細な筆致で描き出している。",
+    "target_text": "Her novels depict the beauty hidden in everyday moments with delicate brushstrokes."
+  },
+  {
+    "id": "ja_027",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "お疲れ様!今日も一日頑張ったね。帰りに一杯どう?",
+    "target_text": "Good work today! You worked hard all day. How about a drink on the way home?"
+  },
+  {
+    "id": "ja_028",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "ブロックチェーン技術は、分散型台帳により透明性とセキュリティを確保し、様々な分野での応用が期待されています。",
+    "target_text": "Blockchain technology ensures transparency and security through distributed ledgers, and is expected to be applied in various fields."
+  },
+  {
+    "id": "ja_029",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "弊社製品をご愛顧いただき、厚く御礼申し上げます。今後ともよろしくお願いいたします。",
+    "target_text": "We deeply appreciate your continued patronage of our products. We look forward to your continued support."
+  },
+  {
+    "id": "ja_030",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "石の上にも三年って言うでしょ。すぐに結果が出なくても、諦めずに続けることが大切だよ。",
+    "target_text": "You know the saying about perseverance paying off, right? Even if you don't see results immediately, it's important to keep going without giving up."
+  },
+  {
+    "id": "ja_031",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "大手製造業では、人工知能を活用した品質管理システムの導入により、不良品の発生率が大幅に減少しました。",
+    "target_text": "At major manufacturing companies, the introduction of AI-powered quality control systems has significantly reduced the defect rate."
+  },
+  {
+    "id": "ja_032",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "冬の朝、窓ガラスに描かれた霜の結晶が、太陽の光を受けてきらきらと輝いていた。",
+    "target_text": "On a winter morning, frost crystals drawn on the window glass sparkled brilliantly in the sunlight."
+  },
+  {
+    "id": "ja_033",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "超久しぶり!元気だった?今度みんなで集まろうよ。",
+    "target_text": "Long time no see! How have you been? Let's all get together sometime soon."
+  },
+  {
+    "id": "ja_034",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "クラウドコンピューティングの普及により、企業は初期投資を抑えながら柔軟にITリソースを拡張できるようになりました。",
+    "target_text": "With the spread of cloud computing, companies can now flexibly expand IT resources while keeping initial investment costs down."
+  },
+  {
+    "id": "ja_035",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "お忙しいところ恐れ入りますが、こちらの書類にご署名をいただけますでしょうか。",
+    "target_text": "I apologize for disturbing you when you're busy, but could you please sign these documents?"
+  },
+  {
+    "id": "ja_036",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼女は本当に優しいし、いつも周りのことを気にかけてくれる。みんなから慕われているのも納得だよ。",
+    "target_text": "She's really kind and always looks out for those around her. It's no wonder everyone adores her."
+  },
+  {
+    "id": "ja_037",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "都市部では交通渋滞の緩和と環境負荷の軽減を目的として、公共交通機関の利用促進策が進められています。",
+    "target_text": "In urban areas, measures to promote public transportation use are being advanced to ease traffic congestion and reduce environmental impact."
+  },
+  {
+    "id": "ja_038",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "古びた日記帳を開くと、若かりし日の淡い思い出が鮮やかによみがえってきた。",
+    "target_text": "When I opened the old diary, faint memories from my younger days vividly came flooding back."
+  },
+  {
+    "id": "ja_039",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "ねえねえ、この間話してた映画、もう見た?めっちゃ面白かったよ!",
+    "target_text": "Hey, did you see that movie we were talking about the other day? It was super interesting!"
+  },
+  {
+    "id": "ja_040",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "再生可能エネルギーの導入拡大に伴い、電力網の安定性を保つための蓄電システムの重要性が高まっています。",
+    "target_text": "With the expanding introduction of renewable energy, the importance of energy storage systems to maintain power grid stability is increasing."
+  },
+  {
+    "id": "ja_041",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "つきましては、来週火曜日の午後3時にお伺いしたく存じますが、ご都合はいかがでしょうか。",
+    "target_text": "In that regard, I would like to visit at 3 PM next Tuesday, but would that time be convenient for you?"
+  },
+  {
+    "id": "ja_042",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "焼け石に水かもしれないけど、少しでも役に立てればと思って手伝いに来たんだ。",
+    "target_text": "It might be just a drop in the bucket, but I came to help thinking I could be of some use."
+  },
+  {
+    "id": "ja_043",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "新薬の臨床試験では、従来の治療法と比較して顕著な効果が確認され、承認申請に向けた準備が進められています。",
+    "target_text": "In clinical trials of the new drug, remarkable effects were confirmed compared to conventional treatments, and preparations for approval application are underway."
+  },
+  {
+    "id": "ja_044",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "縁側に座って、庭に咲く紫陽花を眺めながら冷たい麦茶を飲むのが、夏の楽しみだった。",
+    "target_text": "Sitting on the veranda, gazing at the hydrangeas blooming in the garden while drinking cold barley tea was my summer pleasure."
+  },
+  {
+    "id": "ja_045",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "ごめん、今日はちょっと無理そう。体調悪くて、早めに帰りたいんだ。",
+    "target_text": "Sorry, I don't think I can make it today. I'm not feeling well and want to head home early."
+  },
+  {
+    "id": "ja_046",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "サイバーセキュリティの強化は、企業の機密情報を守り、顧客の信頼を維持するために不可欠な取り組みです。",
+    "target_text": "Strengthening cybersecurity is an essential initiative to protect corporate confidential information and maintain customer trust."
+  },
+  {
+    "id": "ja_047",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "この度のご不便をおかけしましたことを深くお詫び申し上げます。再発防止に努めてまいります。",
+    "target_text": "We deeply apologize for the inconvenience caused this time. We will strive to prevent recurrence."
+  },
+  {
+    "id": "ja_048",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "彼は本当に頭が切れるし、どんな状況でも冷静に判断できる。頼りになる存在だよ。",
+    "target_text": "He's really sharp and can make calm judgments in any situation. He's someone you can count on."
+  },
+  {
+    "id": "ja_049",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "地域社会との連携を深めることで、より実効性の高い防災対策を実現することができると考えています。",
+    "target_text": "We believe that by deepening cooperation with local communities, we can realize more effective disaster prevention measures."
+  },
+  {
+    "id": "ja_050",
+    "source_lang": "ja",
+    "target_lang": "en",
+    "source_text": "夕焼けに染まる空を見上げながら、ふと子供の頃の夏休みの記憶が心に浮かんできた。",
+    "target_text": "As I looked up at the sky dyed by the sunset, memories of summer vacations from my childhood suddenly came to mind."
+  }
+]

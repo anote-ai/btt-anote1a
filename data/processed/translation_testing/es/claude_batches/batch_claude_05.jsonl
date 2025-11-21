@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What religious event do Spanish cities celebrate with processions?",
+    "answer": "Spanish cities celebrate Holy Week (Semana Santa) with religious processions featuring elaborate floats depicting scenes from the Passion of Christ.",
+    "cite_from": "source",
+    "citation_text": "Durante la Semana Santa, muchas ciudades españolas organizan procesiones religiosas",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "How's the translator handling that Spanish idiom about water and glasses?",
+    "answer": "The translator adapts the cultural idiom effectively by converting 'don't drown in a glass of water' to the English equivalent 'don't make a mountain out of a molehill', preserving the meaning about not overreacting to small problems.",
+    "cite_from": "source",
+    "citation_text": "No te ahogues en un vaso de agua",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "What do the floats in these processions represent?",
+    "answer": "The floats depict scenes from the Passion of Christ, representing key moments of Jesus's suffering and crucifixion during Holy Week celebrations.",
+    "cite_from": "target",
+    "citation_text": "elaborate floats that depict scenes from the Passion of Christ",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Does the translation preserve the collaborative tone of the original when offering help?",
+    "answer": "Yes, the translation maintains the supportive, collaborative spirit through 'together we can find a way', which mirrors the original's emphasis on joint problem-solving rather than individual effort.",
+    "cite_from": "target",
+    "citation_text": "together we can find a way to solve it effectively",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the book about that won the prize?",
+    "answer": "It's about three generations of women fighting to keep their cultural traditions going strong across time.",
+    "cite_from": "source",
+    "citation_text": "tres generaciones de mujeres que luchan por mantener vivas sus tradiciones culturales",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the verb choice in 'struggle' versus 'luchan' affect the emotional register of the women's efforts?",
+    "answer": "Both 'struggle' and 'luchan' convey active resistance and difficulty, but 'struggle' in English carries slightly more weight of hardship, while 'luchan' emphasizes the ongoing fight or battle aspect, creating a subtle tonal shift toward more persistent adversity in the translation.",
+    "cite_from": "target",
+    "citation_text": "women who struggle to keep their cultural traditions alive",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

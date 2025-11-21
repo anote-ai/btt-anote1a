@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What specific location is described as bustling in Jerusalem?",
+    "answer": "The market at Mahane Yehuda in Jerusalem is described as a bustling place filled with sensory experiences of traditional foods.",
+    "cite_from": "target",
+    "citation_text": "The market at Mahane Yehuda in Jerusalem is a bustling place",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "How did they feel when they got to the hostel?",
+    "answer": "They were completely exhausted after the long desert drive.",
+    "cite_from": "target",
+    "citation_text": "were completely exhausted",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What does the idiom used suggest about the company's approach to employee welfare?",
+    "answer": "The idiom 'turns a blind eye' suggests deliberate ignorance - the company consciously chooses to ignore employee problems, prioritizing profits over worker well-being.",
+    "cite_from": "target",
+    "citation_text": "turns a blind eye to employee problems",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the vibe like at this Jerusalem market?",
+    "answer": "It's super lively and energetic, packed with colors, smells, and tastes from traditional local food.",
+    "cite_from": "source",
+    "citation_text": "מקום תוסס מלא בצבעים, ריחות וטעמים",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the temporal sequence in the desert journey narrative convey completion or ongoing action?",
+    "answer": "The sequence conveys completion through 'finally arrived' and past perfect 'had booked', emphasizing the journey's conclusion and the exhaustion as a resultant state rather than ongoing process.",
+    "cite_from": "source",
+    "citation_text": "אחרי שעות של נהיגה במדבר, סוף סוף הגענו",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the real priority for this company according to the criticism?",
+    "answer": "The company's actual priority is profits ('הרווחים'), not employee welfare ('הרווחה'), creating a wordplay that emphasizes the contrast between worker well-being and financial gains.",
+    "cite_from": "source",
+    "citation_text": "לא באמת אכפת להם מהרווחה שלנו, רק מהרווחים",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

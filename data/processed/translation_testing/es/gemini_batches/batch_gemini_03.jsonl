@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What's one of the eco-friendly features the architect included in the building design?",
+    "answer": "The design features solar panels as a method for generating energy.",
+    "cite_from": "target",
+    "citation_text": "incorporates solar panels",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What obligation have the enterprises acquired as a consequence of the transformation initiated by the digital economy, as stated in the source text?",
+    "answer": "Enterprises are required to rapidly adjust their operations to accommodate emerging new technologies.",
+    "cite_from": "source",
+    "citation_text": "obligándolas a adaptarse rápidamente a nuevas tecnologías emergentes",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The translation states that the digital economy is 'forcing' companies to adapt. What does this strong language, in a business context, infer about the stakes of non-adaptation?",
+    "answer": "It infers that the consequences of failing to adapt are existential; non-adaptation is not an option but would lead to market irrelevance or failure, indicating that rapid technological changes are highly disruptive to current business models.",
+    "cite_from": "target",
+    "citation_text": "forcing them to quickly adapt to emerging new technologies",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "The Spanish phrase 'ventilación natural eficiente' is translated as 'efficient natural ventilation'. In academic or formal technical writing, which word order is generally considered more stylistically formal in English, and how does the translation reflect this difference in register?",
+    "answer": "The order 'efficient natural ventilation' (adjective-adjective-noun) is the most standard, formal, and technically preferred structure in English. The Spanish allows for the adjectives to follow the noun (e.g., *ventilación*... *eficiente*), which is common in that language, but the translation shifts the structure to align with the succinct, professional English register by placing modifiers before the head noun.",
+    "cite_from": "source",
+    "citation_text": "ventilación natural eficiente",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

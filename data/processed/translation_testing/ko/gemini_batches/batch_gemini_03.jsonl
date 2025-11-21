@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the key technological development cited as the reason for the popularization of smart home systems?",
+    "answer": "The key development is the advancement of Internet of Things (IoT) technology.",
+    "cite_from": "target",
+    "citation_text": "The advancement of Internet of Things technology has popularized smart home systems",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The phrase '스트레스도 풀 겸' (literally, 'also for relieving stress') suggests what about the social context of the hiking invitation?",
+    "answer": "It suggests that the invitation is not purely for physical fitness but also serves the common Korean purpose of using outdoor activity as a way to manage mental fatigue or stress from daily life or work.",
+    "cite_from": "source",
+    "citation_text": "운동도 하고 스트레스도 풀 겸 다녀오자",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What two benefits are listed for going hiking?",
+    "answer": "The two benefits listed for going hiking are to get exercise and to relieve some stress.",
+    "cite_from": "target",
+    "citation_text": "Let's exercise and relieve some stress",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "From a formal sociological standpoint, how has the proliferation of IoT-enabled smart systems fundamentally altered the concept of 'convenience in daily life'?",
+    "answer": "The systems have fundamentally altered convenience by facilitating a greater degree of automation and remote management of domestic functions, thereby minimizing the required expenditure of human effort and cognitive load for routine tasks.",
+    "cite_from": "source",
+    "citation_text": "사물인터넷 기술의 발전으로 스마트홈 시스템이 대중화되면서 일상생활의 편의성이 크게 향상되었다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

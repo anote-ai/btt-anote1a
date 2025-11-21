@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the translation, what central subjects does the novel examine?",
+    "answer": "It examines deep human concerns, including loneliness and identity, as part of its thematic focus.",
+    "cite_from": "target",
+    "citation_text": "profound themes such as loneliness",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what specific security stuff does the protocol ask for?",
+    "answer": "It calls for two-factor authentication along with strong encryption to keep sensitive communications protected.",
+    "cite_from": "source",
+    "citation_text": "autenticación de dos factores y encriptación",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "In the context of the passage, what does the expression about being overworked imply about the speaker's availability?",
+    "answer": "It indicates that the speaker is extremely busy at the moment yet still intends to make time for a meeting.",
+    "cite_from": "target",
+    "citation_text": "up to my neck in work this week",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "If they're saying they'll see each other on Saturday, what does that hint about their plans for the rest of the week?",
+    "answer": "It suggests that meeting earlier is unlikely and that Saturday is the first realistic chance to reconnect.",
+    "cite_from": "source",
+    "citation_text": "nos vemos el sábado para ponernos al día",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How might the novel's depiction of a fragmented society be interpreted beyond its literal meaning?",
+    "answer": "It could point to social, psychological, or cultural disconnection rather than solely describing a structurally divided community.",
+    "cite_from": "target",
+    "citation_text": "in an increasingly fragmented society",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When the speaker says they're 'hasta el cuello de trabajo', how could that be understood in different cultural or personal ways?",
+    "answer": "Depending on context, it might signal genuine overload, a casual exaggeration, or even a polite excuse to delay commitments.",
+    "cite_from": "source",
+    "citation_text": "hasta el cuello de trabajo esta semana",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

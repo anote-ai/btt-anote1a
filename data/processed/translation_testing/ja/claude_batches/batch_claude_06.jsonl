@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What does the translation suggest companies can now do with IT resources?",
+    "answer": "Companies can now flexibly expand their IT resources while simultaneously keeping their initial investment costs down, thanks to cloud computing.",
+    "cite_from": "target",
+    "citation_text": "flexibly expand IT resources while keeping initial investment costs down",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "How does the speaker phrase their request in the second translation?",
+    "answer": "The speaker uses highly polite language, apologizing for the interruption and asking if the person could please sign the documents.",
+    "cite_from": "target",
+    "citation_text": "I apologize for disturbing you when you're busy, but could you please sign these documents?",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What specific behaviors make her popular according to the original text?",
+    "answer": "彼女が優しくて、いつも周りのことを気にかけてくれることが、みんなから慕われている理由です。",
+    "cite_from": "source",
+    "citation_text": "本当に優しいし、いつも周りのことを気にかけてくれる",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "So what's the big deal about cloud stuff for businesses?",
+    "answer": "It lets them scale up their tech without dropping a ton of cash upfront, which is pretty huge for managing costs.",
+    "cite_from": "source",
+    "citation_text": "初期投資を抑えながら柔軟にITリソースを拡張できる",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the level of formality in the request reflect Japanese business culture?",
+    "answer": "The phrase 'お忙しいところ恐れ入りますが' demonstrates the highly indirect, apologetic communication style characteristic of Japanese business etiquette, where imposing on someone's time requires elaborate politeness rituals that soften the request.",
+    "cite_from": "source",
+    "citation_text": "お忙しいところ恐れ入りますが、こちらの書類にご署名をいただけますでしょうか",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the speaker really saying when they use 'no wonder' in that last sentence?",
+    "answer": "They're saying it makes total sense that everyone loves her—like, given how kind and caring she is, her popularity is completely expected and justified.",
+    "cite_from": "target",
+    "citation_text": "It's no wonder everyone adores her",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

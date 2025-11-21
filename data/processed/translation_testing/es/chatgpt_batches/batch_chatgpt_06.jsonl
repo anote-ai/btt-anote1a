@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What components does the text explicitly state are enhanced in the operating system?",
+    "answer": "It states that the system enhances both performance and resource management, indicating two primary areas of improvement.",
+    "cite_from": "target",
+    "citation_text": "performance and resource management",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Hey, what exactly is the person asking to do after work?",
+    "answer": "They want to meet up for drinks after work, as the text directly proposes a casual get-together.",
+    "cite_from": "target",
+    "citation_text": "meet up for drinks after work",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What can be inferred about the speaker's emotional state from their desire to 'disconnect for a while'?",
+    "answer": "It suggests that the speaker is feeling mentally tired or stressed and seeks a break to recover.",
+    "cite_from": "target",
+    "citation_text": "disconnect for a while",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "So why do you think finding a better job the next month changes how the saying hits?",
+    "answer": "Because discovering a better job soon after makes the idiom feel true in practice—the misfortune turns into something beneficial.",
+    "cite_from": "source",
+    "citation_text": "No hay mal que por bien no venga",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How might different readers interpret the temporal nuance of the phrase indicating that the speaker found a better job 'the following month'?",
+    "answer": "Some may view it as suggesting a quick recovery from misfortune, while others might interpret the interval as emotionally significant despite being brief.",
+    "cite_from": "target",
+    "citation_text": "the following month",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Do you think 'necesito desconectar un rato' sounds equally informal in both languages, or could someone read it as more serious depending on context?",
+    "answer": "Its informality is clear in Spanish, but an English reader might interpret it as either casual or a sign of deeper stress, making the register ambiguous across languages.",
+    "cite_from": "source",
+    "citation_text": "Necesito desconectar un rato",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

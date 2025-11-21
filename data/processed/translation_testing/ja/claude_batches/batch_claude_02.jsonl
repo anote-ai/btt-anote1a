@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What percentage improvement was achieved in query processing speed?",
+    "answer": "Query processing speed improved by approximately 40% through the database optimization efforts.",
+    "cite_from": "target",
+    "citation_text": "query processing speed improved by approximately 40%",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Can I get a reservation for today?",
+    "answer": "No, today is fully booked. However, reservations are available starting tomorrow.",
+    "cite_from": "target",
+    "citation_text": "we are fully booked today. Reservations are available from tomorrow onward",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the Japanese text characterize the relationship between database optimization and system performance?",
+    "answer": "The optimization is presented as the causative mechanism ('により') that directly resulted in improved performance, indicating a clear cause-and-effect relationship between the database changes and overall system enhancement.",
+    "cite_from": "source",
+    "citation_text": "データベースの最適化により、クエリの処理速度が約40%向上し、システム全体のパフォーマンスが改善されました",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the deal with the guy they're talking about?",
+    "answer": "He's all talk and no action—basically a 'paper tiger' who sounds impressive but can't actually do anything when it comes down to it.",
+    "cite_from": "source",
+    "citation_text": "口では偉そうなこと言ってるけど、実際は何もできない張り子の虎だよ",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What cultural-linguistic transformation occurs in rendering '張り子の虎' as 'all bark and no bite'?",
+    "answer": "The translation substitutes a Japanese idiom referencing a hollow paper tiger (cultural artifact) with an English idiom using dog behavior metaphors, achieving functional equivalence through culturally-appropriate imagery rather than literal correspondence.",
+    "cite_from": "source",
+    "citation_text": "張り子の虎",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Does the Japanese apology carry different politeness weight than the English one?",
+    "answer": "Yes, '誠に申し訳ございません' represents maximum formal politeness (keigo) in Japanese business contexts, while 'We sincerely apologize' is formal but doesn't capture the same hierarchical deference embedded in the Japanese formulation.",
+    "cite_from": "source",
+    "citation_text": "誠に申し訳ございませんが、本日は満席となっております",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

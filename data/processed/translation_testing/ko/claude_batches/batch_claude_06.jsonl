@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What event is mentioned as happening tomorrow?",
+    "answer": "An interview is scheduled for tomorrow.",
+    "cite_from": "target",
+    "citation_text": "I have an interview tomorrow",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So who's the speaker asking for help?",
+    "answer": "The speaker is asking their older sister ('언니') for advice about what to wear to an interview.",
+    "cite_from": "source",
+    "citation_text": "언니, 나 내일 면접 있는데",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What specific technical capabilities of 5G networks are identified as driving forces for emerging technologies?",
+    "answer": "The low latency and high-speed transmission capabilities are identified as the key technical factors that will accelerate development in autonomous vehicles and telemedicine.",
+    "cite_from": "target",
+    "citation_text": "low latency and high-speed transmission capabilities of 5G networks",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the speaker keep going back to traditional markets?",
+    "answer": "They visit often because traditional markets offer a warmth and personal touch ('인심') that you just can't get at big chain stores.",
+    "cite_from": "source",
+    "citation_text": "전통 시장의 인심은 대형 마트에서는 느낄 수 없는 따뜻함이 있어서",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation handle the cultural concept of '인심' and what interpretive choices does it reveal?",
+    "answer": "The translation renders '인심' as 'warmth and generosity,' unpacking a culturally specific Korean concept about human kindness and generous spirit into explicit English terms. This reveals an interpretive expansion strategy rather than finding a single equivalent term.",
+    "cite_from": "source",
+    "citation_text": "전통 시장의 인심은",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Does the English version lose the casual intimacy of calling someone '언니' compared to just jumping straight into the request?",
+    "answer": "Yeah, totally. The original opens with '언니' which shows this close sisterly relationship and sets a warm, familiar tone. The English just drops that and goes straight to 'I have an interview,' losing that relational context and making it feel more transactional.",
+    "cite_from": "target",
+    "citation_text": "I have an interview tomorrow, what should I wear?",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

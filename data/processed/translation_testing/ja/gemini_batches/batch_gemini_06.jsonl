@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What kind of promise is being made regarding the issue that caused the apology?",
+    "answer": "The speaker is making a commitment to strive to prevent recurrence, meaning they will work hard to ensure the problem or inconvenience does not happen again.",
+    "cite_from": "target",
+    "citation_text": "We will strive to prevent recurrence.",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the idiomatic meaning of '頭が切れる' ('atama ga kireru') when describing the person in the text, and what English phrase conveys this meaning?",
+    "answer": "'頭が切れる' literally means 'his head cuts well,' but it is an idiom used to describe someone who is extremely intelligent, mentally sharp, quick-witted, or highly capable. The English translation 'He's really sharp' perfectly conveys this idiomatic sense of mental acuity. This tests idiomatic meaning/cultural context.",
+    "cite_from": "ja",
+    "citation_text": "彼は本当に頭が切れるし、どんな状況でも冷静に判断できる。",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the formality of '深くお詫び申し上げます' ('fukaku owabi mōshiagemasu') in the source text translate into the English phrase and what does this difference in register suggest?",
+    "answer": "The Japanese phrase is an extremely humble and deeply formal apology using elevated honorific verbs ('mōshiagemasu'). The English translation, 'We deeply apologize for the inconvenience,' while formal, uses common business language. The Japanese is generally much higher in register and conveys a greater degree of corporate or social obligation than the English, which is often used as a standard business apology. This tests formal/informal register differences.",
+    "cite_from": "ja",
+    "citation_text": "この度のご不便をおかけしましたことを深くお詫び申し上げます。",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What characteristic makes the person 'someone you can count on,' according to the speaker?",
+    "answer": "The speaker says the person is someone you can count on because they are very clever ('sharp') and are capable of making calm judgments in any situation, meaning they don't panic under pressure.",
+    "cite_from": "target",
+    "citation_text": "He's really sharp and can make calm judgments in any situation. He's someone you can count on.",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]

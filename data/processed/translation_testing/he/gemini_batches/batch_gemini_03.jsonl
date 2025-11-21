@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What two performance improvements did the researchers discover about the new protocol, according to the English text?",
+    "answer": "The new protocol increases transmission speed threefold and significantly reduces battery consumption.",
+    "cite_from": "target",
+    "citation_text": "increases transmission speed threefold and significantly reduces battery consumption",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The Hebrew phrase 'מגביר את מהירות ההעברה פי שלושה' translates as increasing speed 'threefold.' If the original speed was 50 units per second, what is the new speed?",
+    "answer": "The new speed is 150 units per second, as 'threefold' means three times the original amount (50 x 3).",
+    "cite_from": "source",
+    "citation_text": "מגביר את מהירות ההעברה פי שלושה",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The Hebrew states the athlete 'שברה את השיא הלאומי' (broke the national record). What major athletic event did she accomplish this feat in, and what is her current recognized status?",
+    "answer": "She broke the record in marathon running and is currently recognized as one of the country's most outstanding athletes.",
+    "cite_from": "target",
+    "citation_text": "She broke the national record in marathon running and is now considered one of the most outstanding athletes",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "If someone is considered 'one of the most outstanding athletes in the country,' what kind of public or institutional support can she most likely expect to receive, and why?",
+    "answer": "She can likely expect major funding, sponsorships, and possibly government support. This is because her 'outstanding' status suggests she is a top national representative with the potential to win international medals, justifying investment in her training and career.",
+    "cite_from": "target",
+    "citation_text": "one of the most outstanding athletes in the country",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

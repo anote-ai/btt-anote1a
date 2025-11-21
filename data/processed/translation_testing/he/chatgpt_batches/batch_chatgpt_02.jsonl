@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the translation, what event did the Jewish family survive?",
+    "answer": "They survived the Holocaust, which is explicitly mentioned as the defining event the family endured.",
+    "cite_from": "target",
+    "citation_text": "survived the Holocaust",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Hey, when are they asking if you're free to come over?",
+    "answer": "They're asking about tomorrow evening, since that's when the invitation is set.",
+    "cite_from": "target",
+    "citation_text": "tomorrow evening",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What temporal trend does the text convey regarding the warming of the Mediterranean Sea?",
+    "answer": "It indicates a sustained, ongoing increase in temperature that has occurred over the past several years.",
+    "cite_from": "source",
+    "citation_text": "בשנים האחרונות",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "So what's the vibe of the invite when they open with 'מה נשמע?'?",
+    "answer": "It creates a friendly, casual tone that frames the invitation as informal and familiar rather than formal or distant.",
+    "cite_from": "source",
+    "citation_text": "מה נשמע?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How might the cultural significance of the phrase 'Shabbat dinner' influence the social expectations of the invitation?",
+    "answer": "It implies a meaningful weekly ritual that carries communal and familial importance, so the invitation suggests a warm, tradition-based gathering rather than a casual meal.",
+    "cite_from": "target",
+    "citation_text": "Shabbat dinner",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When they say they 'began a new life in another country', what kinda things could that mean for them?",
+    "answer": "It could involve emotional rebuilding, cultural adjustment, or redefining their identity after trauma, since the phrase suggests a broad shift rather than a single concrete action.",
+    "cite_from": "target",
+    "citation_text": "began a new life in another country",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

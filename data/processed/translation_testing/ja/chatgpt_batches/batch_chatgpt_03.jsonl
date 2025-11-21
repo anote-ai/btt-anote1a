@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the English translation, at what point in time are the train services expected to face possible disruption?",
+    "answer": "They are expected to face possible disruption beginning tomorrow afternoon.",
+    "cite_from": "target",
+    "citation_text": "from tomorrow afternoon",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So when exactly are the trains supposed to start getting messed up in the Japanese sentence?",
+    "answer": "It says the disruption might start tomorrow afternoon.",
+    "cite_from": "source",
+    "citation_text": "明日の午後から",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What modal nuance is conveyed in the translation regarding the likelihood of transport disruption?",
+    "answer": "The translation indicates that disruption is possible rather than certain, expressing a cautious prediction rather than a definitive outcome.",
+    "cite_from": "target",
+    "citation_text": "train services may be significantly disrupted",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the narrator feel like time sorta froze while walking around the old town?",
+    "answer": "Because the atmosphere creates a surreal, almost suspended moment, giving the narrator the impression that time itself has stopped.",
+    "cite_from": "source",
+    "citation_text": "まるで時間が止まった",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In the context of Japanese social customs, what expectations might be implied by the reference to the drinking event?",
+    "answer": "The mention of the drinking party implies a cultural expectation of social bonding and group participation, suggesting that declining may carry subtle interpersonal nuance.",
+    "cite_from": "target",
+    "citation_text": "tonight's drinking party",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "How does the phrase used in Japanese show that the speaker is talking super casually about cancelling their plans?",
+    "answer": "The expression reflects informal, conversational speech that softens the cancellation, signaling friendliness and a relaxed social tone.",
+    "cite_from": "source",
+    "citation_text": "行けなくなっちゃった",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "According to the translation, what specific operations are required during data preprocessing to enhance model training efficiency?",
+    "answer": "The translation indicates that improving model efficiency requires removing noise and carrying out normalization during preprocessing.",
+    "cite_from": "target",
+    "citation_text": "noise must be removed and normalization performed",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "When she looked outside, what memory popped into her mind?",
+    "answer": "She thought of spring days in her hometown village when she gazed out the window.",
+    "cite_from": "source",
+    "citation_text": "고향 마을의 봄날을 떠올렸고",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What temporal nuance is conveyed by her act of remembering, and how does it influence the emotional tone of the scene?",
+    "answer": "The recollection of past spring days suggests a reflective, lingering connection to earlier moments, which deepens the sense of longing present in the scene.",
+    "cite_from": "target",
+    "citation_text": "remembering spring days in her hometown village",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "So if every home has its own twist on this dish, what does that tell you about how people treat it?",
+    "answer": "It suggests that the dish is personally meaningful and adaptable, with each family shaping it according to their tastes and traditions.",
+    "cite_from": "source",
+    "citation_text": "집집마다 고유의 레시피가 있습니다",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How might the cultural implications of calling this dish 'soul food' affect how its emotional or communal value is interpreted?",
+    "answer": "Describing it as 'soul food' frames the dish as an emblem of cultural identity and emotional comfort, implying a deeper communal significance beyond simple nourishment.",
+    "cite_from": "target",
+    "citation_text": "the soul food of Koreans",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What do you think the phrase about her chest tightening suggests about the mood, and could it be read in more than one emotional direction?",
+    "answer": "The phrase implies a painful, overwhelming longing, but it can also hint at a complex mix of nostalgia, sorrow, and affection, leaving room for multiple emotional interpretations.",
+    "cite_from": "source",
+    "citation_text": "그리움에 가슴이 먹먹해졌다",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

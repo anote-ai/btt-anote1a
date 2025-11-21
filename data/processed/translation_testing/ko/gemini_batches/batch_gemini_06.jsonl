@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the primary goal that the government's two actions were intended to achieve?",
+    "answer": "The government's main goal was to invigorate the startup ecosystem.",
+    "cite_from": "target",
+    "citation_text": "To invigorate the startup ecosystem, the government expanded tax benefits",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Bulgogi is cooked in what way and consists of what main ingredient?",
+    "answer": "Bulgogi is a Korean dish of grilled beef that has been prepared by marinating the beef in a sweet seasoning.",
+    "cite_from": "target",
+    "citation_text": "Bulgogi is a Korean dish of grilled beef marinated in sweet seasoning",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What does the policy term '규제 샌드박스' (regulatory sandbox) fundamentally signify in the context of fostering a startup ecosystem?",
+    "answer": "The term '규제 샌드박스' (regulatory sandbox) signifies a controlled, limited environment where new technologies, products, or business models can be tested temporarily, exempt from certain existing regulations, to facilitate innovation and rapid market entry.",
+    "cite_from": "source",
+    "citation_text": "벤처캐피털 투자 세제 혜택을 확대하고 규제 샌드박스를 도입했다.",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Why would Bulgogi be considered 'one of the most popular dishes among foreigners'?",
+    "answer": "It's likely popular because it is a flavorful, appealing meat dish that is easy for non-Koreans to like, being grilled beef marinated in a sweet sauce, which is a widely accepted flavor profile.",
+    "cite_from": "target",
+    "citation_text": "Bulgogi is a Korean dish of grilled beef marinated in sweet seasoning, and is one of the most popular dishes among foreigners.",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]
