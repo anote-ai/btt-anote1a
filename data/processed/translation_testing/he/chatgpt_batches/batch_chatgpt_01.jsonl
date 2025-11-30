@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What specific governmental action is explicitly described in the translation?",
-    "answer": "It states that the government formally approved a new budget intended to improve the national healthcare system.",
-    "cite_from": "target",
-    "citation_text": "approved a new budget today",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "So what exactly is the person saying they wanna do this weekend?",
-    "answer": "They're saying they think the group should go on a weekend trip, assuming the weather cooperates.",
-    "cite_from": "source",
-    "citation_text": "אני חושב שכדאי לנו לצאת לטיול",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the translation express conditional timing with respect to weather, and what does this imply about the speaker's plan?",
-    "answer": "The conditional phrasing indicates that the trip will occur only if the weather is suitable, showing that the plan is tentative rather than fixed.",
-    "cite_from": "target",
-    "citation_text": "if the weather is nice and it doesn't rain",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If you had to explain the tone of the original Hebrew sentence about the trip, would you say it sounds chill or more serious?",
-    "answer": "The tone is casual and friendly, using everyday phrasing to suggest an outing without sounding formal or obligatory.",
-    "cite_from": "source",
-    "citation_text": "אם מזג האויר יהיה טוב ולא יהיה גשם",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In the context of the healthcare budget statement, could the phrase about improving the system be interpreted either as a promise of substantive reform or merely incremental adjustments?",
-    "answer": "Yes, the wording can be read both ways because it signals improvement but does not specify whether the changes are structural reforms or minor expansions.",
-    "cite_from": "target",
-    "citation_text": "improving the public healthcare system",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Do you think the phrase about real-time processing hints that the researchers pulled off something groundbreaking, or could it just mean a routine tech upgrade?",
-    "answer": "It could imply either a major innovation or a standard optimization, since the wording highlights efficiency but does not clarify the scale of the advancement.",
-    "cite_from": "source",
-    "citation_text": "בזמן אמת במערכות בינה מלאכותית מתקדמות",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של האינפלציה בבחודש שעבר?", "answer": "3.7%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0101"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0102"}
+{"question": "איך לפרש את הביטוי 'Fue increíble cómo remontaron'?", "answer": "ניתן לפרשו כאופטימי.", "cite_from": "source", "citation_text": "10.7%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0103"}
+{"question": "איפה התרחש התאונה?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "10.7%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0104"}
+{"question": "איזו פעולה נקטה הממשלה בחודש האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0105"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "11.7%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "he_chatgpt_0106"}

@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the translation, what specific operations are required during data preprocessing to enhance model training efficiency?",
-    "answer": "The translation indicates that improving model efficiency requires removing noise and carrying out normalization during preprocessing.",
-    "cite_from": "target",
-    "citation_text": "noise must be removed and normalization performed",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "When she looked outside, what memory popped into her mind?",
-    "answer": "She thought of spring days in her hometown village when she gazed out the window.",
-    "cite_from": "source",
-    "citation_text": "고향 마을의 봄날을 떠올렸고",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What temporal nuance is conveyed by her act of remembering, and how does it influence the emotional tone of the scene?",
-    "answer": "The recollection of past spring days suggests a reflective, lingering connection to earlier moments, which deepens the sense of longing present in the scene.",
-    "cite_from": "target",
-    "citation_text": "remembering spring days in her hometown village",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "So if every home has its own twist on this dish, what does that tell you about how people treat it?",
-    "answer": "It suggests that the dish is personally meaningful and adaptable, with each family shaping it according to their tastes and traditions.",
-    "cite_from": "source",
-    "citation_text": "집집마다 고유의 레시피가 있습니다",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "How might the cultural implications of calling this dish 'soul food' affect how its emotional or communal value is interpreted?",
-    "answer": "Describing it as 'soul food' frames the dish as an emblem of cultural identity and emotional comfort, implying a deeper communal significance beyond simple nourishment.",
-    "cite_from": "target",
-    "citation_text": "the soul food of Koreans",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "What do you think the phrase about her chest tightening suggests about the mood, and could it be read in more than one emotional direction?",
-    "answer": "The phrase implies a painful, overwhelming longing, but it can also hint at a complex mix of nostalgia, sorrow, and affection, leaving room for multiple emotional interpretations.",
-    "cite_from": "source",
-    "citation_text": "그리움에 가슴이 먹먹해졌다",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "작년의 인플레이션는 얼마였나요?", "answer": "1.0%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0201"}
+{"question": "텍스트는 הכלכלה에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "1.5%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0202"}
+{"question": "'was setting behind the mountains'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "6.1%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0203"}
+{"question": "어디에서 האירוע가 발생했나요?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "5.4%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0204"}
+{"question": "정부는 בחודש האחרון 어떤 조치를 취했나요?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "11.8%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0205"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "ko_chatgpt_0206"}

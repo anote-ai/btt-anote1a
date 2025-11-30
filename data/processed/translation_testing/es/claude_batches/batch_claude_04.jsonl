@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What two techniques does the database use for handling queries?",
-    "answer": "The database employs composite indexing and horizontal partitioning to efficiently manage complex queries on massive datasets.",
-    "cite_from": "target",
-    "citation_text": "composite indexing and horizontal partitioning",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What's the nostalgic phrase used to describe those childhood times?",
-    "answer": "The phrase 'Those were the days' captures the nostalgic sentiment about carefree childhood moments spent playing in the park.",
-    "cite_from": "target",
-    "citation_text": "Those were the days.",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "¿Qué tipo de violaciones cometió la empresa según el tribunal?",
-    "answer": "La empresa violó múltiples regulaciones ambientales, lo que resultó en sanciones financieras y la obligación de reparar los daños causados.",
-    "cite_from": "source",
-    "citation_text": "violó múltiples regulaciones ambientales",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "How does the translation capture the informal, reflective tone of reminiscing?",
-    "answer": "The translation shifts from a direct question format to the idiomatic expression 'Those were the days,' which conveys wistful nostalgia more naturally in English than a literal rendering of 'Qué tiempos aquellos' would.",
-    "cite_from": "source",
-    "citation_text": "¿Te acuerdas de cuando éramos niños y pasábamos horas jugando en el parque",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Besides paying a fine, what else does the company gotta do?",
-    "answer": "The company's not just paying up—they also have to actually fix the environmental damage they caused, which is a separate requirement from the financial penalty.",
-    "cite_from": "target",
-    "citation_text": "must pay a considerable fine in addition to remedying the damages",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What technical architecture choice enables scalability for large-scale data operations?",
-    "answer": "The implementation of horizontal partitioning represents a deliberate architectural decision to distribute data across multiple nodes, enabling parallel processing and scalability—a critical consideration given the mention of 'conjuntos de datos masivos' in the original context.",
-    "cite_from": "source",
-    "citation_text": "particionamiento horizontal para manejar eficientemente consultas complejas en conjuntos de datos masivos",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de el salario mínimo en el último trimestre?", "answer": "3.9%", "cite_from": "source", "citation_text": "3.9%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0401"}
+{"question": "¿Qué sugiere el texto sobre מדיניות?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "4.9%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0402"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0403"}
+{"question": "¿Dónde ocurrió המשחק?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0404"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0405"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_04", "generated_date": "2025-11-29", "id": "es_claude_0406"}

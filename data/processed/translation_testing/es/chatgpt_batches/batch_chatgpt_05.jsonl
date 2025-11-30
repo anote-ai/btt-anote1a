@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What elements are explicitly mentioned as part of the Day of the Dead celebration?",
-    "answer": "The translation states that the celebration includes decorated altars, photographs, and specific foods chosen to honor the deceased.",
-    "cite_from": "target",
-    "citation_text": "altars decorated with marigold flowers",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-    {
-    "question": "So what's basically keeping those countries from moving forward in their talks?",
-    "answer": "The talks are stuck because the countries disagree on crucial territorial questions.",
-    "cite_from": "source",
-    "citation_text": "un punto muerto debido a desacuerdos fundamentales",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the translation convey the temporal relationship between the woman's present walk and her recollection of earlier years?",
-    "answer": "It shows that her current walk triggers an ongoing mental return to earlier life experiences, indicating a reflective and continuous memory process rather than a single past event.",
-    "cite_from": "target",
-    "citation_text": "remembering the days of her childhood",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If you had to describe the vibe difference between the Spanish sentence and its English version, how would you put it?",
-    "answer": "The Spanish phrasing feels a bit more formal and weighty, while the English keeps the seriousness but sounds slightly more direct in tone.",
-    "cite_from": "source",
-    "citation_text": "Las negociaciones entre ambos países",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In interpreting the narrator's outlook, what possible meanings could be drawn from the depiction of childhood as 'more simple and magical'?",
-    "answer": "It may suggest nostalgia, idealization of the past, or a contrast with a present that feels more complicated, but the text leaves open whether this is an emotional truth or a selective memory.",
-    "cite_from": "source",
-    "citation_text": "cuando todo parecía más simple y mágico",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "When the text mentions traditional altars for the Day of the Dead, what kinds of cultural meanings might folks read into that?",
-    "answer": "People might view the altars as a sign of honoring ancestors, a blend of indigenous and modern rituals, or just a symbolic gesture of remembrance, but the translation does not pin down a single interpretation.",
-    "cite_from": "target",
-    "citation_text": "The Day of the Dead celebration",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de el índice en el mes pasado?", "answer": "9.8%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0501"}
+{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0502"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como שלילי.", "cite_from": "source", "citation_text": "1.3%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0503"}
+{"question": "¿Dónde ocurrió המשחק?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "1.5%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0504"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0505"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "es_chatgpt_0506"}

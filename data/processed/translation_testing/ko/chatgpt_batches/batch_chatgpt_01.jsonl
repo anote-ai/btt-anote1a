@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the translation, what specific event led to the significant congestion during the morning commute?",
-    "answer": "The congestion was caused by a traffic accident occurring in Gangnam-gu in the early morning hours.",
-    "cite_from": "target",
-    "citation_text": "traffic accident in Gangnam-gu, Seoul",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "So what did the Bank of Korea actually decide to do with the interest rate?",
-    "answer": "They chose to keep the rate unchanged rather than raise or lower it.",
-    "cite_from": "source",
-    "citation_text": "기준금리를 현재 수준으로 동결하기로",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What can be inferred about the Bank of Korea's expectations regarding future economic conditions based on its stated intention to monitor the situation?",
-    "answer": "It suggests that the institution anticipates uncertain economic developments and prefers to observe additional trends before adjusting monetary policy.",
-    "cite_from": "target",
-    "citation_text": "would monitor the economic recovery",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If they're saying they've been super busy lately, what does that imply about why they haven't met up?",
-    "answer": "It implies that their schedules have been so packed that finding time to see each other has become difficult.",
-    "cite_from": "source",
-    "citation_text": "요즘 너무 바빠서 얼굴 보기",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In the context of Korean social culture, how might the invitation involving chicken and beer be interpreted beyond its literal meaning?",
-    "answer": "The reference can imply a casual, bonding-oriented outing since the combination is a well-known cultural pairing used to express friendliness or a desire to reconnect.",
-    "cite_from": "target",
-    "citation_text": "chicken and beer tonight",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "When someone casually asks something like '저녁에 치맥 한잔 어때?', what kind of tone or social vibe does that usually carry?",
-    "answer": "It typically conveys an easygoing, friendly atmosphere, signaling a relaxed get-together rather than anything formal or serious.",
-    "cite_from": "source",
-    "citation_text": "저녁에 치맥 한잔",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "지난달의 최저임금는 얼마였나요?", "answer": "10.3%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0101"}
+{"question": "텍스트는 הכלכלה에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0102"}
+{"question": "'was setting behind the mountains'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0103"}
+{"question": "어디에서 התאונה가 발생했나요?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "3.7%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0104"}
+{"question": "정부는 אתמול 어떤 조치를 취했나요?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0105"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ko_chatgpt_0106"}

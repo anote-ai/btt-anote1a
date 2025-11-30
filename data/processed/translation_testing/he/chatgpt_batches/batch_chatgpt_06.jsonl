@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the translation, what action did the speaker ultimately take regarding their travel plans?",
-    "answer": "The speaker abandoned the cheaper option and chose to purchase pricier tickets with a more dependable airline.",
-    "cite_from": "target",
-    "citation_text": "we decided to give up on the cheap flight",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Hey, what vibe does the description of Tel Aviv give off in the translation?",
-    "answer": "It comes across as super lively and modern, with lots of nightlife and places to hang out.",
-    "cite_from": "target",
-    "citation_text": "the most vibrant and modern city in Israel",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What can be inferred about the speaker's priorities when choosing an airline based on the cited phrase?",
-    "answer": "The speaker values reliability over cost, since they consciously gave up a cheaper option to ensure a safer or more dependable experience.",
-    "cite_from": "source",
-    "citation_text": "לוותר על הטיסה הזולה ולקנות כרטיסים יקרים יותר",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If a friend told you the doctor said something like the phrase below, what lifestyle change would you guess they need to make first?",
-    "answer": "They would probably need to improve their daily habits, such as drinking more water or beginning consistent exercise.",
-    "cite_from": "target",
-    "citation_text": "drink more water, eat healthier",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "The Hebrew expression in the cited segment is sometimes used idiomatically. How might different translations of it affect the tone of the sentence?",
-    "answer": "Translating it as 'in the end' creates a neutral narrative tone, while alternatives like 'ultimately' or 'after all' could imply deliberation or resignation, subtly shifting how decisive or reluctant the choice sounds.",
-    "cite_from": "source",
-    "citation_text": "בסופו של דבר",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "So when the doctor 'recommended' the stuff in the line below, do you think it's a gentle suggestion or more like a soft command?",
-    "answer": "It feels like a soft command because the advice concerns essential habits, yet the modal force is mild enough that it could still be interpreted as guidance rather than obligation.",
-    "cite_from": "source",
-    "citation_text": "להתחיל לעשות פעילות גופנית באופן קבוע",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של האינדקס בבשנה שעברה?", "answer": "9.2%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0601"}
+{"question": "מה הטקסט מרמז לגבי שוק העבודה?", "answer": "זה מצביע על כך ששהמגמה תחזק.", "cite_from": "target", "citation_text": "1.9%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0602"}
+{"question": "איך לפרש את הביטוי 'Fue increíble cómo remontaron'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0603"}
+{"question": "איפה התרחש המשחק?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "10.5%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0604"}
+{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "3.3%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0605"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "he_chatgpt_0606"}

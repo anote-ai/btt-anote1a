@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What are the two primary objectives of strengthening cybersecurity for a corporation?",
-    "answer": "The two main goals are to safeguard the sensitive or private information belonging to the company, known as corporate confidential information, and to maintain the trust held by their consumers or clients.",
-    "cite_from": "target",
-    "citation_text": "protect corporate confidential information and maintain customer trust",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Why is 'I don't think I can make it today' a suitable translation for '今日はちょっと無理そう' ('kyou wa chotto murisou') in an informal setting?",
-    "answer": "The Japanese phrase 'ちょっと無理そう' is an extremely common, idiomatic, and indirect way to say 'I can't do it' or 'it's difficult' in a casual setting. The English equivalent, 'I don't think I can make it today,' uses contractions ('don't') and informal phrasing that perfectly matches the indirect and casual tone of the source, indicating a high degree of informality. This tests formal/informal register differences.",
-    "cite_from": "ja",
-    "citation_text": "ごめん、今日はちょっと無理そう。体調悪くて、早めに帰りたいんだ。",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "The Japanese phrase '体調悪くて' (taichō warukute) is often used to excuse oneself. Does the English translation, 'I'm not feeling well,' fully capture the weight or ambiguity of the original phrase in a Japanese social context?",
-    "answer": "While 'I'm not feeling well' is the literal meaning, in Japanese culture, a phrase like '体調悪くて' (often used with a humble apology like 'ごめん') is a socially accepted, somewhat vague explanation for leaving or canceling that usually requires no further details from the speaker and is immediately respected by the listener. The English might sometimes invite follow-up questions about the specific illness, which the Japanese phrasing is often designed to avoid. This tests idiomatic meaning/cultural context.",
-    "cite_from": "ja",
-    "citation_text": "体調悪くて、早めに帰りたいんだ。",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  },
-  {
-    "question": "What is the speaker's main reason for wanting to leave their current location early?",
-    "answer": "The speaker wants to leave early because they are not feeling well (I'm not feeling well), suggesting a mild illness or general discomfort.",
-    "cite_from": "target",
-    "citation_text": "I'm not feeling well and want to head home early.",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  }
-]
+{"question": "昨年のインフレ率はどのくらいでしたか？", "answer": "8.9%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0501"}
+{"question": "この文はשוק העבודהについて何を示唆していますか？", "answer": "שאין מסקנה חד-משמעיתを示唆している。", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0502"}
+{"question": "'te quedaste dormido otra vez'という表現はどう解釈できますか？", "answer": "דרמטיと解釈される。", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0503"}
+{"question": "どこでהאירועが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0504"}
+{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "2.4%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0505"}
+{"question": "直接的な結果は何ですか？", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "8.8%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_05", "generated_date": "2025-11-29", "id": "ja_gemini_0506"}

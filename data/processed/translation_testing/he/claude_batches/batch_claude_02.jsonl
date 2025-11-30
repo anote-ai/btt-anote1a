@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What capability does cloud technology provide to companies regarding information access?",
-    "answer": "Cloud technology enables companies to access enormous amounts of stored information from any location worldwide, providing global accessibility to their data resources.",
-    "cite_from": "target",
-    "citation_text": "access it from anywhere in the world",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "So what's bugging the speaker about the other person?",
-    "answer": "The speaker's frustrated 'cause the other person keeps saying the same thing over and over for an hour, and nobody cares about it.",
-    "cite_from": "target",
-    "citation_text": "You've been repeating the same thing for a whole hour",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What thematic elements characterize the poet's literary contributions?",
-    "answer": "The poet's works are distinguished by their profound exploration of identity and memory, combining intellectual depth with emotional resonance in addressing these fundamental human themes.",
-    "cite_from": "target",
-    "citation_text": "profound and moving works dealing with identity and memory",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "How does the translation convey the speaker's emotional state in the imperative statement?",
-    "answer": "The translation 'Stop it already!' captures the exasperation through the emphatic 'already,' mirroring the Hebrew's frustration marker 'כבר' and maintaining the colloquial, confrontational tone of someone who's completely fed up.",
-    "cite_from": "source",
-    "citation_text": "תפסיק כבר עם זה",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  },
-  {
-    "question": "What infrastructural advantage does the Hebrew text attribute to cloud computing systems?",
-    "answer": "The text emphasizes cloud technology's dual capability: massive-scale data storage capacity combined with ubiquitous accessibility, representing a paradigm shift in information management infrastructure.",
-    "cite_from": "source",
-    "citation_text": "לאחסן כמויות עצומות של מידע ולגשת אליו מכל מקום",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "Does the phrase about excitement suggest genuine enthusiasm or its absence?",
-    "answer": "It indicates complete absence of enthusiasm—'nobody is excited' means no one finds it interesting or engaging, which is precisely why the speaker wants them to stop. The Hebrew 'לא מתרגש' can mean both 'not excited' and 'not impressed,' adding layers of indifference or even annoyance.",
-    "cite_from": "source",
-    "citation_text": "ואף אחד לא מתרגש מזה",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של האינדקס בבחודש שעבר?", "answer": "7.9%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0201"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0202"}
+{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כשלילי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0203"}
+{"question": "איפה התרחש התאונה?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0204"}
+{"question": "איזו פעולה נקטה הממשלה אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0205"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_02", "generated_date": "2025-11-29", "id": "he_claude_0206"}

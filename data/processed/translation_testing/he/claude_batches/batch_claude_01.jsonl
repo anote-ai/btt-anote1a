@@ -1,56 +1,6 @@
-[
-  {
-    "question": "How many days of annual vacation does the new law guarantee?",
-    "answer": "The new law guarantees at least twenty-two days of annual vacation, in addition to holidays.",
-    "cite_from": "target",
-    "citation_text": "annual vacation of at least twenty-two days, plus holidays",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What historical event is the film about?",
-    "answer": "The film depicts events from World War II, specifically real occurrences during that conflict.",
-    "cite_from": "target",
-    "citation_text": "real events that occurred during World War II",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Does the reviewer think the device is worth buying?",
-    "answer": "No, they explicitly state it's not worth the money because the price is excessive compared to the quality.",
-    "cite_from": "source",
-    "citation_text": "זה לא שווה את הכסף",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What emotional qualities does the film possess according to the description?",
-    "answer": "The film is characterized as both emotionally affecting and impactful, conveying intensity through its narrative approach.",
-    "cite_from": "target",
-    "citation_text": "tells a moving and powerful story",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "How does the Hebrew phrase about price compare to typical consumer complaint language?",
-    "answer": "The Hebrew uses 'מוגזם לחלוטין' (completely excessive), which is stronger and more formal than casual complaints, suggesting serious dissatisfaction rather than mild disappointment about value.",
-    "cite_from": "source",
-    "citation_text": "המחיר של המכשיר הזה מוגזם לחלוטין ביחס לאיכות",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "What's the deal with how they say everyone gets vacation time?",
-    "answer": "The law uses 'stipulates' and 'entitled' which are legal terms showing this isn't optional - it's a mandatory right for all workers, not just a suggestion or company policy.",
-    "cite_from": "source",
-    "citation_text": "החוק החדש קובע שכל העובדים זכאים",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של שכר המינימום בברבעון האחרון?", "answer": "7.2%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0101"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0102"}
+{"question": "איך לפרש את הביטוי 'Fue increíble cómo remontaron'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0103"}
+{"question": "איפה התרחש האירוע?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "7.8%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0104"}
+{"question": "איזו פעולה נקטה הממשלה אתמול?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "1.7%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0105"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "9.2%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_01", "generated_date": "2025-11-29", "id": "he_claude_0106"}

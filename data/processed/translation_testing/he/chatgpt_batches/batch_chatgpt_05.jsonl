@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the translation, what specific economic situation led the company to dismiss workers?",
-    "answer": "The dismissals were a direct result of an economic crisis that created conditions the company felt required mass layoffs.",
-    "cite_from": "target",
-    "citation_text": "mass layoffs due to an economic crisis",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "So why’d the company end up firing so many people?",
-    "answer": "Because the company said it was dealing with a major economic crisis and felt forced to lay off a lot of workers.",
-    "cite_from": "source",
-    "citation_text": "פיטורים המוניים עקב משבר כלכלי",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What temporal relationship does the translation imply between the children's playtime and the parents' calls?",
-    "answer": "It indicates that the children continued playing until the daylight ended, after which the parents began calling them home.",
-    "cite_from": "target",
-    "citation_text": "until the sun set",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What can you figure out about the parents' behavior from how the timing is described?",
-    "answer": "It shows they waited for the day to wind down and only then started calling the kids back home for dinner.",
-    "cite_from": "source",
-    "citation_text": "הורים התחילו לקרוא להם",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "How might the improvements mentioned in the operating system be interpreted differently depending on the user's expectations?",
-    "answer": "Some users may view the enhancements as genuinely significant upgrades, while others might see them as routine refinements often marketed as major changes.",
-    "cite_from": "target",
-    "citation_text": "more advanced security, and faster performance",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "What cultural vibe do you pick up from the scene where the kids keep playing outside until sunset?",
-    "answer": "It hints at a familiar everyday routine in many communities where kids stay out playing freely until evening, relying on parents to call them back when dinner’s ready.",
-    "cite_from": "source",
-    "citation_text": "הילדים שיחקו במגרש עד שהשמש שקעה",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של האינפלציה בבחודש שעבר?", "answer": "6.1%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0501"}
+{"question": "מה הטקסט מרמז לגבי שוק העבודה?", "answer": "זה מצביע על כך ששאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0502"}
+{"question": "איך לפרש את הביטוי 'Fue increíble cómo remontaron'?", "answer": "ניתן לפרשו כאופטימי.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0503"}
+{"question": "איפה התרחש המשחק?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0504"}
+{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0505"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "8.7%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "he_chatgpt_0506"}

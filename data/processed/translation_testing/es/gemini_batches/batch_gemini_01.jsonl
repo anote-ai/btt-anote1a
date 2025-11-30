@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What specifically did the people who marched require, based on the translated text?",
-    "answer": "They were demanding better conditions related to their employment or work.",
-    "cite_from": "target",
-    "citation_text": "demanding better working conditions",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What is the implied meaning of the Spanish phrase 'una encrucijada moral' when translated in the context of the protagonist's dilemma?",
-    "answer": "The phrase, literally 'a moral crossroads,' idiomatically implies a critical point where the protagonist faced a tough decision, being morally conflicted between two competing duties: family loyalty and personal conscience.",
-    "cite_from": "source",
-    "citation_text": "se encontraba en una encrucijada moral",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "The Spanish sentence 'La manifestación congregó a miles de personas' uses a more formal, literary verb ('congregó') than the English translation 'brought together'. Which choice reflects a greater degree of formal register: the Spanish source or the English translation, and why?",
-    "answer": "The Spanish source ('congregó') reflects a greater degree of formal register. 'Congregar' (to congregate/gather) is generally more formal or used in written/official contexts than the more common, phrasal verb 'brought together' used in the English translation, indicating a slight shift toward a more common or informal tone in the target text.",
-    "cite_from": "source",
-    "citation_text": "La manifestación congregó a miles de personas",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "So, what two choices did the main character have to pick between, according to the translation?",
-    "answer": "He had to choose between staying loyal to his family and acting according to what his conscience told him was right.",
-    "cite_from": "target",
-    "citation_text": "choose between his loyalty to family and following the dictates of his conscience",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de el índice en el año pasado?", "answer": "4.2%", "cite_from": "source", "citation_text": "4.2%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0101"}
+{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "11.9%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0102"}
+{"question": "¿Cómo se interpreta la frase 'Fue increíble cómo remontaron'?", "answer": "Se interpreta como אופטימי.", "cite_from": "source", "citation_text": "1.7%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0103"}
+{"question": "¿Dónde ocurrió האירוע?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "1.6%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0104"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0105"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_01", "generated_date": "2025-11-29", "id": "es_gemini_0106"}

@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What's one of the eco-friendly features the architect included in the building design?",
-    "answer": "The design features solar panels as a method for generating energy.",
-    "cite_from": "target",
-    "citation_text": "incorporates solar panels",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What obligation have the enterprises acquired as a consequence of the transformation initiated by the digital economy, as stated in the source text?",
-    "answer": "Enterprises are required to rapidly adjust their operations to accommodate emerging new technologies.",
-    "cite_from": "source",
-    "citation_text": "obligándolas a adaptarse rápidamente a nuevas tecnologías emergentes",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "The translation states that the digital economy is 'forcing' companies to adapt. What does this strong language, in a business context, infer about the stakes of non-adaptation?",
-    "answer": "It infers that the consequences of failing to adapt are existential; non-adaptation is not an option but would lead to market irrelevance or failure, indicating that rapid technological changes are highly disruptive to current business models.",
-    "cite_from": "target",
-    "citation_text": "forcing them to quickly adapt to emerging new technologies",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "The Spanish phrase 'ventilación natural eficiente' is translated as 'efficient natural ventilation'. In academic or formal technical writing, which word order is generally considered more stylistically formal in English, and how does the translation reflect this difference in register?",
-    "answer": "The order 'efficient natural ventilation' (adjective-adjective-noun) is the most standard, formal, and technically preferred structure in English. The Spanish allows for the adjectives to follow the noun (e.g., *ventilación*... *eficiente*), which is common in that language, but the translation shifts the structure to align with the succinct, professional English register by placing modifiers before the head noun.",
-    "cite_from": "source",
-    "citation_text": "ventilación natural eficiente",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  }
-]
+{"question": "¿Cuál fue el valor de la inflación en el mes pasado?", "answer": "7.0%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0301"}
+{"question": "¿Qué sugiere el texto sobre מדיניות?", "answer": "Indica que שזה יגרום להאטה.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0302"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como אופטימי.", "cite_from": "source", "citation_text": "8.7%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0303"}
+{"question": "¿Dónde ocurrió האירוע?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "11.8%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0304"}
+{"question": "¿Qué acción tomó el gobierno בחודש האחרון?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "7.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0305"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_03", "generated_date": "2025-11-29", "id": "es_gemini_0306"}

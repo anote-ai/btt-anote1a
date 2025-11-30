@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What policy actions does the text explicitly state the government intends to take?",
-    "answer": "It states that the government plans to increase parental leave payments and broaden the availability of public childcare facilities.",
-    "cite_from": "target",
-    "citation_text": "raise parental leave benefits",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Who expresses disbelief in the conversation, and what triggers this reaction?",
-    "answer": "The speaker reacts with surprise after hearing that someone allegedly said something unexpected.",
-    "cite_from": "source",
-    "citation_text": "믿을 수가 없네",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the modal phrasing in the scientific statement shape the interpretation of measurement limits in quantum mechanics?",
-    "answer": "The modal phrasing presents the measurement limit as an absolute restriction rather than a conditional one, highlighting that the two properties cannot both be known with complete precision at the same time.",
-    "cite_from": "target",
-    "citation_text": "it is impossible to precisely measure",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If you heard someone say the quoted Korean line in a casual chat, how would you interpret the speaker's emotional tone?",
-    "answer": "The tone would suggest shocked disbelief mixed with a kind of playful suspicion, as if the speaker feels the claim is hard to accept without sounding confrontational.",
-    "cite_from": "source",
-    "citation_text": "야, 진짜?",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In the policy statement, how certain does the government sound about its planned response, and what ambiguity remains about its implementation?",
-    "answer": "The language presents the plan as definite, but it leaves open questions about funding, timelines, and how quickly childcare capacity would scale to meet demand.",
-    "cite_from": "source",
-    "citation_text": "확충할 계획이다",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "When someone says the English line about disbelief in a casual setting, how might cultural expectations influence whether the reaction feels playful or genuinely shocked?",
-    "answer": "The reaction could be read as light teasing in some contexts or as real astonishment in others, since tone and social familiarity usually shape how strongly the disbelief is taken.",
-    "cite_from": "target",
-    "citation_text": "I can't believe it!",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "작년의 최저임금는 얼마였나요?", "answer": "1.8%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0601"}
+{"question": "텍스트는 שוק העבודה에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0602"}
+{"question": "'was setting behind the mountains'라는 표현은 어떻게 해석되나요?", "answer": "דרמטי로 해석됩니다.", "cite_from": "source", "citation_text": "10.3%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0603"}
+{"question": "어디에서 התאונה가 발생했나요?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0604"}
+{"question": "정부는 בשבוע האחרון 어떤 조치를 취했나요?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0605"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_06", "generated_date": "2025-11-29", "id": "ko_chatgpt_0606"}
