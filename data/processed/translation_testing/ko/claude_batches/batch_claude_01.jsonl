@@ -1,6 +1,56 @@
-{"question": "연말 분기의 인플레이션는 얼마였나요?", "answer": "3.5%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0101"}
-{"question": "텍스트는 מדיניות에 대해 무엇을 시사합니까?", "answer": "שאין מסקנה חד-משמעית을 시사합니다.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0102"}
-{"question": "'te quedaste dormido otra vez'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "1.2%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0103"}
-{"question": "어디에서 האירוע가 발생했나요?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0104"}
-{"question": "정부는 בחודש האחרון 어떤 조치를 취했나요?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "2.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0105"}
-{"question": "직접적인 결과는 무엇인가요?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_01", "generated_date": "2025-11-29", "id": "ko_claude_0106"}
+[
+  {
+    "question": "What type of clothing is Hanbok?",
+    "answer": "Hanbok is Korea's traditional clothing, a cultural garment that represents Korean heritage and has been worn for centuries.",
+    "cite_from": "target",
+    "citation_text": "Hanbok is Korea's traditional clothing",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Why can't the speaker make it today?",
+    "answer": "Something urgent came up unexpectedly, which is why they need to cancel the plans.",
+    "cite_from": "target",
+    "citation_text": "Something urgent came up and I don't think I can make it",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the modern reinterpretation of Hanbok reflect generational cultural shifts in Korea?",
+    "answer": "The modernized interpretations gaining popularity among younger generations suggest that traditional culture is being adapted to contemporary tastes, allowing cultural heritage to remain relevant while evolving with modern aesthetic preferences.",
+    "cite_from": "source",
+    "citation_text": "현대적으로 재해석된 개량 한복이 젊은 세대에게 인기를 끌고 있다",
+    "difficulty": "hard",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "So what makes blockchain different from regular databases?",
+    "answer": "It's decentralized and distributed, meaning no single entity controls it, which helps guarantee that data can't be tampered with and everything stays transparent.",
+    "cite_from": "source",
+    "citation_text": "탈중앙화된 분산 원장을 통해 데이터의 무결성과 투명성을 보장합니다",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the Korean expression '갑자기 급한 일이 생겨서' carry the same level of formality and social distance as the English translation?",
+    "answer": "No, the Korean phrase is more direct and casual despite being polite, while 'Something urgent came up' in English maintains a similar informality but the overall tone suggests the Korean may be slightly more apologetic in its directness, reflecting different cultural norms around cancellations.",
+    "cite_from": "source",
+    "citation_text": "갑자기 급한 일이 생겨서 못 갈 것 같아",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What two qualities does blockchain guarantee according to the translation?",
+    "answer": "Blockchain ensures data integrity and transparency, meaning the data can't be altered improperly and all transactions are visible and verifiable.",
+    "cite_from": "target",
+    "citation_text": "ensures data integrity and transparency",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

@@ -1,6 +1,38 @@
-{"question": "מה הייתה הערך של האינדקס בבשנה שעברה?", "answer": "4.8%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0501"}
-{"question": "מה הטקסט מרמז לגבי שוק העבודה?", "answer": "זה מצביע על כך ששהמגמה תחזק.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0502"}
-{"question": "איך לפרש את הביטוי 'te quedaste dormido otra vez'?", "answer": "ניתן לפרשו כשלילי.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0503"}
-{"question": "איפה התרחש האירוע?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "3.9%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0504"}
-{"question": "איזו פעולה נקטה הממשלה בחודש האחרון?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0505"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_05", "generated_date": "2025-11-29", "id": "he_gemini_0506"}
+[
+  {
+    "question": "What kind of collection is displayed at the new museum, and what types of exhibitions does it host?",
+    "answer": "It displays an impressive collection of contemporary Israeli art and hosts rotating exhibitions featuring artists who are local and international.",
+    "cite_from": "target",
+    "citation_text": "displays an impressive collection of contemporary Israeli art and hosts rotating exhibitions of local and international artists",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker used the Hebrew idiom 'אל תקח את זה ללב.' What is the underlying emotion the speaker is advising the listener to avoid experiencing?",
+    "answer": "The speaker is advising the listener to avoid feeling deep hurt, sadness, or offense, suggesting they shouldn't let the comment emotionally bother them.",
+    "cite_from": "source",
+    "citation_text": "אל תקח את זה ללב",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "The English translation uses the formal academic word 'contemporary.' If you were describing the art to a friend, how would you casually refer to 'אמנות עכשווית ישראלית' ('contemporary Israeli art')?",
+    "answer": "You would probably call it 'modern Israeli art' or 'new art from Israel' or 'art that's being made now.'",
+    "cite_from": "source",
+    "citation_text": "אמנות עכשווית ישראלית",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The speaker describes the offending person as 'a straightforward person who says what comes to his mind.' What is the major functional risk this personality trait presents in professional, multi-cultural, or diplomatic settings, and what mitigating factor is often implicitly assumed?",
+    "answer": "The risk is that unedited speech ('says what comes to his mind') can violate social norms, cause offense, or be perceived as unprofessional or aggressive. The mitigating factor often implicitly assumed by the speaker is that the person's intent ('he didn't mean to hurt you') is pure, even if the delivery is flawed.",
+    "cite_from": "target",
+    "citation_text": "he's just a straightforward person who says what comes to his mind",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  }
+]

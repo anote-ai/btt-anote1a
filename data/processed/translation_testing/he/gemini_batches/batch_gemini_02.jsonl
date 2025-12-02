@@ -1,6 +1,38 @@
-{"question": "מה הייתה הערך של האינדקס בברבעון האחרון?", "answer": "7.8%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0201"}
-{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "5.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0202"}
-{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0203"}
-{"question": "איפה התרחש המשחק?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "8.9%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0204"}
-{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "3.4%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0205"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "8.5%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_02", "generated_date": "2025-11-29", "id": "he_gemini_0206"}
+[
+  {
+    "question": "How often does the Old City of Jerusalem attract visitors, according to the English translation?",
+    "answer": "It attracts millions of visitors every year.",
+    "cite_from": "target",
+    "citation_text": "attracts millions of visitors every year",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What is the reason stated in the Hebrew text for postponing the discussion until 'מחר' (tomorrow)?",
+    "answer": "The speaker is currently very tired and unable to think clearly about complicated issues.",
+    "cite_from": "source",
+    "citation_text": "אני ממש עייף עכשיו ולא יכול לחשוב בצורה ברורה על נושאים מסובכים",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the cultural significance of the Old City of Jerusalem, as indicated by its status for 'three major monotheistic religions'?",
+    "answer": "Its significance lies in being a principal religious site for Judaism, Christianity, and Islam, making it a globally central place of worship and pilgrimage.",
+    "cite_from": "target",
+    "citation_text": "The Old City of Jerusalem is a holy place for the three major monotheistic religions",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker used the casual Hebrew phrase 'בוא נדבר על זה מחר' instead of a more formal request. What does this suggest about the relationship between the speaker and the listener?",
+    "answer": "It suggests they have a close, informal relationship, as the speaker feels comfortable using casual language ('Let's talk about it') and stating their personal state ('I'm really tired') without needing to be highly deferential.",
+    "cite_from": "source",
+    "citation_text": "בוא נדבר על זה מחר",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]

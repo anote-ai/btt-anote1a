@@ -1,6 +1,56 @@
-{"question": "最終四半期のインフレ率はどのくらいでしたか？", "answer": "3.6%", "cite_from": "source", "citation_text": "3.6%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0101"}
-{"question": "この文はהכלכלהについて何を示唆していますか？", "answer": "שזה יגרום להאטהを示唆している。", "cite_from": "target", "citation_text": "11.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0102"}
-{"question": "'Fue increíble cómo remontaron'という表現はどう解釈できますか？", "answer": "אופטימיと解釈される。", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0103"}
-{"question": "どこでהמשחקが起きましたか？", "answer": "בחוף הים", "cite_from": "target", "citation_text": "5.6%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0104"}
-{"question": "政府はאתמולにどんな対応をしましたか？", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "2.4%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0105"}
-{"question": "直接的な結果は何ですか？", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_01", "generated_date": "2025-11-29", "id": "ja_claude_0106"}
+[
+  {
+    "question": "What two factors contribute to extending healthy life expectancy according to the research?",
+    "answer": "According to the research, moderate exercise and a balanced diet are the two factors that greatly contribute to extending healthy life expectancy.",
+    "cite_from": "target",
+    "citation_text": "moderate exercise and a balanced diet greatly contribute to extending healthy life expectancy",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So wait, I missed my stop... what's the vibe of the original Japanese?",
+    "answer": "The original uses 'やばい' (yabai), which is super casual slang expressing panic or distress - way more informal than 'Oh no' captures. It's like saying 'Crap!' or 'Dude, seriously?!' in English.",
+    "cite_from": "source",
+    "citation_text": "やばい、電車乗り過ごした",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation convey the atmospheric quality described in the moonlight scene?",
+    "answer": "The translation preserves the ethereal atmosphere by describing how mountain shadows on the lake surface 'created a fantastical landscape,' capturing the dreamlike, otherworldly quality of the original scene.",
+    "cite_from": "target",
+    "citation_text": "created a fantastical landscape",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "適度な運動ってどのくらいの運動のこと?",
+    "answer": "The text describes it as 'moderate exercise' but doesn't specify duration or intensity - it refers to exercise that is balanced and not excessive, contributing to longevity rather than strain.",
+    "cite_from": "source",
+    "citation_text": "適度な運動とバランスの取れた食事が健康寿命の延伸に大きく貢献する",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the English translation adequately capture the speaker's complete disorientation?",
+    "answer": "Yes, the phrase 'I have no idea where I am right now' effectively conveys the total spatial confusion expressed in the original '今どこにいるのか全然わかんない,' though it loses some of the casual, panicked tone of the colloquial Japanese.",
+    "cite_from": "target",
+    "citation_text": "I have no idea where I am right now",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's creating that cool visual effect by the lake?",
+    "answer": "It's the mountain shadows reflecting on the quiet water under moonlight that's making everything look so magical and dreamy.",
+    "cite_from": "source",
+    "citation_text": "静かな湖面に映る山々の影",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

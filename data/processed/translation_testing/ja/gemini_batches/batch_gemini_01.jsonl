@@ -1,6 +1,38 @@
-{"question": "最終四半期の最低賃金はどのくらいでしたか？", "answer": "9.9%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0101"}
-{"question": "この文はמדיניותについて何を示唆していますか？", "answer": "שזה יגרום להאטהを示唆している。", "cite_from": "target", "citation_text": "9.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0102"}
-{"question": "'te quedaste dormido otra vez'という表現はどう解釈できますか？", "answer": "אופטימיと解釈される。", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0103"}
-{"question": "どこでהמשחקが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "5.9%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0104"}
-{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "8.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0105"}
-{"question": "直接的な結果は何ですか？", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "6.3%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_01", "generated_date": "2025-11-29", "id": "ja_gemini_0106"}
+[
+  {
+    "question": "What are the two primary goals of the measures to promote public transportation, according to the text?",
+    "answer": "The two main objectives are to alleviate the amount of traffic on the roads, known as congestion, and to lessen the adverse effects on the natural world, which is the environmental impact.",
+    "cite_from": "target",
+    "citation_text": "ease traffic congestion and reduce environmental impact",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The Japanese text uses '若かりし日'. How does the English translation reflect the formal register of this phrase and what does it mean?",
+    "answer": "The translation uses the more formal phrasing 'my younger days' rather than a highly casual equivalent. The phrase refers to the period when the narrator was young or in their youth.",
+    "cite_from": "ja",
+    "citation_text": "若かりし日の淡い思い出",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the meaning of '淡い思い出' ('awai omoide') in the context of the old diary, and why is the translation 'faint memories' potentially ambiguous?",
+    "answer": "In this context, '淡い思い出' (awai omoide) idiomatically implies nostalgic, possibly bittersweet, or fleeting memories rather than simply ones that are physically hard to recall. The English 'faint memories' primarily suggests the memories are weak or dim, which might not fully capture the deeper, sentimental, and slightly poetic connotation of the Japanese phrase about youthful recollections. This tests idiomatic meaning/cultural context.",
+    "cite_from": "ja",
+    "citation_text": "古びた日記帳を開くと、若かりし日の淡い思い出が鮮やかによみがえってきた。",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "What was the condition of the diary that brought back the memories?",
+    "answer": "The memories came back when the person opened the old diary.",
+    "cite_from": "target",
+    "citation_text": "When I opened the old diary, faint memories",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  }
+]

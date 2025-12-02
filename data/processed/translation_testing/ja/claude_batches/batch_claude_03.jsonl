@@ -1,6 +1,56 @@
-{"question": "最終四半期の指標はどのくらいでしたか？", "answer": "3.5%", "cite_from": "source", "citation_text": "3.5%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0301"}
-{"question": "この文はשוק העבודהについて何を示唆していますか？", "answer": "שזה יגרום להאטהを示唆している。", "cite_from": "target", "citation_text": "8.9%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0302"}
-{"question": "'Fue increíble cómo remontaron'という表現はどう解釈できますか？", "answer": "שליליと解釈される。", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0303"}
-{"question": "どこでהמשחקが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "11.0%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0304"}
-{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0305"}
-{"question": "直接的な結果は何ですか？", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_03", "generated_date": "2025-11-29", "id": "ja_claude_0306"}
+[
+  {
+    "question": "What was the topic of discussion at the international conference?",
+    "answer": "The conference discussed concrete action plans for achieving sustainable development goals, with participants engaging in lively debate about specific strategies.",
+    "cite_from": "target",
+    "citation_text": "concrete action plans toward achieving sustainable development goals",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what's being suggested after work here?",
+    "answer": "They're inviting someone to grab a drink on the way home, recognizing they worked hard all day.",
+    "cite_from": "target",
+    "citation_text": "How about a drink on the way home?",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the author characterize the novelist's descriptive technique?",
+    "answer": "The novelist employs delicate brushstrokes as a metaphorical technique, suggesting a refined and nuanced writing style that carefully renders subtle beauty.",
+    "cite_from": "source",
+    "citation_text": "繊細な筆致で描き出している",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What kinda vibe does 'お疲れ様' set for this whole message?",
+    "answer": "It establishes a casual, supportive tone between colleagues or friends, showing appreciation and camaraderie rather than formal professional distance.",
+    "cite_from": "source",
+    "citation_text": "お疲れ様!今日も一日頑張ったね。",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "What implicit temporal aspect distinguishes the conference discussions from typical deliberations?",
+    "answer": "The use of '交わされました' indicates completed past action, suggesting the discussions have concluded rather than being ongoing, while the active framing '活発な議論' emphasizes the dynamic quality that characterized those exchanges.",
+    "cite_from": "source",
+    "citation_text": "活発な議論が交わされました",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Does 'hidden' really capture what the Japanese is saying about beauty in everyday life?",
+    "answer": "It's interpretive—'潜む' suggests something lurking or existing beneath the surface, which 'hidden' captures, but the nuance implies beauty is always present yet unnoticed rather than deliberately concealed.",
+    "cite_from": "target",
+    "citation_text": "the beauty hidden in everyday moments",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

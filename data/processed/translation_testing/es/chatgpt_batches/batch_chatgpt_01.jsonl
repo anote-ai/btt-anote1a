@@ -1,6 +1,56 @@
-{"question": "¿Cuál fue el valor de el salario mínimo en el mes pasado?", "answer": "7.9%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0101"}
-{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "6.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0102"}
-{"question": "¿Cómo se interpreta la frase 'Fue increíble cómo remontaron'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0103"}
-{"question": "¿Dónde ocurrió האירוע?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "1.1%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0104"}
-{"question": "¿Qué acción tomó el gobierno בחודש האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0105"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "es_chatgpt_0106"}
+[
+  {
+    "question": "What specific inflation figure is reported in the text?",
+    "answer": "It states that inflation climbed to 8.5 percent during the final quarter of the year.",
+    "cite_from": "target",
+    "citation_text": "reached 8.5% in the last quarter",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Hey, what was the first thing the speaker asked about?",
+    "answer": "They wanted to know if the other person had watched the game the previous night.",
+    "cite_from": "source",
+    "citation_text": "¿Viste el partido anoche?",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "Based on the description of the system, what capability can be inferred about its suitability for detailed visual analysis?",
+    "answer": "Because it relies on a deep convolutional neural network built to handle high-resolution inputs, it is well suited to tasks requiring fine-grained visual discrimination.",
+    "cite_from": "target",
+    "citation_text": "processes high-resolution images",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Given the timing mentioned, what does the text suggest about how late the turnaround happened?",
+    "answer": "It implies the comeback occurred extremely close to the end, right in the final moments of the match.",
+    "cite_from": "source",
+    "citation_text": "en los últimos minutos",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In a formal analysis, how should one interpret the cultural nuance of the sports phrase describing the team's late performance?",
+    "answer": "The phrase depicts a dramatic reversal typical in Spanish-language sports commentary, emphasizing not merely scoring but an almost narrative comeback that conveys emotional intensity beyond the literal action.",
+    "cite_from": "source",
+    "citation_text": "Fue increíble cómo remontaron en los últimos minutos",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "So if they rolled out those policies yesterday, what do you think that really means for how things might play out, even if the text does not spell it out?",
+    "answer": "It hints that the government is responding quickly to rising prices, but the real impact of the measures is uncertain and could swing in different directions depending on economic conditions.",
+    "cite_from": "target",
+    "citation_text": "announced new economic measures yesterday to combat inflation",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

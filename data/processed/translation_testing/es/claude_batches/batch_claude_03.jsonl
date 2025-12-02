@@ -1,6 +1,56 @@
-{"question": "¿Cuál fue el valor de el salario mínimo en el mes pasado?", "answer": "5.4%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0301"}
-{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0302"}
-{"question": "¿Cómo se interpreta la frase 'was setting behind the mountains'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "1.7%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0303"}
-{"question": "¿Dónde ocurrió המשחק?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "11.3%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0304"}
-{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0305"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "9.2%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_03", "generated_date": "2025-11-29", "id": "es_claude_0306"}
+[
+  {
+    "question": "What idiom is used in Spanish to describe the embarrassing mistake?",
+    "answer": "The Spanish text uses 'metió la pata', which literally means 'put his foot in it', conveying an embarrassing social blunder.",
+    "cite_from": "source",
+    "citation_text": "Metió la pata cuando le preguntó a María si estaba embarazada",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Why'd the authorities put out that warning?",
+    "answer": "They issued it 'cause heavy rains were coming that could flood several parts of the country.",
+    "cite_from": "target",
+    "citation_text": "heavy rains forecast that could cause flooding in several regions",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the English translation handle the cultural nuance of the Spanish idiom about the social mistake?",
+    "answer": "The translation uses 'put his foot in his mouth', an equivalent English idiom that preserves the cultural meaning of an embarrassing verbal mistake rather than attempting a literal translation.",
+    "cite_from": "target",
+    "citation_text": "He put his foot in his mouth when he asked María",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What was she thinking about while looking at the horizon?",
+    "answer": "She was wondering what the future would bring her way, contemplating what lay ahead in her life.",
+    "cite_from": "source",
+    "citation_text": "contemplaba el horizonte, preguntándose qué le depararía el futuro",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the temporal construction 'había ganado' versus 'had just gained' introduce a subtle shift in aspectual meaning regarding the weight gain?",
+    "answer": "Yes, the English 'had just gained' emphasizes the recentness more explicitly through the adverb 'just', while the Spanish pluperfect 'había ganado' followed by 'recientemente' places the temporal marker separately, creating a slightly different aspectual focus on the completed action versus its temporal proximity.",
+    "cite_from": "source",
+    "citation_text": "resultó que solo había ganado un poco de peso recientemente",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the deal with her eyes—was she happy or sad?",
+    "answer": "It's actually both at once—that's the whole point. Her eyes showed 'a mixture of sadness and hope' simultaneously, capturing an ambiguous emotional state that's neither purely positive nor negative but rather complex and contradictory.",
+    "cite_from": "target",
+    "citation_text": "Her eyes shone with a mixture of sadness and hope",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

@@ -1,6 +1,56 @@
-{"question": "¿Cuál fue el valor de la inflación en el mes pasado?", "answer": "3.3%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0201"}
-{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שזה יגרום להאטה.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0202"}
-{"question": "¿Cómo se interpreta la frase 'was setting behind the mountains'?", "answer": "Se interpreta como אופטימי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0203"}
-{"question": "¿Dónde ocurrió המשחק?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "11.7%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0204"}
-{"question": "¿Qué acción tomó el gobierno בשבוע האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "2.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0205"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_02", "generated_date": "2025-11-29", "id": "es_chatgpt_0206"}
+[
+  {
+    "question": "According to the translation, what natural structure is the sun positioned behind during the scene?",
+    "answer": "It is positioned behind the mountains, which sets the physical backdrop of the described landscape.",
+    "cite_from": "target",
+    "citation_text": "behind the mountains",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So why was the guy running late this time?",
+    "answer": "He showed up late because he overslept again, repeating the same old pattern.",
+    "cite_from": "source",
+    "citation_text": "te quedaste dormido otra vez",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What does the progressive aspect in the text suggest about how the scene unfolds over time?",
+    "answer": "The progressive verb form suggests that the sunset is an ongoing process occurring gradually rather than a single instantaneous event.",
+    "cite_from": "target",
+    "citation_text": "was setting behind the mountains",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "When someone says 'No me vengas con cuentos', what vibe are they giving off in terms of tone and register?",
+    "answer": "They are speaking very casually and dismissively, signaling annoyance and implying that the other person is making excuses rather than telling the truth.",
+    "cite_from": "source",
+    "citation_text": "No me vengas con cuentos",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How should the expression 'Don't give me stories' be interpreted in context, considering cultural and idiomatic nuance?",
+    "answer": "It functions as an idiomatic reprimand meaning that the speaker rejects fabricated excuses, reflecting a cultural tendency to equate 'stories' with untrustworthy explanations.",
+    "cite_from": "target",
+    "citation_text": "Don't give me stories",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Do you think the losses mentioned were caused only by external factors, or could the timing and internal management also be playing a role?",
+    "answer": "Although the text attributes the losses to a global supply chain disruption, the phrasing leaves room for interpretation about whether internal decisions during that specific quarter might have intensified the impact.",
+    "cite_from": "source",
+    "citation_text": "pérdidas significativas durante el segundo trimestre",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

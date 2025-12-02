@@ -1,6 +1,56 @@
-{"question": "¿Cuál fue el valor de el salario mínimo en el año pasado?", "answer": "4.9%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0401"}
-{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "7.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0402"}
-{"question": "¿Cómo se interpreta la frase 'Fue increíble cómo remontaron'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0403"}
-{"question": "¿Dónde ocurrió התאונה?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0404"}
-{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0405"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "es_chatgpt_0406"}
+[
+  {
+    "question": "According to the translation, what central subjects does the novel examine?",
+    "answer": "It examines deep human concerns, including loneliness and identity, as part of its thematic focus.",
+    "cite_from": "target",
+    "citation_text": "profound themes such as loneliness",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what specific security stuff does the protocol ask for?",
+    "answer": "It calls for two-factor authentication along with strong encryption to keep sensitive communications protected.",
+    "cite_from": "source",
+    "citation_text": "autenticación de dos factores y encriptación",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "In the context of the passage, what does the expression about being overworked imply about the speaker's availability?",
+    "answer": "It indicates that the speaker is extremely busy at the moment yet still intends to make time for a meeting.",
+    "cite_from": "target",
+    "citation_text": "up to my neck in work this week",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "If they're saying they'll see each other on Saturday, what does that hint about their plans for the rest of the week?",
+    "answer": "It suggests that meeting earlier is unlikely and that Saturday is the first realistic chance to reconnect.",
+    "cite_from": "source",
+    "citation_text": "nos vemos el sábado para ponernos al día",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How might the novel's depiction of a fragmented society be interpreted beyond its literal meaning?",
+    "answer": "It could point to social, psychological, or cultural disconnection rather than solely describing a structurally divided community.",
+    "cite_from": "target",
+    "citation_text": "in an increasingly fragmented society",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When the speaker says they're 'hasta el cuello de trabajo', how could that be understood in different cultural or personal ways?",
+    "answer": "Depending on context, it might signal genuine overload, a casual exaggeration, or even a polite excuse to delay commitments.",
+    "cite_from": "source",
+    "citation_text": "hasta el cuello de trabajo esta semana",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

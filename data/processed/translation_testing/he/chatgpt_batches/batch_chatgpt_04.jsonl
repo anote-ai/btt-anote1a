@@ -1,6 +1,56 @@
-{"question": "מה הייתה הערך של שכר המינימום בבחודש שעבר?", "answer": "8.2%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0401"}
-{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששהמגמה תחזק.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0402"}
-{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "4.5%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0403"}
-{"question": "איפה התרחש המשחק?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "3.0%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0404"}
-{"question": "איזו פעולה נקטה הממשלה בחודש האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "7.3%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0405"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "he_chatgpt_0406"}
+[
+  {
+    "question": "What specific relationship did the study identify regarding diet and health outcomes?",
+    "answer": "The study identified a direct relationship between eating more vegetables and fruits and a lower likelihood of cardiovascular diseases.",
+    "cite_from": "target",
+    "citation_text": "a direct link between consumption of vegetables and fruits",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "מה בדיוק הוא אומר לגבי האיחור לפגישה?",
+    "answer": "He is saying that being a little late is not a serious issue and should not cause stress.",
+    "cite_from": "source",
+    "citation_text": "זה לא סוף העולם",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the text imply the character is attempting to manage ongoing stress rather than addressing a one-time issue?",
+    "answer": "The repeated or habitual nature of her stress is suggested by the description of her trying to forget ongoing daily pressures, indicating an ongoing pattern rather than a unique moment.",
+    "cite_from": "target",
+    "citation_text": "tried to forget about the stress and worries",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why do you think the speaker in the first sentence sounds frustrated even though they're saying it's ‘not the end of the world’?",
+    "answer": "The phrase, while calming, suggests they're trying to counter someone else's tension, which hints at underlying frustration or impatience.",
+    "cite_from": "target",
+    "citation_text": "it's not the end of the world",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In what ways could the Hebrew phrase cited suggest cultural expectations about punctuality that might not be obvious from the English translation?",
+    "answer": "The Hebrew phrasing could reflect a cultural norm where punctuality is valued yet minor lateness is sometimes treated more flexibly, creating ambiguity about how serious the situation actually feels to the speakers.",
+    "cite_from": "source",
+    "citation_text": "נאחר קצת לפגישה",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "If someone says they're trying to forget ‘the stress and worries of daily life’, do you think they actually expect to escape them, or are they just hoping for a short break?",
+    "answer": "It is unclear whether they expect real relief or only a brief mental escape, since the phrasing can imply either a temporary distraction or a deeper desire to break routine pressures.",
+    "cite_from": "target",
+    "citation_text": "the stress and worries of daily life",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

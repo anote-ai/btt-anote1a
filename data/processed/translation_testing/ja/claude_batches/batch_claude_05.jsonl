@@ -1,6 +1,56 @@
-{"question": "最終四半期のインフレ率はどのくらいでしたか？", "answer": "8.3%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0501"}
-{"question": "この文はשוק העבודהについて何を示唆していますか？", "answer": "שזה יגרום להאטהを示唆している。", "cite_from": "target", "citation_text": "7.3%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0502"}
-{"question": "'Fue increíble cómo remontaron'という表現はどう解釈できますか？", "answer": "אופטימיと解釈される。", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0503"}
-{"question": "どこでהתאונהが起きましたか？", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "10.8%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0504"}
-{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "2.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0505"}
-{"question": "直接的な結果は何ですか？", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "10.1%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ja", "batch_id": "ja_batch_claude_05", "generated_date": "2025-11-29", "id": "ja_claude_0506"}
+[
+  {
+    "question": "What technology was introduced for quality control?",
+    "answer": "Artificial intelligence-powered quality control systems were introduced to improve manufacturing processes.",
+    "cite_from": "target",
+    "citation_text": "AI-powered quality control systems",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So how did the defect rate change after they brought in the new system?",
+    "answer": "It went down big time - they saw a major drop in how many defective products they were making.",
+    "cite_from": "source",
+    "citation_text": "不良品の発生率が大幅に減少しました",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation convey the formality level of the manufacturing context?",
+    "answer": "The translation uses professional terminology like 'major manufacturing companies' and 'significantly reduced', maintaining the formal business register appropriate for corporate technological implementation.",
+    "cite_from": "target",
+    "citation_text": "At major manufacturing companies, the introduction of AI-powered quality control systems has significantly reduced",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the vibe of that winter scene message?",
+    "answer": "It's got this poetic, appreciative feel - someone taking a moment to notice something beautiful and delicate in nature on a cold morning.",
+    "cite_from": "source",
+    "citation_text": "窓ガラスに描かれた霜の結晶が、太陽の光を受けてきらきらと輝いていた",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the translation '超久しぶり' as 'Long time no see' adequately capture the register shift and intensity of the original Japanese expression?",
+    "answer": "While 'Long time no see' captures the casual tone, it somewhat underrepresents the heightened enthusiasm of '超久しぶり', where '超' (super/extremely) intensifies the expression beyond a standard informal greeting, suggesting an even longer absence or greater excitement at reconnecting.",
+    "cite_from": "source",
+    "citation_text": "超久しぶり!元気だった?",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "How does the phrase 'drawn on the window glass' work as a translation choice here?",
+    "answer": "It's an interesting interpretation - '描かれた' literally means 'drawn/depicted', but in this context it personifies nature as an artist creating frost patterns. The translation preserves this poetic device, though it might slightly obscure that the frost formed naturally rather than being literally drawn.",
+    "cite_from": "target",
+    "citation_text": "frost crystals drawn on the window glass",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

@@ -1,6 +1,56 @@
-{"question": "지난달의 지수는 얼마였나요?", "answer": "6.5%", "cite_from": "source", "citation_text": "6.5%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0601"}
-{"question": "텍스트는 מדיניות에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "9.5%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0602"}
-{"question": "'was setting behind the mountains'라는 표현은 어떻게 해석되나요?", "answer": "אופטימי로 해석됩니다.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0603"}
-{"question": "어디에서 המשחק가 발생했나요?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "11.7%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0604"}
-{"question": "정부는 אתמול 어떤 조치를 취했나요?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0605"}
-{"question": "직접적인 결과는 무엇인가요?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_06", "generated_date": "2025-11-29", "id": "ko_claude_0606"}
+[
+  {
+    "question": "What event is mentioned as happening tomorrow?",
+    "answer": "An interview is scheduled for tomorrow.",
+    "cite_from": "target",
+    "citation_text": "I have an interview tomorrow",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So who's the speaker asking for help?",
+    "answer": "The speaker is asking their older sister ('언니') for advice about what to wear to an interview.",
+    "cite_from": "source",
+    "citation_text": "언니, 나 내일 면접 있는데",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What specific technical capabilities of 5G networks are identified as driving forces for emerging technologies?",
+    "answer": "The low latency and high-speed transmission capabilities are identified as the key technical factors that will accelerate development in autonomous vehicles and telemedicine.",
+    "cite_from": "target",
+    "citation_text": "low latency and high-speed transmission capabilities of 5G networks",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the speaker keep going back to traditional markets?",
+    "answer": "They visit often because traditional markets offer a warmth and personal touch ('인심') that you just can't get at big chain stores.",
+    "cite_from": "source",
+    "citation_text": "전통 시장의 인심은 대형 마트에서는 느낄 수 없는 따뜻함이 있어서",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation handle the cultural concept of '인심' and what interpretive choices does it reveal?",
+    "answer": "The translation renders '인심' as 'warmth and generosity,' unpacking a culturally specific Korean concept about human kindness and generous spirit into explicit English terms. This reveals an interpretive expansion strategy rather than finding a single equivalent term.",
+    "cite_from": "source",
+    "citation_text": "전통 시장의 인심은",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "Does the English version lose the casual intimacy of calling someone '언니' compared to just jumping straight into the request?",
+    "answer": "Yeah, totally. The original opens with '언니' which shows this close sisterly relationship and sets a warm, familiar tone. The English just drops that and goes straight to 'I have an interview,' losing that relational context and making it feel more transactional.",
+    "cite_from": "target",
+    "citation_text": "I have an interview tomorrow, what should I wear?",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

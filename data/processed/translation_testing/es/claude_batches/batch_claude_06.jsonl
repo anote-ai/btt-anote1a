@@ -1,6 +1,56 @@
-{"question": "¿Cuál fue el valor de el salario mínimo en el mes pasado?", "answer": "9.2%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0601"}
-{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0602"}
-{"question": "¿Cómo se interpreta la frase 'was setting behind the mountains'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0603"}
-{"question": "¿Dónde ocurrió המשחק?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "6.1%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0604"}
-{"question": "¿Qué acción tomó el gobierno בשבוע האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "11.0%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0605"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "7.0%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_06", "generated_date": "2025-11-29", "id": "es_claude_0606"}
+[
+  {
+    "question": "What specific aspect of consumer behavior does the data analysis reveal?",
+    "answer": "The data analysis reveals interesting patterns in consumer behavior that could be used to develop future digital marketing strategies.",
+    "cite_from": "target",
+    "citation_text": "reveals interesting patterns in consumer behavior",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Why couldn't the person notify anyone about being late?",
+    "answer": "They were unable to notify anyone because their phone battery had died while they were stuck in traffic.",
+    "cite_from": "target",
+    "citation_text": "couldn't let you know because my battery died",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "¿Qué técnicas emplearon los científicos en su investigación?",
+    "answer": "Los científicos utilizaron técnicas de secuenciación genómica de última generación para identificar mutaciones relacionadas con la resistencia a medicamentos.",
+    "cite_from": "source",
+    "citation_text": "técnicas de secuenciación genómica de última generación",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "How might the formality of the apology reflect the relationship between the speaker and recipient?",
+    "answer": "The informal register using 'Sorry' and contractions like 'couldn't' suggests a casual, familiar relationship rather than a professional or distant one, indicating the speaker feels comfortable being conversational.",
+    "cite_from": "target",
+    "citation_text": "Sorry for the delay",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the Spanish phrase 'podrían informar' convey certainty or possibility about future marketing applications?",
+    "answer": "The conditional 'podrían' expresses possibility rather than certainty, indicating that the patterns 'could' or 'might' inform strategies but aren't guaranteed to do so. This modal nuance suggests potential rather than definitive outcomes.",
+    "cite_from": "source",
+    "citation_text": "podrían informar futuras estrategias de marketing digital",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the cultural implication of saying 'me quedé atrapado' versus just saying 'there was traffic'?",
+    "answer": "The phrase 'me quedé atrapado' (I got stuck/trapped) emphasizes the speaker's lack of control and victimhood in the situation, which in Spanish-speaking cultures functions as a stronger justification for lateness, implying the delay was beyond their responsibility.",
+    "cite_from": "source",
+    "citation_text": "me quedé atrapado en el tráfico",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

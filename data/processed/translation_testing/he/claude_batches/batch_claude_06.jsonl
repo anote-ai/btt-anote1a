@@ -1,6 +1,56 @@
-{"question": "מה הייתה הערך של האינפלציה בבשנה שעברה?", "answer": "2.3%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0601"}
-{"question": "מה הטקסט מרמז לגבי מדיניות?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0602"}
-{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "3.5%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0603"}
-{"question": "איפה התרחש המשחק?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "7.1%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0604"}
-{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "11.6%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0605"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "1.2%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_06", "generated_date": "2025-11-29", "id": "he_claude_0606"}
+[
+  {
+    "question": "What do Jewish families do during Passover according to the translation?",
+    "answer": "Jewish families gather to conduct the Passover Seder and tell the story of the Exodus from Egypt.",
+    "cite_from": "target",
+    "citation_text": "gather to conduct the Passover Seder and tell the story of the Exodus from Egypt",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Why'd the central bank raise interest rates?",
+    "answer": "To curb inflation and keep the economy stable in the country.",
+    "cite_from": "target",
+    "citation_text": "to curb inflation and maintain economic stability",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the Hebrew text characterize the novel's appeal?",
+    "answer": "The Hebrew describes it as 'מרתק' (fascinating/riveting), suggesting it captivates readers through its compelling narrative about a young woman's journey.",
+    "cite_from": "source",
+    "citation_text": "הרומן המרתק הזה",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What's the young woman in the novel struggling with?",
+    "answer": "She's trying to figure out where she fits in a world that's changing super fast around her.",
+    "cite_from": "target",
+    "citation_text": "trying to find her place in a rapidly changing world",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the translation preserve the cultural specificity of the Passover ritual description?",
+    "answer": "Yes, the translation maintains cultural authenticity by using the specific Hebrew term 'Seder' rather than a generic descriptor, preserving the religious and cultural significance of the ritual gathering described in the original text.",
+    "cite_from": "source",
+    "citation_text": "לערוך את סדר הפסח ולספר את סיפור יציאת מצרים",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What vibe does the Hebrew word choice give about the economic situation?",
+    "answer": "The use of 'לבלום' (to curb/restrain) and emphasis on 'יציבות' (stability) conveys urgency and suggests the economy needs active intervention to prevent deterioration, implying a concerning inflationary environment requiring decisive central bank action.",
+    "cite_from": "source",
+    "citation_text": "לבלום את האינפלציה ולשמור על יציבות כלכלית",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

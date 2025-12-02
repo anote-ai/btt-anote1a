@@ -1,6 +1,56 @@
-{"question": "昨年の最低賃金はどのくらいでしたか？", "answer": "10.8%", "cite_from": "source", "citation_text": "10.8%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0101"}
-{"question": "この文はשוק העבודהについて何を示唆していますか？", "answer": "שאין מסקנה חד-משמעיתを示唆している。", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0102"}
-{"question": "'te quedaste dormido otra vez'という表現はどう解釈できますか？", "answer": "דרמטיと解釈される。", "cite_from": "source", "citation_text": "9.2%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0103"}
-{"question": "どこでהמשחקが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0104"}
-{"question": "政府はאתמולにどんな対応をしましたか？", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0105"}
-{"question": "直接的な結果は何ですか？", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_01", "generated_date": "2025-11-29", "id": "ja_chatgpt_0106"}
+[
+  {
+    "question": "According to the translation, what concrete action has the new economic policy taken to support businesses?",
+    "answer": "It explicitly states that the policy has increased the level of support directed toward small and medium-sized enterprises.",
+    "cite_from": "target",
+    "citation_text": "has strengthened support for small and medium-sized enterprises",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What memory made her feel all nostalgic?",
+    "answer": "She was thinking back to the cherry-blossom-lined streets in her hometown, which filled her with warm memories.",
+    "cite_from": "source",
+    "citation_text": "故郷の桜並木を思い出し",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the translation convey the modality of expectation in relation to regional economic growth?",
+    "answer": "It frames the revitalization of regional economies as a projected or anticipated outcome rather than a certainty, showing a forward-looking expectation.",
+    "cite_from": "target",
+    "citation_text": "is expected to revitalize regional economies",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why do you think her feelings intensified so much in that moment?",
+    "answer": "Her emotions likely swelled because the memory evoked deep personal attachment, suggested by how strongly nostalgia filled her heart.",
+    "cite_from": "source",
+    "citation_text": "懐かしさで胸がいっぱいになった",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In the context of Japanese everyday speech, what ambiguity might arise when interpreting her request for someone to wait?",
+    "answer": "Her wording could reflect either a polite pause or an urgent plea, as the informal phrasing leaves room for interpreting how pressing her situation actually is.",
+    "cite_from": "source",
+    "citation_text": "ちょっと待って",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "How might the casual tone of the English translation change the way you interpret the urgency of the situation?",
+    "answer": "Because the translation uses relaxed, friendly phrasing, the situation feels more like a quick, everyday mix-up than a serious problem.",
+    "cite_from": "target",
+    "citation_text": "I'll catch up right away",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

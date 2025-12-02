@@ -1,6 +1,38 @@
-{"question": "¿Cuál fue el valor de el salario mínimo en el último trimestre?", "answer": "8.0%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0501"}
-{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0502"}
-{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como דרמטי.", "cite_from": "source", "citation_text": "9.8%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0503"}
-{"question": "¿Dónde ocurrió האירוע?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "11.0%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0504"}
-{"question": "¿Qué acción tomó el gobierno בשבוע האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0505"}
-{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_05", "generated_date": "2025-11-29", "id": "es_gemini_0506"}
+[
+  {
+    "question": "What is the primary requirement for the user interface, besides being accessible?",
+    "answer": "The user interface must also be intuitive, meaning easy and natural to use.",
+    "cite_from": "target",
+    "citation_text": "The user interface must be intuitive and accessible",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker in the second text expresses disbelief. What exactly are they surprised by regarding the other person's travel logistics?",
+    "answer": "They are surprised that the other person managed to travel throughout the entire continent of Europe carrying only a single backpack for their luggage.",
+    "cite_from": "target",
+    "citation_text": "I can't believe you traveled through all of Europe with just a backpack",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What is the core difference in register between the Spanish phrase 'una experiencia óptima' and the English translation 'an optimal experience' in a professional setting?",
+    "answer": "The Spanish phrase often uses the noun (*experiencia*) first, which is standard in formal contexts. The English translation, by using the adjective 'optimal' before the noun, follows a highly preferred and concise structure in formal English technical writing, reflecting a slight translation shift toward the most streamlined, professional register.",
+    "cite_from": "source",
+    "citation_text": "garantizar una experiencia óptima",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "The speaker contrasts traveling 'por toda Europa con solo una mochila' with needing 'media maleta solo para una semana'. What can you infer about the speaker's typical travel style?",
+    "answer": "You can infer that the speaker typically overpacks or travels with significantly more luggage, as they need a large amount of luggage (half a suitcase) for just a short, one-week trip, indicating a non-minimalist or high-maintenance travel style.",
+    "cite_from": "source",
+    "citation_text": "yo necesito media maleta solo para una semana",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  }
+]

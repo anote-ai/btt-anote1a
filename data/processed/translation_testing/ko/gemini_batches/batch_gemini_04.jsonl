@@ -1,6 +1,38 @@
-{"question": "연말 분기의 지수는 얼마였나요?", "answer": "10.6%", "cite_from": "source", "citation_text": "10.6%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0401"}
-{"question": "텍스트는 הכלכלה에 대해 무엇을 시사합니까?", "answer": "שזה יגרום להאטה을 시사합니다.", "cite_from": "target", "citation_text": "6.9%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0402"}
-{"question": "'te quedaste dormido otra vez'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0403"}
-{"question": "어디에서 המשחק가 발생했나요?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "4.5%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0404"}
-{"question": "정부는 אתמול 어떤 조치를 취했나요?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0405"}
-{"question": "직접적인 결과는 무엇인가요?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "2.4%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_04", "generated_date": "2025-11-29", "id": "ko_gemini_0406"}
+[
+  {
+    "question": "What two primary activities can one engage in at a Jjimjilbang?",
+    "answer": "You can enjoy saunas and have simple meals there.",
+    "cite_from": "target",
+    "citation_text": "you can enjoy saunas and have simple meals",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "The term 'PC방' (PC bang) refers to what type of commercial establishment in the Korean context, and what does the request '게임 한판 할래' imply?",
+    "answer": "A 'PC방' is a PC internet cafe where people pay to use high-speed computers for gaming. The request '게임 한판 할래' (play some games) is a casual, idiomatic invitation to spend time together gaming, characteristic of an informal social proposal.",
+    "cite_from": "source",
+    "citation_text": "형, 주말에 PC방 가서 게임 한판 할래?",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  },
+  {
+    "question": "Based on the text, what is the categorization of the Jjimjilbang facility?",
+    "answer": "The Jjimjilbang is categorized as a 'unique Korean cultural space' and is structurally defined as a 'complex facility'.",
+    "cite_from": "target",
+    "citation_text": "Jjimjilbang is a unique Korean cultural space, a complex facility",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What is the implied social relationship between the two speakers in the second text, based on the use of '형' (hyeong)?",
+    "answer": "The use of '형' (hyeong) means the speaker is a younger male addressing an older male who is either his older brother or a close older friend/acquaintance, establishing an informal, hierarchical, yet friendly relationship.",
+    "cite_from": "source",
+    "citation_text": "형, 주말에 PC방 가서 게임 한판 할래?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  }
+]

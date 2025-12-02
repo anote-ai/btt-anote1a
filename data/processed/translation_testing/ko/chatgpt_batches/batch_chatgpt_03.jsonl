@@ -1,6 +1,56 @@
-{"question": "지난달의 최저임금는 얼마였나요?", "answer": "10.5%", "cite_from": "source", "citation_text": "10.5%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0301"}
-{"question": "텍스트는 מדיניות에 대해 무엇을 시사합니까?", "answer": "שאין מסקנה חד-משמעית을 시사합니다.", "cite_from": "target", "citation_text": "5.2%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0302"}
-{"question": "'te quedaste dormido otra vez'라는 표현은 어떻게 해석되나요?", "answer": "דרמטי로 해석됩니다.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0303"}
-{"question": "어디에서 האירוע가 발생했나요?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0304"}
-{"question": "정부는 בחודש האחרון 어떤 조치를 취했나요?", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0305"}
-{"question": "직접적인 결과는 무엇인가요?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "9.6%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ko", "batch_id": "ko_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ko_chatgpt_0306"}
+[
+  {
+    "question": "What event caused the group to miss its scheduled midday meal?",
+    "answer": "The missed meal resulted from a meeting that lasted longer than expected.",
+    "cite_from": "target",
+    "citation_text": "The meeting ran long and we missed lunch",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "Where are they thinking about grabbing a quick bite?",
+    "answer": "They are considering a nearby convenience store for a quick meal.",
+    "cite_from": "source",
+    "citation_text": "근처 편의점에서 간단히",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What does the described trend imply about the rate of technological advancement?",
+    "answer": "The trend indicates that the relevant technology is advancing at a rapidly accelerating pace.",
+    "cite_from": "target",
+    "citation_text": "an exponential increase in transistor density",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What does the phrase about the future suggest about when the hoped for benefits are expected?",
+    "answer": "It suggests that the hoped for well being is directed toward the year that lies ahead rather than the present moment.",
+    "cite_from": "target",
+    "citation_text": "in the coming year",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In the cultural context of the holiday, how should the referenced bowing custom be understood?",
+    "answer": "The bowing custom functions as a formal gesture of respect and is a ritual element of Lunar New Year observances rather than a simple greeting.",
+    "cite_from": "source",
+    "citation_text": "세배를 하며 한 해의",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "How should the emotional tone of the Korean ending be interpreted when the speaker mentions missing lunch?",
+    "answer": "The expression conveys a polite hint of regret rather than strong frustration, which softens the overall tone of the remark.",
+    "cite_from": "source",
+    "citation_text": "놓쳤네요",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

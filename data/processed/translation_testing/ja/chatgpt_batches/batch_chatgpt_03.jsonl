@@ -1,6 +1,56 @@
-{"question": "昨年のインフレ率はどのくらいでしたか？", "answer": "11.3%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0301"}
-{"question": "この文はהכלכלהについて何を示唆していますか？", "answer": "שאין מסקנה חד-משמעיתを示唆している。", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0302"}
-{"question": "'te quedaste dormido otra vez'という表現はどう解釈できますか？", "answer": "דרמטיと解釈される。", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0303"}
-{"question": "どこでהאירועが起きましたか？", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "2.2%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0304"}
-{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "העלאת מיסים", "cite_from": "source", "citation_text": "1.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0305"}
-{"question": "直接的な結果は何ですか？", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "4.5%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "ja_chatgpt_0306"}
+[
+  {
+    "question": "According to the English translation, at what point in time are the train services expected to face possible disruption?",
+    "answer": "They are expected to face possible disruption beginning tomorrow afternoon.",
+    "cite_from": "target",
+    "citation_text": "from tomorrow afternoon",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So when exactly are the trains supposed to start getting messed up in the Japanese sentence?",
+    "answer": "It says the disruption might start tomorrow afternoon.",
+    "cite_from": "source",
+    "citation_text": "明日の午後から",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What modal nuance is conveyed in the translation regarding the likelihood of transport disruption?",
+    "answer": "The translation indicates that disruption is possible rather than certain, expressing a cautious prediction rather than a definitive outcome.",
+    "cite_from": "target",
+    "citation_text": "train services may be significantly disrupted",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Why does the narrator feel like time sorta froze while walking around the old town?",
+    "answer": "Because the atmosphere creates a surreal, almost suspended moment, giving the narrator the impression that time itself has stopped.",
+    "cite_from": "source",
+    "citation_text": "まるで時間が止まった",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In the context of Japanese social customs, what expectations might be implied by the reference to the drinking event?",
+    "answer": "The mention of the drinking party implies a cultural expectation of social bonding and group participation, suggesting that declining may carry subtle interpersonal nuance.",
+    "cite_from": "target",
+    "citation_text": "tonight's drinking party",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "How does the phrase used in Japanese show that the speaker is talking super casually about cancelling their plans?",
+    "answer": "The expression reflects informal, conversational speech that softens the cancellation, signaling friendliness and a relaxed social tone.",
+    "cite_from": "source",
+    "citation_text": "行けなくなっちゃった",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

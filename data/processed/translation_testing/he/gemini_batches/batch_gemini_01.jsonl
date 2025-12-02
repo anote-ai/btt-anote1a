@@ -1,6 +1,38 @@
-{"question": "מה הייתה הערך של שכר המינימום בברבעון האחרון?", "answer": "3.8%", "cite_from": "source", "citation_text": "3.8%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0101"}
-{"question": "מה הטקסט מרמז לגבי מדיניות?", "answer": "זה מצביע על כך ששאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0102"}
-{"question": "איך לפרש את הביטוי 'Fue increíble cómo remontaron'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "1.4%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0103"}
-{"question": "איפה התרחש האירוע?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "2.5%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0104"}
-{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0105"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_01", "generated_date": "2025-11-29", "id": "he_gemini_0106"}
+[
+  {
+    "question": "According to the English translation, what are the two recipients of the immediate alert from the automated system?",
+    "answer": "The immediate alert is sent to the control center and the homeowners simultaneously.",
+    "cite_from": "target",
+    "citation_text": "sends an immediate alert to the control center and homeowners simultaneously",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "What common financial advice is implied by the Hebrew phrase 'אני ממליץ לך לא לשים את כל הביצים בסל אחד' when translated to English?",
+    "answer": "The advice is to avoid concentrating all assets or efforts in a single area, suggesting risk reduction through diversification.",
+    "cite_from": "source",
+    "citation_text": "אני ממליץ לך לא לשים את כל הביצים בסל אחד",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "The English translation uses the formal word 'simultaneously.' In a more casual, everyday context, how would you describe the timing of the alert sent by 'המערכת האוטומטית'?",
+    "answer": "The alert is sent at the same time, or all at once, to both the control center and the people who own the house.",
+    "cite_from": "source",
+    "citation_text": "המערכת האוטומטית מזהה תנועה חשודה",
+    "difficulty": "medium",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "If the translation's phrase 'don't put all your eggs in one basket' is applied to life decisions beyond finance, what is the most significant risk or disadvantage being warned against?",
+    "answer": "The warning is against total loss; relying on a single option means if that one option fails or collapses, there is no backup plan or resource remaining.",
+    "cite_from": "target",
+    "citation_text": "I recommend that you don't put all your eggs in one basket and diversify your investments",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

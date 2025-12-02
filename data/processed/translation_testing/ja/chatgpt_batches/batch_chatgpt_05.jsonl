@@ -1,6 +1,56 @@
-{"question": "昨年の指標はどのくらいでしたか？", "answer": "7.6%", "cite_from": "source", "citation_text": "7.6%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0501"}
-{"question": "この文はשוק העבודהについて何を示唆していますか？", "answer": "שהמגמה תחזקを示唆している。", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0502"}
-{"question": "'was setting behind the mountains'という表現はどう解釈できますか？", "answer": "שליליと解釈される。", "cite_from": "source", "citation_text": "10.9%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0503"}
-{"question": "どこでהאירועが起きましたか？", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0504"}
-{"question": "政府はבחודש האחרוןにどんな対応をしましたか？", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "4.5%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0505"}
-{"question": "直接的な結果は何ですか？", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_05", "generated_date": "2025-11-29", "id": "ja_chatgpt_0506"}
+[
+  {
+    "question": "What specific quantitative target has the government established for reducing emissions?",
+    "answer": "The government has committed to cutting greenhouse gas emissions by half, setting a measurable reduction benchmark.",
+    "cite_from": "target",
+    "citation_text": "reduce greenhouse gas emissions by 50%",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "So what was it that actually helped calm the person down during the walk?",
+    "answer": "It was the sound of the waves that eased the person's mood while walking along the coast.",
+    "cite_from": "source",
+    "citation_text": "波の音が心を落ち着かせてくれた",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "How does the temporal expression in the translation influence the reader's understanding of the scene?",
+    "answer": "The phrase 'at dusk' situates the action at a transitional time of day, enhancing the atmosphere and subtly shaping the emotional tone of the moment.",
+    "cite_from": "target",
+    "citation_text": "at dusk",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "What kind of vibe do you get from how the speaker reacts, based on the casual phrasing?",
+    "answer": "The strong, casual outburst suggests disbelief mixed with frustration, conveyed through very informal language that emphasizes emotional intensity.",
+    "cite_from": "source",
+    "citation_text": "マジで?",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "In interpreting the speaker's dismissal, how might the emphatic tone be understood across cultural contexts?",
+    "answer": "The emphatic denial can be read as either playful exaggeration or genuine skepticism, depending on cultural norms surrounding emotional expressiveness and hyperbole.",
+    "cite_from": "target",
+    "citation_text": "No way that could happen",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "When you look at how the scene is described, what do you think is going on emotionally, even though it is not spelled out?",
+    "answer": "The act of strolling along the coast hints at a reflective or possibly lonely moment, but the text leaves open whether the calmness was relief, nostalgia, or something else.",
+    "cite_from": "source",
+    "citation_text": "海岸沿いを散歩していると",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]

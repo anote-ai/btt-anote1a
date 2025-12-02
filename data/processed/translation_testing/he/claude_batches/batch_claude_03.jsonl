@@ -1,6 +1,56 @@
-{"question": "מה הייתה הערך של האינדקס בברבעון האחרון?", "answer": "5.3%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0301"}
-{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "4.1%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0302"}
-{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כשלילי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0303"}
-{"question": "איפה התרחש האירוע?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "5.4%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0304"}
-{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0305"}
-{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "9.5%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "he", "batch_id": "he_batch_claude_03", "generated_date": "2025-11-29", "id": "he_claude_0306"}
+[
+  {
+    "question": "What legislative body approved the privacy law?",
+    "answer": "The Knesset, Israel's parliament, voted in favor of the law yesterday.",
+    "cite_from": "target",
+    "citation_text": "The Knesset voted yesterday in favor of a law",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "formal"
+  },
+  {
+    "question": "How long's the cat been missing?",
+    "answer": "The cat disappeared three days ago and they've been searching ever since.",
+    "cite_from": "target",
+    "citation_text": "disappeared three days ago",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "register": "informal"
+  },
+  {
+    "question": "What distinguishes the scope of privacy protection in the Hebrew formulation compared to the English translation?",
+    "answer": "The Hebrew text emphasizes both protecting privacy ('להגן על פרטיות אזרחים') and regulating use ('להסדיר את השימוש'), suggesting dual objectives of protection and governance rather than protection alone.",
+    "cite_from": "source",
+    "citation_text": "להגן על פרטיות אזרחים ולהסדיר את השימוש במידע אישי ברשת",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "formal"
+  },
+  {
+    "question": "Where exactly are they looking for their pet?",
+    "answer": "They're searching all the streets and public gardens throughout their neighborhood, covering the entire local area systematically.",
+    "cite_from": "source",
+    "citation_text": "בכל הרחובות והגנים הציבוריים בשכונה",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "register": "informal"
+  },
+  {
+    "question": "Does the temporal framing of the software development convey an ongoing iterative process or a singular project milestone?",
+    "answer": "The Hebrew participle 'עובדים' suggests continuous, ongoing work rather than a discrete event, indicating an iterative development process that extends beyond a single milestone, which the English present continuous 'are working' preserves effectively.",
+    "cite_from": "source",
+    "citation_text": "מהנדסי התוכנה עובדים על פיתוח אפליקציה חדשה",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "formal"
+  },
+  {
+    "question": "What's the vibe of how the law thing got described - is it like super official or more chill?",
+    "answer": "It's pretty formal and official-sounding. The Hebrew uses legislative language ('הכנסת הצביעה', 'חוק שמטרתו') that the English mirrors with institutional terminology, maintaining a governmental register rather than casual speech.",
+    "cite_from": "target",
+    "citation_text": "law aimed at protecting citizens' privacy and regulating the use of personal information",
+    "difficulty": "hard",
+    "question_type": "ambiguous",
+    "register": "informal"
+  }
+]
