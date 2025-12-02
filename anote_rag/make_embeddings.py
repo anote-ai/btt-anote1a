@@ -14,7 +14,7 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 
 
-def load_chunks(file_path: str = "data/processed/clean_chunks.jsonl") -> List[Document]:
+def load_chunks(file_path: str = "../data/processed/clean_chunks.jsonl") -> List[Document]:
     """
     Load cleaned chunks from JSONL file.
 
