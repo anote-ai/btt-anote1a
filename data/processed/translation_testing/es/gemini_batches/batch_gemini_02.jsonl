@@ -1,38 +1,6 @@
-[
-  {
-    "question": "How long did the person wait before deciding to apologize?",
-    "answer": "The decision to apologize was made after a duration of three weeks.",
-    "cite_from": "target",
-    "citation_text": "decided to apologize after three weeks",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What's the meaning of the Spanish idiom 'Más vale tarde que nunca' and how is it translated?",
-    "answer": "The idiom means 'Better late than never' in English. It's used to acknowledge that while a delay occurred (like the three-week wait for an apology), the eventual action is still preferable to not acting at all.",
-    "cite_from": "source",
-    "citation_text": "Más vale tarde que nunca",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In the request for the charger, the Spanish uses '¿Me prestas tu cargador un momento?' while the English uses 'Can you lend me your charger for a moment?'. What registers are indicated by the verb choices and word order in the source and target, and are they aligned?",
-    "answer": "The Spanish '¿Me prestas...?' uses the informal *tú* form, indicating a casual or familiar register between the speakers. The English 'Can you lend me...' is standard and neutral, which is generally considered less informal than the Spanish *tú* but is not overly formal. The translations are generally aligned in their conversational nature, but the Spanish explicitly marks the intimate or familiar relationship through the use of *tú* form, which is a key register difference not directly mirrored in the English pronoun system.",
-    "cite_from": "source",
-    "citation_text": "¿Me prestas tu cargador un momento?",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Why did the speaker need to borrow a charger quickly?",
-    "answer": "The speaker's own charger was left at home, and they urgently needed to power their device to make an important phone call before the device died.",
-    "cite_from": "target",
-    "citation_text": "Mine stayed at home and I need to make an important call before it's too late",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de el índice en el último trimestre?", "answer": "11.9%", "cite_from": "source", "citation_text": "11.9%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0201"}
+{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "9.5%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0202"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como שלילי.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0203"}
+{"question": "¿Dónde ocurrió התאונה?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0204"}
+{"question": "¿Qué acción tomó el gobierno בחודש האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0205"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "10.8%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_02", "generated_date": "2025-11-29", "id": "es_gemini_0206"}

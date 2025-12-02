@@ -1,0 +1,33 @@
+{
+  "dataset": "Multilingual Benchmark Testing",
+  "version": "1.0",
+  "created_date": "2025-11-29",
+  "total_items": 432,
+  "structure": {
+    "languages": 4,
+    "models": 3,
+    "batches_per_model_per_language": 6,
+    "items_per_batch": 6
+  },
+  "by_language": {
+    "es": 108,
+    "he": 108,
+    "ja": 108,
+    "ko": 108
+  },
+  "by_model": {
+    "chatgpt": 144,
+    "claude": 144,
+    "gemini": 144
+  },
+  "by_question_type": {
+    "factual": 179,
+    "reasoning": 92,
+    "ambiguous": 161
+  },
+  "by_difficulty": {
+    "easy": 144,
+    "medium": 149,
+    "hard": 139
+  }
+}

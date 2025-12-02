@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What does the museum contain?",
-    "answer": "The museum houses an impressive collection of pre-Columbian art, including pottery, textiles, and sculptures from different Mesoamerican cultures.",
-    "cite_from": "target",
-    "citation_text": "houses an impressive collection of pre-Columbian art, including ceramics, textiles, and sculptures",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What's needed to make sure the new framework works right?",
-    "answer": "You gotta refactor the old code and set up thorough unit tests to keep things stable.",
-    "cite_from": "target",
-    "citation_text": "refactoring legacy code and establishing comprehensive unit tests to ensure stability",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the speaker characterize their feelings toward the other person in the first statement?",
-    "answer": "The speaker expresses positive regard by saying 'me caes muy bien', which conveys genuine affection while setting up a conversation about relationship expectations.",
-    "cite_from": "source",
-    "citation_text": "Me caes muy bien",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What kinda vibe is the person going for when they say they wanna be honest?",
-    "answer": "They're trying to have a real talk about where things are heading, keeping it straightforward about what each person actually wants.",
-    "cite_from": "source",
-    "citation_text": "deberíamos ser sinceros el uno con el otro sobre lo que realmente queremos",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What cultural and temporal significance does the term 'precolombino' carry in the museum context?",
-    "answer": "The term 'precolombino' designates artifacts predating European contact with the Americas, representing indigenous Mesoamerican civilizations before 1492. This temporal marker carries cultural weight, emphasizing authentic indigenous heritage rather than colonial influence.",
-    "cite_from": "source",
-    "citation_text": "arte precolombino, incluyendo cerámicas, textiles y esculturas de diversas culturas mesoamericanas",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Does 'legacy code' in tech contexts imply the same thing as 'old code', or is there something more to it?",
-    "answer": "While 'legacy' and 'old' overlap, 'código legacy' specifically suggests outdated code that's still in production and potentially problematic to maintain—it's not just aged, but technically obsolete yet critical. The translation preserves this technical register by keeping 'legacy' untranslated.",
-    "cite_from": "source",
-    "citation_text": "refactorizar el código legacy",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de la inflación en el último trimestre?", "answer": "4.7%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0201"}
+{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0202"}
+{"question": "¿Cómo se interpreta la frase 'Fue increíble cómo remontaron'?", "answer": "Se interpreta como שלילי.", "cite_from": "source", "citation_text": "1.4%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0203"}
+{"question": "¿Dónde ocurrió האירוע?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0204"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0205"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "8.5%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_02", "generated_date": "2025-11-29", "id": "es_claude_0206"}

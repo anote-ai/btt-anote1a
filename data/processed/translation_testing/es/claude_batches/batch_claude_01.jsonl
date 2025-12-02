@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What does the Spanish text identify as one of humanity's most urgent challenges?",
-    "answer": "Climate change is identified as one of the most urgent challenges facing humanity in the 21st century.",
-    "cite_from": "source",
-    "citation_text": "uno de los desafíos más urgentes que enfrenta la humanidad en el siglo XXI",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What kinda beans go into a real Valencian paella?",
-    "answer": "You need green beans and lima beans (garrofón in Spanish) for authentic Valencian paella.",
-    "cite_from": "target",
-    "citation_text": "green beans, lima beans",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the translation convey the urgency and temporal scope of the climate issue?",
-    "answer": "The translation preserves urgency through 'most urgent challenges' and 'requiring immediate action', while anchoring it temporally to the 21st century, emphasizing both present crisis and contemporary relevance.",
-    "cite_from": "target",
-    "citation_text": "most urgent challenges facing humanity in the 21st century, requiring immediate action",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "Does the study say eating veggies definitely prevents heart problems?",
-    "answer": "No, it suggests a correlation between vegetable consumption and reduced risk, not causation or prevention. The careful phrasing 'sugieren una correlación' avoids claiming definitive causality.",
-    "cite_from": "source",
-    "citation_text": "sugieren una correlación significativa entre el consumo de vegetales y la reducción del riesgo cardiovascular",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What cultural-culinary nuance might be lost when 'garrofón' is translated as 'lima beans'?",
-    "answer": "The term 'garrofón' refers specifically to a large white butter bean variety traditional to Valencia, distinct from common lima beans. This translation prioritizes accessibility over regional specificity, potentially obscuring the dish's authentic local character.",
-    "cite_from": "source",
-    "citation_text": "judías verdes, garrofón y pollo o conejo, cocinada a fuego lento",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Why might 'a fuego lento' be tricky to capture perfectly in English?",
-    "answer": "While 'over low heat' works technically, 'a fuego lento' carries connotations of patience, tradition, and slow-cooking craft that are culturally embedded in Spanish cuisine. The phrase evokes a cooking philosophy beyond just temperature control.",
-    "cite_from": "source",
-    "citation_text": "cocinada a fuego lento",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de la inflación en el mes pasado?", "answer": "3.7%", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0101"}
+{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שהמגמה תחזק.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0102"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como אופטימי.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0103"}
+{"question": "¿Dónde ocurrió התאונה?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "1.0%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0104"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "6.0%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0105"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_01", "generated_date": "2025-11-29", "id": "es_claude_0106"}

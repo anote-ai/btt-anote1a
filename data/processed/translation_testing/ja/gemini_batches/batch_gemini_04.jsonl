@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What kind of effect was observed with the new drug compared to older treatments?",
-    "answer": "The new drug demonstrated remarkable effects or notably better outcomes when contrasted with the conventional treatments previously in use.",
-    "cite_from": "target",
-    "citation_text": "remarkable effects were confirmed compared to conventional treatments",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What specific part of a traditional Japanese house is '縁側' (engawa), and why does the translation 'veranda' potentially lose cultural context?",
-    "answer": "'縁側' (engawa) is a Japanese-style wooden porch, hallway, or L-shaped strip of flooring that runs along the perimeter of the house, usually facing the garden. While 'veranda' captures the outdoor/porch feel, 'engawa' specifically suggests a Japanese architectural element that is culturally significant for relaxing and viewing the garden, which 'veranda' doesn't fully convey. This tests idiomatic meaning/cultural context.",
-    "cite_from": "ja",
-    "citation_text": "縁側に座って、庭に咲く紫陽花を眺めながら冷たい麦茶を飲むのが",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "The text mentions '承認申請に向けた準備' (shōnin shinsei ni muketa junbi). What does this imply about the regulatory status of the new drug?",
-    "answer": "The text states that preparations for approval application are underway. This implies that the drug is not yet approved for general use; the clinical trials have concluded successfully enough that the next step is formally submitting the data to the necessary regulatory body for review and eventual authorization.",
-    "cite_from": "target",
-    "citation_text": "preparations for approval application are underway",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What beverage was the person drinking while enjoying their summer pleasure, and how does the translation's formality compare to the original?",
-    "answer": "They were drinking cold barley tea. The Japanese text uses '飲むのが、夏の楽しみだった' which is a standard, declarative sentence. The English translation, 'was my summer pleasure,' uses more formal, slightly literary language than a simple conversational equivalent like 'was what I enjoyed in the summer.' This tests formal/informal register differences.",
-    "cite_from": "target",
-    "citation_text": "drinking cold barley tea was my summer pleasure",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  }
-]
+{"question": "先月の最低賃金はどのくらいでしたか？", "answer": "9.6%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0401"}
+{"question": "この文はהכלכלהについて何を示唆していますか？", "answer": "שאין מסקנה חד-משמעיתを示唆している。", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0402"}
+{"question": "'was setting behind the mountains'という表現はどう解釈できますか？", "answer": "דרמטיと解釈される。", "cite_from": "source", "citation_text": "4.0%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0403"}
+{"question": "どこでהתאונהが起きましたか？", "answer": "בחוף הים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0404"}
+{"question": "政府はאתמולにどんな対応をしましたか？", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "11.2%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0405"}
+{"question": "直接的な結果は何ですか？", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "7.0%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_04", "generated_date": "2025-11-29", "id": "ja_gemini_0406"}

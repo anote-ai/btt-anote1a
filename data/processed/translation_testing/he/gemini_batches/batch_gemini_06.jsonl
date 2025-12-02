@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What is the expected timeline for receiving the final decision from the manager, according to the English text?",
-    "answer": "The manager promised to get back with a final decision within two to three weeks.",
-    "cite_from": "target",
-    "citation_text": "get back to us with a final decision within two to three weeks",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "The Hebrew uses the verb 'ישקול' (yishkol) which means 'to consider.' What does a formal 'consideration' ('שיקול') of all suggestions imply about the manager's immediate next steps and process?",
-    "answer": "It formally implies that the manager will evaluate the suggestions against specific criteria, analyze their feasibility and implications, and potentially engage in internal discussions before making the final decision, ensuring a deliberate process.",
-    "cite_from": "source",
-    "citation_text": "המנהל הבטיח שישקול את כל הצעותינו",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What are the two primary benefits the new technology offers when performing 'ניתוחים מורכבים' (complex surgeries)?",
-    "answer": "The new technology allows the surgeries to be performed with much greater precision and with a lower risk to the patients.",
-    "cite_from": "target",
-    "citation_text": "perform complex surgeries with much greater precision and with lower risk to patients",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "When the manager said he would 'יחזור אלינו' (get back to us) with a 'final decision,' what's the difference between this and just saying 'he'll let us know'?",
-    "answer": "Saying 'he'll get back to us' (a more formal register) emphasizes a commitment to follow up, typically in a business setting, ensuring the original party doesn't have to chase them. It also implies the decision is fully reviewed and ready to be delivered, not just a casual update.",
-    "cite_from": "source",
-    "citation_text": "ויחזור אלינו עם החלטה סופית",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של האינפלציה בברבעון האחרון?", "answer": "11.5%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0601"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0602"}
+{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כאופטימי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0603"}
+{"question": "איפה התרחש האירוע?", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "9.8%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0604"}
+{"question": "איזו פעולה נקטה הממשלה אתמול?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "7.0%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0605"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_06", "generated_date": "2025-11-29", "id": "he_gemini_0606"}

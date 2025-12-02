@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What is the primary factor increasing the importance of energy storage systems?",
-    "answer": "The increasing importance of energy storage is directly linked to the expansion and wider adoption of renewable energy sources into the existing infrastructure.",
-    "cite_from": "target",
-    "citation_text": "With the expanding introduction of renewable energy, the importance of energy storage systems",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "The source text uses 'ねえねえ' and 'めっちゃ面白かったよ!'. How is the informal nature of this dialogue conveyed in the English translation?",
-    "answer": "The informal register is conveyed through conversational phrasing like 'Hey', the use of contractions ('did you see that movie we were talking about'), and the casual intensifier 'super interesting' instead of a more formal alternative.",
-    "cite_from": "ja",
-    "citation_text": "ねえねえ、この間話してた映画、もう見た?めっちゃ面白かったよ!",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What is the main function of the storage systems mentioned in relation to the power grid?",
-    "answer": "The main function of the energy storage systems is to ensure that the network distributing electrical power—the power grid—is able to remain balanced and reliable, which is maintaining stability.",
-    "cite_from": "target",
-    "citation_text": "maintain power grid stability is increasing",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "In the context of Japanese slang, what might the word 'めっちゃ' (meccha) convey about the speaker's reaction, and why might 'super interesting' be a slightly weak translation?",
-    "answer": "'めっちゃ' (meccha) is a very common, strong, and highly casual intensifier, closer to 'totally', 'wicked', or 'crazy' (as in 'crazy good'). While 'super interesting' captures the intensity, it is slightly less slangy and less common in natural, highly casual English dialogue than a stronger, more emotional, or younger-person-oriented intensifier might be, potentially softening the idiomatic effect of the original text.",
-    "cite_from": "ja",
-    "citation_text": "めっちゃ面白かったよ!",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "昨年の最低賃金はどのくらいでしたか？", "answer": "2.2%", "cite_from": "source", "citation_text": "2.2%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0201"}
+{"question": "この文はהכלכלהについて何を示唆していますか？", "answer": "שאין מסקנה חד-משמעיתを示唆している。", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0202"}
+{"question": "'Fue increíble cómo remontaron'という表現はどう解釈できますか？", "answer": "שליליと解釈される。", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0203"}
+{"question": "どこでהתאונהが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0204"}
+{"question": "政府はבשבוע האחרוןにどんな対応をしましたか？", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0205"}
+{"question": "直接的な結果は何ですか？", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ja", "batch_id": "ja_batch_gemini_02", "generated_date": "2025-11-29", "id": "ja_gemini_0206"}

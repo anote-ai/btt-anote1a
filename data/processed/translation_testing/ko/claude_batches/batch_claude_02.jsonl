@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What physical sensation did the woman experience when entering the room?",
-    "answer": "She felt the warmth of the sunlight that flooded into the room, closing her eyes briefly to fully experience it.",
-    "cite_from": "target",
-    "citation_text": "warm sunlight flooded the room, and she closed her eyes briefly to feel its warmth",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "How's the translation handle the casual concern in '밥은 제대로 챙겨 먹고 다니는 거야?'",
-    "answer": "It shifts from the informal Korean '챙겨 먹고 다니는' (literally 'taking care to eat while going around') to a more direct but still concerned 'Are you eating your meals properly?', maintaining the caring tone while using standard English phrasing.",
-    "cite_from": "source",
-    "citation_text": "밥은 제대로 챙겨 먹고 다니는 거야?",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  },
-  {
-    "question": "What evidence is cited regarding Korean cultural content's global standing?",
-    "answer": "The global success of K-pop idol groups serves as the primary evidence demonstrating the competitiveness of Korean cultural content on the international stage.",
-    "cite_from": "target",
-    "citation_text": "global success of K-pop idol groups is recognized as evidence of the competitiveness",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Does the Korean '따뜻한 햇살이 방 안 가득 흘러들어왔고' suggest gradual or sudden lighting?",
-    "answer": "The verb '흘러들어왔고' (flowed in) suggests a gradual, flowing quality of light entering, which the English 'flooded' captures with similar imagery of abundant light filling the space, though 'flooded' can also imply suddenness.",
-    "cite_from": "source",
-    "citation_text": "따뜻한 햇살이 방 안 가득 흘러들어왔고",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "Why's the person asking about weight loss in such a direct way?",
-    "answer": "The informal Korean '너 요즘 왜 이렇게 말랐어?' reflects a culturally common direct expression of concern in Korean relationships, where commenting on physical appearance shows care rather than rudeness.",
-    "cite_from": "source",
-    "citation_text": "너 요즘 왜 이렇게 말랐어?",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "How does the translation convey the momentary nature of the woman's action?",
-    "answer": "The English uses 'briefly' to translate the temporal nuance in '잠시', indicating a short, intentional pause to savor the moment rather than a prolonged action.",
-    "cite_from": "target",
-    "citation_text": "she closed her eyes briefly to feel its warmth",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  }
-]
+{"question": "연말 분기의 지수는 얼마였나요?", "answer": "9.0%", "cite_from": "source", "citation_text": "9.0%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0201"}
+{"question": "텍스트는 שוק העבודה에 대해 무엇을 시사합니까?", "answer": "שאין מסקנה חד-משמעית을 시사합니다.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0202"}
+{"question": "'te quedaste dormido otra vez'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0203"}
+{"question": "어디에서 התאונה가 발생했나요?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0204"}
+{"question": "정부는 בחודש האחרון 어떤 조치를 취했나요?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "8.0%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0205"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "ko", "batch_id": "ko_batch_claude_02", "generated_date": "2025-11-29", "id": "ko_claude_0206"}

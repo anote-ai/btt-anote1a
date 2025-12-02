@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What religious event do Spanish cities celebrate with processions?",
-    "answer": "Spanish cities celebrate Holy Week (Semana Santa) with religious processions featuring elaborate floats depicting scenes from the Passion of Christ.",
-    "cite_from": "source",
-    "citation_text": "Durante la Semana Santa, muchas ciudades españolas organizan procesiones religiosas",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "How's the translator handling that Spanish idiom about water and glasses?",
-    "answer": "The translator adapts the cultural idiom effectively by converting 'don't drown in a glass of water' to the English equivalent 'don't make a mountain out of a molehill', preserving the meaning about not overreacting to small problems.",
-    "cite_from": "source",
-    "citation_text": "No te ahogues en un vaso de agua",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  },
-  {
-    "question": "What do the floats in these processions represent?",
-    "answer": "The floats depict scenes from the Passion of Christ, representing key moments of Jesus's suffering and crucifixion during Holy Week celebrations.",
-    "cite_from": "target",
-    "citation_text": "elaborate floats that depict scenes from the Passion of Christ",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "Does the translation preserve the collaborative tone of the original when offering help?",
-    "answer": "Yes, the translation maintains the supportive, collaborative spirit through 'together we can find a way', which mirrors the original's emphasis on joint problem-solving rather than individual effort.",
-    "cite_from": "target",
-    "citation_text": "together we can find a way to solve it effectively",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "What's the book about that won the prize?",
-    "answer": "It's about three generations of women fighting to keep their cultural traditions going strong across time.",
-    "cite_from": "source",
-    "citation_text": "tres generaciones de mujeres que luchan por mantener vivas sus tradiciones culturales",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "How does the verb choice in 'struggle' versus 'luchan' affect the emotional register of the women's efforts?",
-    "answer": "Both 'struggle' and 'luchan' convey active resistance and difficulty, but 'struggle' in English carries slightly more weight of hardship, while 'luchan' emphasizes the ongoing fight or battle aspect, creating a subtle tonal shift toward more persistent adversity in the translation.",
-    "cite_from": "target",
-    "citation_text": "women who struggle to keep their cultural traditions alive",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de la inflación en el año pasado?", "answer": "9.8%", "cite_from": "source", "citation_text": "9.8%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0501"}
+{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0502"}
+{"question": "¿Cómo se interpreta la frase 'te quedaste dormido otra vez'?", "answer": "Se interpreta como שלילי.", "cite_from": "source", "citation_text": "6.2%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0503"}
+{"question": "¿Dónde ocurrió התאונה?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0504"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "5.4%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0505"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "יציבות זמנית", "cite_from": "target", "citation_text": "6.5%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "claude", "language": "es", "batch_id": "es_batch_claude_05", "generated_date": "2025-11-29", "id": "es_claude_0506"}

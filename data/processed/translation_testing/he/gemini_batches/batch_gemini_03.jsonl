@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What two performance improvements did the researchers discover about the new protocol, according to the English text?",
-    "answer": "The new protocol increases transmission speed threefold and significantly reduces battery consumption.",
-    "cite_from": "target",
-    "citation_text": "increases transmission speed threefold and significantly reduces battery consumption",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "The Hebrew phrase 'מגביר את מהירות ההעברה פי שלושה' translates as increasing speed 'threefold.' If the original speed was 50 units per second, what is the new speed?",
-    "answer": "The new speed is 150 units per second, as 'threefold' means three times the original amount (50 x 3).",
-    "cite_from": "source",
-    "citation_text": "מגביר את מהירות ההעברה פי שלושה",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "The Hebrew states the athlete 'שברה את השיא הלאומי' (broke the national record). What major athletic event did she accomplish this feat in, and what is her current recognized status?",
-    "answer": "She broke the record in marathon running and is currently recognized as one of the country's most outstanding athletes.",
-    "cite_from": "target",
-    "citation_text": "She broke the national record in marathon running and is now considered one of the most outstanding athletes",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "If someone is considered 'one of the most outstanding athletes in the country,' what kind of public or institutional support can she most likely expect to receive, and why?",
-    "answer": "She can likely expect major funding, sponsorships, and possibly government support. This is because her 'outstanding' status suggests she is a top national representative with the potential to win international medals, justifying investment in her training and career.",
-    "cite_from": "target",
-    "citation_text": "one of the most outstanding athletes in the country",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של שכר המינימום בבשנה שעברה?", "answer": "10.1%", "cite_from": "source", "citation_text": "10.1%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0301"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששהמגמה תחזק.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0302"}
+{"question": "איך לפרש את הביטוי 'was setting behind the mountains'?", "answer": "ניתן לפרשו כדרמטי.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0303"}
+{"question": "איפה התרחש האירוע?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0304"}
+{"question": "איזו פעולה נקטה הממשלה בשבוע האחרון?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0305"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "2.9%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "he", "batch_id": "he_batch_gemini_03", "generated_date": "2025-11-29", "id": "he_gemini_0306"}

@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What is the current status of greenhouse gas emissions despite global actions?",
-    "answer": "Greenhouse gas emissions are currently continuing to increase.",
-    "cite_from": "target",
-    "citation_text": "greenhouse gas emissions continue to increase",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "In the second text, what literary device is used to describe the woman's voice, and what feeling does it convey?",
-    "answer": "The literary device is a simile ('as gentle as a spring breeze'), which conveys a feeling of calmness, comfort, and peacefulness to the listener.",
-    "cite_from": "target",
-    "citation_text": "Her voice was as gentle as a spring breeze, with the power to put listeners' minds at ease",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "The phrase '실정이다' (siljeong-ida) in the first text denotes what kind of reality regarding the situation?",
-    "answer": "The phrase '실정이다' implies that the described state (greenhouse gas increase) is the undeniable, current reality or state of affairs, often used in formal contexts to convey a stark or unfortunate truth.",
-    "cite_from": "source",
-    "citation_text": "온실가스 배출량은 계속 증가하고 있는 실정이다",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "What kind of effect did her voice have on the people who listened to it?",
-    "answer": "Her voice had the effect of making the listeners feel relaxed or comfortable because it was so smooth and gentle, like a nice breeze.",
-    "cite_from": "source",
-    "citation_text": "그녀의 목소리는 봄날의 바람처럼 부드러웠고, 듣는 이의 마음을 편안하게 만드는 힘이 있었다.",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  }
-]
+{"question": "연말 분기의 인플레이션는 얼마였나요?", "answer": "10.2%", "cite_from": "source", "citation_text": "10.2%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0501"}
+{"question": "텍스트는 הכלכלה에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0502"}
+{"question": "'was setting behind the mountains'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0503"}
+{"question": "어디에서 התאונה가 발생했나요?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "6.6%", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0504"}
+{"question": "정부는 בחודש האחרון 어떤 조치를 취했나요?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0505"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "11.1%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_05", "generated_date": "2025-11-29", "id": "ko_gemini_0506"}

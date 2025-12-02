@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What is the key technological development cited as the reason for the popularization of smart home systems?",
-    "answer": "The key development is the advancement of Internet of Things (IoT) technology.",
-    "cite_from": "target",
-    "citation_text": "The advancement of Internet of Things technology has popularized smart home systems",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "The phrase '스트레스도 풀 겸' (literally, 'also for relieving stress') suggests what about the social context of the hiking invitation?",
-    "answer": "It suggests that the invitation is not purely for physical fitness but also serves the common Korean purpose of using outdoor activity as a way to manage mental fatigue or stress from daily life or work.",
-    "cite_from": "source",
-    "citation_text": "운동도 하고 스트레스도 풀 겸 다녀오자",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What two benefits are listed for going hiking?",
-    "answer": "The two benefits listed for going hiking are to get exercise and to relieve some stress.",
-    "cite_from": "target",
-    "citation_text": "Let's exercise and relieve some stress",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "From a formal sociological standpoint, how has the proliferation of IoT-enabled smart systems fundamentally altered the concept of 'convenience in daily life'?",
-    "answer": "The systems have fundamentally altered convenience by facilitating a greater degree of automation and remote management of domestic functions, thereby minimizing the required expenditure of human effort and cognitive load for routine tasks.",
-    "cite_from": "source",
-    "citation_text": "사물인터넷 기술의 발전으로 스마트홈 시스템이 대중화되면서 일상생활의 편의성이 크게 향상되었다",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  }
-]
+{"question": "연말 분기의 지수는 얼마였나요?", "answer": "2.3%", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0301"}
+{"question": "텍스트는 מדיניות에 대해 무엇을 시사합니까?", "answer": "שהמגמה תחזק을 시사합니다.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0302"}
+{"question": "'Fue increíble cómo remontaron'라는 표현은 어떻게 해석되나요?", "answer": "שלילי로 해석됩니다.", "cite_from": "source", "citation_text": "Fue increíble cómo remontaron", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0303"}
+{"question": "어디에서 המשחק가 발생했나요?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0304"}
+{"question": "정부는 אתמול 어떤 조치를 취했나요?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "7.8%", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0305"}
+{"question": "직접적인 결과는 무엇인가요?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "ko", "batch_id": "ko_batch_gemini_03", "generated_date": "2025-11-29", "id": "ko_gemini_0306"}

@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the English translation, what specific goal motivated his year-long effort?",
-    "answer": "He was trying to save enough money to pay for the overseas trip he had long imagined taking.",
-    "cite_from": "target",
-    "citation_text": "the overseas trip he had always dreamed about",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "So what were people actually hanging around the square to see?",
-    "answer": "They were waiting for a big fireworks display that everyone could enjoy together.",
-    "cite_from": "source",
-    "citation_text": "מופע זיקוקים מרהיב",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What degree of obligation is implied in the translated instructions regarding how the software must be installed?",
-    "answer": "The translation expresses a strict obligation, indicating that running the installation file and following the on-screen instructions is required rather than optional.",
-    "cite_from": "target",
-    "citation_text": "you must run the installation file",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "Why do you think the text uses the idiom about working 'like a dog', and what kind of feeling does that give off?",
-    "answer": "It signals that he put in exhausting, relentless effort, and it adds a gritty, informal tone that suggests he really pushed himself.",
-    "cite_from": "source",
-    "citation_text": "עבד כמו כלב כל השנה",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "In the holiday scene described, how should one interpret whether the collective gathering reflects mere attendance or a deeper cultural practice of communal celebration?",
-    "answer": "The translation allows both readings: people could simply be attending a public event, but the emphasis on celebrating together hints at a culturally rooted tradition of shared national festivities.",
-    "cite_from": "target",
-    "citation_text": "thousands of people gathered in the city square",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "When the text says to follow the on-screen instructions, do you think that means there's only one correct path or could the steps be open to different interpretations?",
-    "answer": "It likely suggests a fixed, guided sequence, but the phrase could also imply that users might interpret some instructions differently depending on their experience level.",
-    "cite_from": "source",
-    "citation_text": "לפעול לפי ההוראות המופיעות על המסך",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "מה הייתה הערך של שכר המינימום בבשנה שעברה?", "answer": "5.7%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0301"}
+{"question": "מה הטקסט מרמז לגבי הכלכלה?", "answer": "זה מצביע על כך ששזה יגרום להאטה.", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0302"}
+{"question": "איך לפרש את הביטוי 'te quedaste dormido otra vez'?", "answer": "ניתן לפרשו כשלילי.", "cite_from": "source", "citation_text": "1.7%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0303"}
+{"question": "איפה התרחש המשחק?", "answer": "בחוף הים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0304"}
+{"question": "איזו פעולה נקטה הממשלה בחודש האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0305"}
+{"question": "מה הייתה התוצאה המיידית?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "2.8%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "he", "batch_id": "he_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "he_chatgpt_0306"}

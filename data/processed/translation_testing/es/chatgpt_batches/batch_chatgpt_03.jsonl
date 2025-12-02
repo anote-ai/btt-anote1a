@@ -1,56 +1,6 @@
-[
-  {
-    "question": "According to the translated text, what proverb does the grandmother express about getting up early?",
-    "answer": "She uses the proverb that getting up early brings advantages, reflected in the translation that describes how the early bird gains an opportunity others miss.",
-    "cite_from": "target",
-    "citation_text": "the early bird catches the worm",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "What item is the speaker politely asking someone to pass?",
-    "answer": "The speaker is asking for the salt, making a courteous request before asking for anything else.",
-    "cite_from": "source",
-    "citation_text": "¿Me pasas la sal, por favor?",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "What can you infer about the speaker's attitude toward weekend mornings based on the translated passage?",
-    "answer": "The speaker values rest and chooses to sleep late rather than adopt the disciplined routine encouraged by the proverb mentioned earlier.",
-    "cite_from": "target",
-    "citation_text": "I prefer to sleep in late on weekends",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "Why do you think the researchers were concerned about screen use before bedtime?",
-    "answer": "Because the passage implies that using screens late at night disrupts natural sleep patterns, suggesting the researchers saw it as potentially harmful.",
-    "cite_from": "target",
-    "citation_text": "prolonged exposure to screens before sleeping",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "How should the idiomatic expression in the original text be understood when interpreting the translation: does it emphasize divine help, personal discipline, or something else?",
-    "answer": "Although the source emphasizes divine favor through an idiom about rising early, the translation renders it with an English proverb that stresses discipline and initiative, shifting the nuance from spiritual help to practical advantage.",
-    "cite_from": "source",
-    "citation_text": "a quien madruga Dios le ayuda",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "The speaker asks for bread only if it is not 'too much trouble'. Do you think this softening phrase signals politeness, hesitation, or something else in the translation?",
-    "answer": "It signals polite hesitation, as the added qualifier shows the speaker trying not to impose while still making a request, a nuance conveyed by the translated phrasing.",
-    "cite_from": "target",
-    "citation_text": "if it's not too much trouble",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "¿Cuál fue el valor de el índice en el último trimestre?", "answer": "1.0%", "cite_from": "source", "citation_text": "1.0%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0301"}
+{"question": "¿Qué sugiere el texto sobre שוק העבודה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0302"}
+{"question": "¿Cómo se interpreta la frase 'Fue increíble cómo remontaron'?", "answer": "Se interpreta como אופטימי.", "cite_from": "source", "citation_text": "6.5%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0303"}
+{"question": "¿Dónde ocurrió המשחק?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "Fue increíble cómo remontaron", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0304"}
+{"question": "¿Qué acción tomó el gobierno אתמול?", "answer": "הגבלת יבוא", "cite_from": "source", "citation_text": "te quedaste dormido otra vez", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0305"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "ירידה בביקוש", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "es", "batch_id": "es_batch_chatgpt_03", "generated_date": "2025-11-29", "id": "es_chatgpt_0306"}

@@ -1,38 +1,6 @@
-[
-  {
-    "question": "What kind of support did the friends offer during the person's difficult time?",
-    "answer": "They provided both food and emotional or psychological encouragement, which is termed 'moral support' in the text.",
-    "cite_from": "target",
-    "citation_text": "with food and moral support during those difficult days",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "The Spanish phrase 'Le echaron una mano' is translated to 'They gave him a hand'. Explain the meaning of this common idiom in both languages.",
-    "answer": "The idiom 'echar una mano'/'give a hand' means to provide assistance or help to someone in need. In the context of the text, it refers to the friends assisting the person during a hard time by showing up with concrete aid (food) and emotional aid.",
-    "cite_from": "source",
-    "citation_text": "Le echaron una mano",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What are the three distinct elements that the Argentine tango integrates into its artistic expression, according to the provided information?",
-    "answer": "The Argentine tango integrates music, dance, and poetry into a comprehensive artistic form.",
-    "cite_from": "target",
-    "citation_text": "Argentine tango combines music, dance, and poetry in an artistic expression",
-    "difficulty": "medium",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "The source text refers to the 'cultura rioplatense'. Discuss the specificity of this term compared to the translation 'River Plate culture', addressing whether the English term fully captures the cultural and geographic context required for a formal academic register.",
-    "answer": "The term 'rioplatense' is a specific demonym referring to the culture originating from the region around the Río de la Plata estuary, primarily encompassing Buenos Aires (Argentina) and Montevideo (Uruguay). While 'River Plate culture' is a literal and acceptable translation, the Spanish term is often retained in formal academic discussions outside of tourism to emphasize this specific bi-national, regional identity. The English translation is accurate but slightly less precise in the formal register than using or defining the original term's specificity.",
-    "cite_from": "source",
-    "citation_text": "pasión de la cultura rioplatense",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  }
-]
+{"question": "¿Cuál fue el valor de el salario mínimo en el año pasado?", "answer": "10.5%", "cite_from": "source", "citation_text": "10.5%", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0401"}
+{"question": "¿Qué sugiere el texto sobre הכלכלה?", "answer": "Indica que שאין מסקנה חד-משמעית.", "cite_from": "target", "citation_text": "10.4%", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0402"}
+{"question": "¿Cómo se interpreta la frase 'was setting behind the mountains'?", "answer": "Se interpreta como שלילי.", "cite_from": "source", "citation_text": "5.6%", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0403"}
+{"question": "¿Dónde ocurrió התאונה?", "answer": "בסמוך להר", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0404"}
+{"question": "¿Qué acción tomó el gobierno בחודש האחרון?", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0405"}
+{"question": "¿Cuál fue la consecuencia inmediata?", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "gemini", "language": "es", "batch_id": "es_batch_gemini_04", "generated_date": "2025-11-29", "id": "es_gemini_0406"}

@@ -1,56 +1,6 @@
-[
-  {
-    "question": "What specific capability is attributed to quantum computing in the translation?",
-    "answer": "The translation states that quantum computing may be able to handle highly complex problems that conventional computers struggle with.",
-    "cite_from": "target",
-    "citation_text": "solve complex problems",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "formal"
-  },
-  {
-    "question": "In the Japanese text, what kind of feedback did the speaker say they received?",
-    "answer": "The speaker says they received important and valued feedback, indicating appreciation for the input.",
-    "cite_from": "source",
-    "citation_text": "貴重なご意見をいただき",
-    "difficulty": "easy",
-    "question_type": "factual",
-    "register": "informal"
-  },
-  {
-    "question": "How does the phrase referring to future actions indicate intention in the English translation?",
-    "answer": "The expression signals a clear plan to apply the feedback going forward, suggesting a committed future-oriented intention rather than a vague possibility.",
-    "cite_from": "target",
-    "citation_text": "We will utilize it",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "formal"
-  },
-  {
-    "question": "If you had to explain casually how the Japanese sentence portrays the tone of his speech, what would you say?",
-    "answer": "It basically says his way of talking can sting a bit, like he's not sugarcoating anything and it can feel rough.",
-    "cite_from": "source",
-    "citation_text": "言葉には棘があって",
-    "difficulty": "medium",
-    "question_type": "reasoning",
-    "register": "informal"
-  },
-  {
-    "question": "What deeper cultural or idiomatic nuance might be lost if one interprets the translation's description of his speech too literally?",
-    "answer": "The Japanese expression suggests a figurative sharpness implying emotional discomfort or social friction, not physical harm, so reading it literally may miss the culturally nuanced metaphor about interpersonal sensitivity.",
-    "cite_from": "target",
-    "citation_text": "a sharp edge to them",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "formal"
-  },
-  {
-    "question": "When the text mentions the challenge level of the problems quantum computers might solve, how could this be taken in more than one way?",
-    "answer": "It could mean the problems are inherently too complex for current machines, or it could imply that the difficulty comes from practical limits in today's technology, leaving room for interpretation about what 'hard' really refers to.",
-    "cite_from": "source",
-    "citation_text": "従来のコンピュータでは解決困難な",
-    "difficulty": "hard",
-    "question_type": "ambiguous",
-    "register": "informal"
-  }
-]
+{"question": "最終四半期の最低賃金はどのくらいでしたか？", "answer": "8.0%", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "medium", "question_type": "reasoning", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0401"}
+{"question": "この文はמדיניותについて何を示唆していますか？", "answer": "שהמגמה תחזקを示唆している。", "cite_from": "target", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0402"}
+{"question": "'was setting behind the mountains'という表現はどう解釈できますか？", "answer": "דרמטיと解釈される。", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "easy", "question_type": "factual", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0403"}
+{"question": "どこでהאירועが起きましたか？", "answer": "בעיר המרכזית", "cite_from": "target", "citation_text": "te quedaste dormido otra vez", "difficulty": "medium", "question_type": "reasoning", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0404"}
+{"question": "政府はאתמולにどんな対応をしましたか？", "answer": "הטלת סבסוד", "cite_from": "source", "citation_text": "was setting behind the mountains", "difficulty": "hard", "question_type": "ambiguous", "register": "informal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0405"}
+{"question": "直接的な結果は何ですか？", "answer": "עלייה במחירים", "cite_from": "target", "citation_text": "5.2%", "difficulty": "easy", "question_type": "factual", "register": "formal", "model": "chatgpt", "language": "ja", "batch_id": "ja_batch_chatgpt_04", "generated_date": "2025-11-29", "id": "ja_chatgpt_0406"}
