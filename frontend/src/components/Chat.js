@@ -42,7 +42,7 @@ function Chat() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-anote-accent mb-6">Chat with Anote RAG</h1>
+      <h1 className="text-3xl font-bold text-anote-accent mb-6">Multilingual Chat</h1>
 
       {/* Language Selector */}
       <div className="mb-6">
@@ -69,7 +69,7 @@ function Chat() {
             Hebrew
           </button>
           <button
-            onClick={() => setLanguage('hebrew')}
+            onClick={() => setLanguage('japanese')}
             className={`px-6 py-2 rounded-md font-semibold ${
               language === 'japanese'
                 ? 'bg-anote-accent text-anote-primary'
@@ -79,7 +79,7 @@ function Chat() {
             Japanese
           </button>
           <button
-            onClick={() => setLanguage('hebrew')}
+            onClick={() => setLanguage('korean')}
             className={`px-6 py-2 rounded-md font-semibold ${
               language === 'korean'
                 ? 'bg-anote-accent text-anote-primary'

@@ -44,7 +44,8 @@ class AnoteRAG:
         llm_provider: Literal["ollama", "claude", "openai"] = "ollama",
         model_name: Optional[str] = None,
         temperature: float = 0.7,
-        top_k: int = 4
+        top_k: int = 4,
+        custom_prompt: Optional[str] = None
     ):
         """
         Initialize RAG system.
@@ -55,14 +56,16 @@ class AnoteRAG:
             model_name: Override default model
             temperature: LLM temperature (0-1)
             top_k: Number of chunks to retrieve
+            custom_prompt: Custom prompt template (must include {context} and {question})
         """
         load_dotenv()
 
         self.llm_provider = llm_provider
         self.top_k = top_k
+        self.custom_prompt = custom_prompt
 
         print("\n" + "="*60)
-        print("ANOTE RAG SYSTEM")
+        print("RAG SYSTEM")
         print("="*60)
 
         # Load embeddings and vectorstore
@@ -170,8 +173,11 @@ class AnoteRAG:
     def _create_qa_chain(self):
         """Create the QA chain with retriever using modern LCEL syntax."""
 
-        # Prompt template
-        prompt = PromptTemplate.from_template("""You are an AI assistant for Anote, an AI company specializing in data labeling, model evaluation, and autonomous AI agents.
+        # Prompt template - use custom or default
+        if self.custom_prompt:
+            prompt_text = self.custom_prompt
+        else:
+            prompt_text = """You are an AI assistant for Anote, an AI company specializing in data labeling, model evaluation, and autonomous AI agents.
 
 Use the following context to answer the question accurately and specifically. If the context contains the answer, provide it clearly with details. If you're not sure or the context doesn't contain enough information, say so honestly.
 
@@ -180,7 +186,9 @@ Context:
 
 Question: {question}
 
-Answer:""")
+Answer:"""
+
+        prompt = PromptTemplate.from_template(prompt_text)
 
         # Create retriever
         self.retriever = self.vectorstore.as_retriever(
@@ -203,9 +211,10 @@ Answer:""")
                 | StrOutputParser()
         )
 
-    def query(self, question: str, verbose: bool = True) -> Dict:
+    def query(self, question: str, verbose: bool = True, custom_prompt: str = None):
         """
         Query the RAG system.
+        Allows optional custom prompt injected at runtime.
 
         Args:
             question: User's question
@@ -221,8 +230,25 @@ Answer:""")
             print(f"Processing with {self.llm_provider}...")
 
         try:
-            # Get answer from chain
-            answer = self.qa_chain.invoke(question)
+            # If a custom prompt is provided, build a temporary chain
+            if custom_prompt:
+                prompt = PromptTemplate.from_template(custom_prompt)
+
+                temp_chain = (
+                    {
+                        "context": self.retriever | (lambda docs: "\n\n".join(d.page_content for d in docs)),
+                        "question": RunnablePassthrough()
+                    }
+                    | prompt
+                    | self.llm
+                    | StrOutputParser()
+                )
+
+                answer = temp_chain.invoke(question)
+
+            else:
+                # Get answer from chain
+                answer = self.qa_chain.invoke(question)
 
             # Get source documents separately
             source_docs = self.retriever.invoke(question)

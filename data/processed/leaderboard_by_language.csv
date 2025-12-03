@@ -1,0 +1,17 @@
+Model,Language,BLEU,BERTScore_F1,Count
+openai,ES,4.93,0.686,100
+ollama,ES,1.28,0.652,98
+gemini,ES,1.55,0.632,99
+claude,ES,6.18,0.629,100
+ollama,HE,3.15,0.833,93
+claude,HE,2.28,0.757,100
+openai,HE,2.05,0.755,100
+gemini,HE,1.89,0.748,100
+ollama,JA,2.59,0.648,100
+openai,JA,0.0,0.622,100
+claude,JA,3.85,0.593,100
+gemini,JA,0.0,0.569,100
+ollama,KO,1.71,0.651,95
+openai,KO,3.38,0.637,100
+claude,KO,2.35,0.596,100
+gemini,KO,2.55,0.584,100

@@ -1,0 +1,5 @@
+Rank,Model,BLEU,BERTScore_F1,BERTScore_Precision,BERTScore_Recall,Total_Responses
+1,ollama,1.31,0.818,0.787,0.855,386
+2,claude,6.57,0.767,0.712,0.834,400
+3,openai,4.93,0.765,0.713,0.827,400
+4,gemini,1.55,0.755,0.696,0.826,399
