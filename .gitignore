@@ -12,6 +12,7 @@ __pycache__/
 
 # Vector database (too large, regenerate from clean_chunks.jsonl)
 anote_rag/chroma_anote_db/
+anote_rag\chroma_multilingual_db/
 
 # Translation pairs (too large, download from Drive)
 data/processed/translation_pairs/opus_corpus/*.jsonl
