@@ -1,0 +1,74 @@
+[
+  {
+    "id": "he_claude_5601046606603231456_0",
+    "language": "he",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "8.5%",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_claude_5601046606603231457_1",
+    "language": "he",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_claude_5601046606603231458_2",
+    "language": "he",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'the committee announced new measures'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_claude_5601046606603231459_3",
+    "language": "he",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "4.8%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_claude_5601046606603231460_4",
+    "language": "he",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_claude_5601046606603231461_5",
+    "language": "he",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'te quedaste dormido otra vez'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

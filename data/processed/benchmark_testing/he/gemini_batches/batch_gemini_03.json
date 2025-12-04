@@ -1,0 +1,74 @@
+[
+  {
+    "id": "he_gemini_5642189164349221279_0",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "10.0%",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_gemini_5642189164349221280_1",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_gemini_5642189164349221281_2",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'Fue increíble cómo remontaron en los últimos minutos'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_gemini_5642189164349221282_3",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "8.5%",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_gemini_5642189164349221283_4",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_gemini_5642189164349221284_5",
+    "language": "he",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'Fue increíble cómo remontaron en los últimos minutos'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

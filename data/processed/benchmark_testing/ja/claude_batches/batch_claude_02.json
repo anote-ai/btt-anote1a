@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ja_claude_3351215895733678275_0",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "最終四半期のインフレ率はどのくらいでしたか？",
+    "answer": "8.5%",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_claude_3351215895733678276_1",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "この断片から経済について何が推測できますか？",
+    "answer": "減速の可能性を示唆する",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_claude_3351215895733678277_2",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "次の断片はどのように解釈できますか：'the committee announced new measures'？",
+    "answer": "劇的なニュアンス",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_claude_3351215895733678278_3",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "最終四半期のインフレ率はどのくらいでしたか？",
+    "answer": "4.8%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_claude_3351215895733678279_4",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "この断片から経済について何が推測できますか？",
+    "answer": "減速の可能性を示唆する",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_claude_3351215895733678280_5",
+    "language": "ja",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "次の断片はどのように解釈できますか：'te quedaste dormido otra vez'？",
+    "answer": "劇的なニュアンス",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

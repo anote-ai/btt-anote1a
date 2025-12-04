@@ -1,0 +1,74 @@
+[
+  {
+    "id": "he_chatgpt_-8020404142029663323_0",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "8.5%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_chatgpt_-8020404142029663322_1",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_chatgpt_-8020404142029663321_2",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'a sharp increase in demand was observed'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_chatgpt_-8020404142029663320_3",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "factual",
+    "question": "מה היה הערך של האינפלציה בברבעון האחרון?",
+    "answer": "7.1%",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_chatgpt_-8020404142029663319_4",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "reasoning",
+    "question": "מה ניתן להסיק לגבי הכלכלה מתוך הקטע הזה?",
+    "answer": "מרמז על האטה אפשרית",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "he_chatgpt_-8020404142029663318_5",
+    "language": "he",
+    "model": "chatgpt",
+    "question_type": "ambiguous",
+    "question": "כיצד ניתן לפרש את הקטע: 'te quedaste dormido otra vez'?",
+    "answer": "ניואנס דרמטי",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

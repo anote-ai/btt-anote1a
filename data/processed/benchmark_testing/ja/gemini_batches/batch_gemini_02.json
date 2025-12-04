@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ja_gemini_-3653670835155188727_0",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "最終四半期のインフレ率はどのくらいでしたか？",
+    "answer": "8.5%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_gemini_-3653670835155188726_1",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "この断片から経済について何が推測できますか？",
+    "answer": "減速の可能性を示唆する",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_gemini_-3653670835155188725_2",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "次の断片はどのように解釈できますか：'te quedaste dormido otra vez'？",
+    "answer": "劇的なニュアンス",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_gemini_-3653670835155188724_3",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "最終四半期のインフレ率はどのくらいでしたか？",
+    "answer": "8.5%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_gemini_-3653670835155188723_4",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "この断片から経済について何が推測できますか？",
+    "answer": "減速の可能性を示唆する",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "ja_gemini_-3653670835155188722_5",
+    "language": "ja",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "次の断片はどのように解釈できますか：'te quedaste dormido otra vez'？",
+    "answer": "劇的なニュアンス",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

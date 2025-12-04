@@ -1,0 +1,74 @@
+[
+  {
+    "id": "es_chatgpt_-2213034970734184758_0",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "10.0%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_chatgpt_-2213034970734184757_1",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_chatgpt_-2213034970734184756_2",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'the committee announced new measures'?",
+    "answer": "un matiz dramático",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_chatgpt_-2213034970734184755_3",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "4.8%",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_chatgpt_-2213034970734184754_4",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_chatgpt_-2213034970734184753_5",
+    "language": "es",
+    "model": "chatgpt",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'Fue increíble cómo remontaron en los últimos minutos'?",
+    "answer": "un matiz dramático",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

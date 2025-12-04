@@ -1,0 +1,74 @@
+[
+  {
+    "id": "es_gemini_1059267476375215643_0",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "10.0%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_gemini_1059267476375215644_1",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_gemini_1059267476375215645_2",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'Fue increíble cómo remontaron en los últimos minutos'?",
+    "answer": "un matiz dramático",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_gemini_1059267476375215646_3",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "3.2%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_gemini_1059267476375215647_4",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_gemini_1059267476375215648_5",
+    "language": "es",
+    "model": "gemini",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'a sharp increase in demand was observed'?",
+    "answer": "un matiz dramático",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

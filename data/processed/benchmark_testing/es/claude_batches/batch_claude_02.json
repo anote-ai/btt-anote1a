@@ -1,0 +1,74 @@
+[
+  {
+    "id": "es_claude_7292407307220189378_0",
+    "language": "es",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "10.0%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_7292407307220189379_1",
+    "language": "es",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_7292407307220189380_2",
+    "language": "es",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'te quedaste dormido otra vez'?",
+    "answer": "un matiz dramático",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_7292407307220189381_3",
+    "language": "es",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "10.0%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_7292407307220189382_4",
+    "language": "es",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_7292407307220189383_5",
+    "language": "es",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'a sharp increase in demand was observed'?",
+    "answer": "un matiz dramático",
+    "citation": "a sharp increase in demand was observed",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]

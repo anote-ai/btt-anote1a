@@ -1,0 +1,74 @@
+[
+  {
+    "id": "es_claude_-384457377607573057_0",
+    "language": "es",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "7.1%",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_-384457377607573056_1",
+    "language": "es",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "the committee announced new measures",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_-384457377607573055_2",
+    "language": "es",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'te quedaste dormido otra vez'?",
+    "answer": "un matiz dramático",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_-384457377607573054_3",
+    "language": "es",
+    "model": "claude",
+    "question_type": "factual",
+    "question": "¿Cuál fue el valor de la inflación en el último trimestre?",
+    "answer": "8.5%",
+    "citation": "Fue increíble cómo remontaron en los últimos minutos",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_-384457377607573053_4",
+    "language": "es",
+    "model": "claude",
+    "question_type": "reasoning",
+    "question": "¿Qué se puede inferir sobre la economía a partir de este fragmento?",
+    "answer": "sugiere una posible desaceleración",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  },
+  {
+    "id": "es_claude_-384457377607573052_5",
+    "language": "es",
+    "model": "claude",
+    "question_type": "ambiguous",
+    "question": "¿Qué interpretación podría tener el fragmento: 'te quedaste dormido otra vez'?",
+    "answer": "un matiz dramático",
+    "citation": "te quedaste dormido otra vez",
+    "source_title": "",
+    "source_url": "",
+    "generated_date": "2025-11-29"
+  }
+]
