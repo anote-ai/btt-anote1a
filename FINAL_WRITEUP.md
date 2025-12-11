@@ -3,7 +3,7 @@
 ## Team Information
 **Project:** Multilingual Language Model Evaluation & RAG Chatbot System  
 **Organization:** Anote AI  
-**Timeline:** September - December 2025 (3 months)  
+**Timeline:** Fall 2025  
 **Date Completed:** December 2025
 
 ---
@@ -58,7 +58,7 @@ User Query → Embedding → Vector Search → Context Retrieval → LLM Generat
 
 **Components:**
 
-1. **Embedding Model:** HuggingFace `all-MiniLM-L6-v2`
+1. **Embedding Model:** HuggingFace `sentence-transformers/all-MiniLM-L6-v2`
    - 384-dimensional vectors
    - Optimized for semantic similarity
    - Fast CPU inference (~50ms per query)
@@ -88,7 +88,7 @@ User Query → Embedding → Vector Search → Context Retrieval → LLM Generat
 | Accuracy | High for factual Q&A | High but can hallucinate |
 | Infrastructure | Simple (CPU) | Complex (GPU cluster) |
 
-Given our three-week core development timeline, RAG was the optimal choice.
+Given our constraints, RAG was the optimal choice.
 
 ---
 
@@ -147,7 +147,7 @@ Given our three-week core development timeline, RAG was the optimal choice.
 ### RAG System
 
 - **Anote Documentation Chunks:** 135
-- **Embedding Model:** HuggingFace all-MiniLM-L6-v2
+- **Embedding Model:** HuggingFace sentence-transformers/all-MiniLM-L6-v2
 - **Vector DB:** ChromaDB
 - **LLM Providers Supported:** Claude, OpenAI, Ollama
 
@@ -317,11 +317,11 @@ streamlit run demo_app.py
 
 ### Initial Confusion & Iteration
 
-Our team initially struggled with the scope and requirements. The project brief was comprehensive but we didn't fully grasp the interconnections between components until we started building. This taught us that **clarity comes through doing** - we learned by iterating.
+Our team initially struggled with the scope and requirements. The project brief was comprehensive but we did not fully grasp the interconnections between components until we started building. This taught us that **clarity comes through doing** - we learned by iterating.
 
 **Early Mistakes:**
 - Underestimated data preprocessing complexity
-- Didn't understand RAG architecture initially
+- Did not understand RAG architecture initially
 - Unclear on evaluation metrics until Week 2
 
 **How We Adapted:**
@@ -359,11 +359,11 @@ We chose RAG over fine-tuning because:
 - ✅ Lower cost (~$0 for embeddings, pay per query)
 - ✅ Interpretable (can see retrieved chunks)
 
-**This was the right call given our timeline.**
+**This was the right call given our constraints.**
 
 Fine-tuning would have been better if:
 - We needed custom writing style/tone
-- Had 4+ months timeline
+- Had more time available
 - Had access to GPU infrastructure
 - Needed offline inference without API calls
 
@@ -521,7 +521,7 @@ for q in questions:
 import json
 
 # Load Spanish QA pairs
-with open('data/processed/translation_testing/merged/translation_testing_spanish.jsonl', 'r', encoding='utf-8') as f:
+with open('data/processed/translation_testing/merged/translation_testing_es.jsonl', 'r', encoding='utf-8') as f:
     spanish_qa = [json.loads(line) for line in f]
 
 print(f"Loaded {len(spanish_qa)} Spanish QA pairs")
@@ -592,15 +592,15 @@ print(f"Avg Response Time: {results['avg_time']:.2f}s")
 
 ```python
 # The API bridge exposes RAG as a REST endpoint
-# Start server: python api/bridge.py
+# Start server:
+# uvicorn api.bridge:app --port 8001
 
 import requests
 
 # Query the API
-response = requests.post('http://localhost:5000/query', json={
+response = requests.post('http://localhost:8001/chat', json={
     'question': 'What is Anote?',
-    'provider': 'claude',
-    'top_k': 4
+    'language': 'spanish'
 })
 
 data = response.json()
@@ -629,10 +629,14 @@ btt-anote1a/
 │       └── DATASET_STATISTICS.md   # Comprehensive statistics
 │
 ├── src/                            # Data processing scripts
-│   ├── clean_benchmark_multilingual.py  # (~420 lines)
-│   ├── clean_translation.py             # (~380 lines)
-│   ├── merge_benchmark_batches.py       # (~150 lines)
-│   └── generate_statistics.py           # (~200 lines)
+│   ├── clean_benchmark_multilingual.py
+│   ├── clean_translation.py
+│   ├── merge_benchmark_batches.py
+│   ├── merge_translation*.py
+│   ├── generate_statistics.py
+│   ├── generate_leaderboard.py
+│   ├── calculate_metrics.py
+│   └── run_evaluation.py
 │
 ├── api/                            # REST API bridge
 │   └── bridge.py                   # Flask server (~180 lines)
@@ -647,7 +651,7 @@ btt-anote1a/
 │   ├── Register_Distribution.png
 │   └── BLEU_and_BERTScore_F1.png
 │
-├── demo_app.py                     # Streamlit demo application
+├── frontend/                       # React UI
 ├── FINAL_WRITEUP.md               # This document
 └── README.md                      # Project overview
 ```

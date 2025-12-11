@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import { stripMarkdown } from '../utils/markdownUtils';
 
 function Chat() {
   const [language, setLanguage] = useState('spanish');
@@ -23,7 +24,7 @@ function Chat() {
 
       const botMessage = {
         type: 'bot',
-        text: response.data.answer,
+        text: stripMarkdown(response.data.answer),
         sources: response.data.sources
       };
 
@@ -42,7 +43,7 @@ function Chat() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-anote-accent mb-6">Multilingual Chat</h1>
+      <h1 className="text-3xl font-bold text-anote-accent mb-6">Languages</h1>
 
       {/* Language Selector */}
       <div className="mb-6">

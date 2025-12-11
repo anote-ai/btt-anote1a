@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import Chat from './components/Chat';
+import Models from './components/Models';
 import Evaluations from './components/Evaluations';
 import Companies from './components/Companies';
 import './colors.css';
@@ -29,7 +30,13 @@ function App() {
                     to="/chat"
                     className="text-anote-text-secondary hover:text-anote-hover px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Chat
+                    Languages
+                  </Link>
+                  <Link
+                    to="/models"
+                    className="text-anote-text-secondary hover:text-anote-hover px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Models
                   </Link>
                   <Link
                     to="/evaluations"
@@ -53,6 +60,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/models" element={<Models />} />
           <Route path="/evaluations" element={<Evaluations />} />
           <Route path="/organizations/anote" element={<Companies />} />
         </Routes>
