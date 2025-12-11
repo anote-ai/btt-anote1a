@@ -1,0 +1,74 @@
+{
+  "total_items": 360,
+  "generation_date": "2025-12-02",
+  "languages": {
+    "es": {
+      "count": 90,
+      "percentage": 25.0
+    },
+    "he": {
+      "count": 90,
+      "percentage": 25.0
+    },
+    "ja": {
+      "count": 90,
+      "percentage": 25.0
+    },
+    "ko": {
+      "count": 90,
+      "percentage": 25.0
+    }
+  },
+  "models": {
+    "chatgpt": {
+      "count": 120,
+      "percentage": 33.3
+    },
+    "claude": {
+      "count": 120,
+      "percentage": 33.3
+    },
+    "gemini": {
+      "count": 120,
+      "percentage": 33.3
+    }
+  },
+  "difficulty": {
+    "easy": {
+      "count": 110,
+      "percentage": 30.6
+    },
+    "medium": {
+      "count": 140,
+      "percentage": 38.9
+    },
+    "hard": {
+      "count": 110,
+      "percentage": 30.6
+    }
+  },
+  "question_types": {
+    "factual": {
+      "count": 140,
+      "percentage": 38.9
+    },
+    "reasoning": {
+      "count": 110,
+      "percentage": 30.6
+    },
+    "ambiguous": {
+      "count": 110,
+      "percentage": 30.6
+    }
+  },
+  "register": {
+    "formal": {
+      "count": 180,
+      "percentage": 50.0
+    },
+    "informal": {
+      "count": 180,
+      "percentage": 50.0
+    }
+  }
+}
