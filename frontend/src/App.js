@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
-import Chat from './components/Chat';
+import Languages from './components/Languages';
 import Models from './components/Models';
 import Evaluations from './components/Evaluations';
 import Companies from './components/Companies';
@@ -27,7 +27,7 @@ function App() {
                     Home
                   </Link>
                   <Link
-                    to="/chat"
+                    to="/Languages"
                     className="text-anote-text-secondary hover:text-anote-hover px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Languages
@@ -59,7 +59,7 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/chat" element={<Chat />} />
+          <Route path="/languages" element={<Languages />} />
           <Route path="/models" element={<Models />} />
           <Route path="/evaluations" element={<Evaluations />} />
           <Route path="/organizations/anote" element={<Companies />} />

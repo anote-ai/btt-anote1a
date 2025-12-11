@@ -18,7 +18,7 @@ This project focused on building a **multilingual RAG (Retrieval-Augmented Gener
 2. **Multilingual Benchmark Dataset** - 9,322 Wikipedia chunks across 4 languages
 3. **Translation Testing Dataset** - 400 QA pairs with difficulty ratings and ground truth
 4. **Multilingual Evaluation Test Cases** - 360 test cases across 3 LLM providers with comprehensive metadata
-5. **Demo Application** - Interactive Streamlit interface demonstrating all components
+5. **React Frontend** - Interactive interface demonstrating all components
 6. **Complete Documentation** - Setup guides, API documentation, and usage examples
 
 ---
@@ -42,7 +42,7 @@ We built an integrated system combining:
 3. **Translation evaluation suite** with 400 manually-curated QA pairs
 4. **Multilingual evaluation test cases** with 360 QA pairs across 3 LLM providers
 5. **Automated testing framework** for comparing LLM providers with BLEU and BERTScore metrics
-6. **Interactive demo** showcasing all capabilities
+6. **React frontend application** showcasing all capabilities
 
 ---
 
@@ -252,9 +252,9 @@ Our translation testing revealed surprising insights across **1,585 total respon
 
 ---
 
-## Demo Application
+## Frontend Application
 
-We developed a Streamlit-based demo application showcasing all project components.
+We developed a React-based frontend application showcasing all project components.
 
 ### Application Features
 
@@ -294,22 +294,22 @@ Visualization of comprehensive evaluation results:
 - BLEU vs. BERTScore metric comparisons
 - Interactive filtering by language, difficulty, question type
 
-### Running the Demo
+### Running the Frontend
 
 ```bash
-# Navigate to project directory
-cd btt-anote1a
+# Navigate to frontend directory
+cd frontend
 
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
-# Start the Streamlit application
-streamlit run demo_app.py
+# Start the development server
+npm start
 
-# Application opens in browser at http://localhost:8501
+# Application opens in browser at http://localhost:3000
 ```
 
-**Note:** The demo runs locally and has not been deployed to a public URL. This was a conscious decision to prioritize data quality and evaluation framework development within our timeline.
+**Note:** The application runs locally and has not been deployed to a public URL. This was a conscious decision to prioritize data quality and evaluation framework development within our timeline.
 
 ---
 
@@ -663,6 +663,7 @@ btt-anote1a/
 ### Prerequisites
 
 - Python 3.8 or higher
+- Node.js 14+ and npm (for frontend)
 - pip package manager
 - (Optional) API keys for Claude or OpenAI
 - Git for version control
@@ -674,7 +675,7 @@ btt-anote1a/
 git clone https://github.com/anote-ai/btt-anote1a.git
 cd btt-anote1a
 
-# 2. Install dependencies
+# 2. Install Python dependencies
 cd anote_rag
 pip install -r requirements.txt
 
@@ -688,9 +689,10 @@ echo "OPENAI_API_KEY=your-key-here" >> .env
 # 5. Run RAG system
 python rag.py
 
-# 6. (Optional) Run demo application
-cd ..
-streamlit run demo_app.py
+# 6. (Optional) Run frontend application
+cd ../frontend
+npm install
+npm start
 ```
 
 ### Docker Setup (Alternative)
@@ -714,6 +716,8 @@ CMD ["python", "rag.py"]
 **Expand Japanese Dataset** - Our Japanese corpus (78 chunks) is significantly smaller than other languages. Target 1,500+ chunks to match Korean baseline and re-run translation benchmarks to establish robust Japanese performance metrics.
 
 **User Testing with Cultural Validation** - Current metrics are algorithmic (BLEU, BERTScore), but real users evaluate differently. Conduct qualitative research on tone appropriateness, cultural nuance, and idiom handling with native speakers for each language.
+
+**Deploy Frontend to Production** - Host the React application on a cloud platform (Vercel, Netlify, AWS Amplify) to make the demo publicly accessible and enable broader user testing.
 
 ### Strategic Expansions
 
@@ -762,7 +766,7 @@ Over three months, our team successfully delivered:
 ✅ **400 translation testing pairs** with difficulty ratings, register types, and ground truth  
 ✅ **360 multilingual evaluation test cases** with balanced distribution across providers  
 ✅ **Comprehensive evaluation framework** with BLEU and BERTScore metrics  
-✅ **Interactive demo application** showcasing all capabilities  
+✅ **React frontend application** showcasing all capabilities  
 ✅ **Complete documentation** for setup, usage, and deployment  
 
 ### Key Learnings

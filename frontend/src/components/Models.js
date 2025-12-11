@@ -7,8 +7,8 @@ function Models() {
       provider: 'Anthropic',
       description: 'Advanced language model with superior multilingual capabilities and context understanding. Optimized for complex reasoning tasks.',
       strengths: ['Multilingual accuracy', 'Long context handling', 'Consistent quality'],
-      bertScore: '0.89',
-      bleu: '0.42',
+      bertScore: '0.767',
+      bleu: '6.57',
       recommended: true
     },
     {
@@ -16,8 +16,8 @@ function Models() {
       provider: 'OpenAI',
       description: 'Powerful general-purpose language model with strong performance across diverse tasks and languages.',
       strengths: ['General versatility', 'Large knowledge base', 'API reliability'],
-      bertScore: '0.86',
-      bleu: '0.38',
+      bertScore: '0.765',
+      bleu: '4.93',
       recommended: false
     },
     {
@@ -25,8 +25,8 @@ function Models() {
       provider: 'Google',
       description: 'Multimodal AI model with integrated search capabilities and competitive multilingual support.',
       strengths: ['Search integration', 'Multimodal input', 'Fast inference'],
-      bertScore: '0.84',
-      bleu: '0.35',
+      bertScore: '0.755',
+      bleu: '1.55',
       recommended: false
     },
     {
@@ -34,8 +34,8 @@ function Models() {
       provider: 'Ollama (Local)',
       description: 'Open-source model suitable for local deployment. Good for privacy-sensitive applications with moderate performance.',
       strengths: ['Local deployment', 'No API costs', 'Privacy control'],
-      bertScore: '0.78',
-      bleu: '0.29',
+      bertScore: '0.818',
+      bleu: '1.31',
       recommended: false
     }
   ];
@@ -195,7 +195,7 @@ function Models() {
                 <div className="flex items-start">
                   <span className="text-anote-accent mr-2">•</span>
                   <p className="text-sm text-anote-text-secondary">
-                    <strong className="text-anote-text-primary">Highest Accuracy:</strong> Achieved best BERTScore F1 (0.89) and BLEU (0.42) scores across all evaluated models
+                    <strong className="text-anote-text-primary">Highest BLEU Score:</strong> Achieved best BLEU score (6.57) across all evaluated models, with strong BERTScore F1 (0.767)
                   </p>
                 </div>
                 <div className="flex items-start">
@@ -227,7 +227,7 @@ function Models() {
         <h2 className="text-2xl font-semibold text-anote-text-primary mb-6">Documentation & Resources</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a
-            href="https://github.com/yourusername/btt-anote1a"
+            href="https://github.com/ShalomDee/btt-anote1a"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-anote-sidebar rounded-lg p-6 hover:bg-gray-700 transition-colors border border-gray-700 hover:border-anote-accent"

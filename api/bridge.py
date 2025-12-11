@@ -117,7 +117,7 @@ class CompanyChatRequest(BaseModel):
 # ENDPOINTS
 # ============================================================================
 
-@app.post("/chat")
+@app.post("/languages")
 def chat(request: ChatRequest):
     """
     Multilingual Wikipedia chat - uses multilingual_rag instance
@@ -242,7 +242,7 @@ async def get_evaluations():
     Return leaderboard data from leaderboard_by_language.csv
     """
     try:
-        leaderboard_file = Path("data/processed/leaderboard_by_language.csv")
+        leaderboard_file = Path("data/outputs/leaderboard_by_language.csv")
         
         if not leaderboard_file.exists():
             raise HTTPException(
