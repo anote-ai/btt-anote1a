@@ -100,7 +100,7 @@ function KeyFindings({ bestResult }) {
               For a comprehensive analysis including qualitative evaluation, methodology details, and production recommendations:
             </p>
             <a
-              href="https://github.com/ShalomDee/btt-anote1a/main/FINAL_WRITEUP.md"
+              href="https://github.com/anote-ai/btt-anote1a/blob/main/FINAL_WRITEUP.md"
               className="text-anote-accent hover:text-blue-300 font-semibold inline-flex items-center"
               target="_blank"
               rel="noopener noreferrer"

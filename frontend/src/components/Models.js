@@ -227,7 +227,7 @@ function Models() {
         <h2 className="text-2xl font-semibold text-anote-text-primary mb-6">Documentation & Resources</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a
-            href="https://github.com/ShalomDee/btt-anote1a"
+            href="https://github.com/anote-ai/btt-anote1a/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-anote-sidebar rounded-lg p-6 hover:bg-gray-700 transition-colors border border-gray-700 hover:border-anote-accent"
