@@ -313,7 +313,7 @@ Across 1,585 total responses, we discovered a surprising insight:
 
 | Rank | Model    | BLEU Score | BERTScore F1 | BERTScore Precision | BERTScore Recall |
 |------|----------|------------|--------------|---------------------|------------------|
-| 1    | Ollama   | 1.31       | **0.818**    | 0.787               | **0.855**        |
+| 1    | Ollama   | 1.31       | **0.818**    | **0.787**               | **0.855**        |
 | 2    | Claude   | **6.57**   | 0.767        | 0.712               | 0.834            |
 | 3    | OpenAI   | 4.93       | 0.765        | 0.713               | 0.827            |
 | 4    | Gemini   | 1.55       | 0.755        | 0.696               | 0.826            |
