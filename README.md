@@ -301,6 +301,13 @@ Improvements came from refined chunk segmentation, optimized system prompts, and
 | Ollama   | 7.2s             | 11.5s       |
 
 **Cost Analysis (per 1000 queries):**
+
+| Provider | Cost Per 1000 queries |
+|----------|------------------|
+| Claude   | ~$8.40             |
+| OpenAI   | ~$10.50             |
+| Ollama   | ~$1             |
+
 - Claude: ~$8.40
 - OpenAI: ~$10.50
 - Ollama: $0 (local inference)
